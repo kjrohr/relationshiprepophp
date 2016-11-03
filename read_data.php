@@ -5,7 +5,7 @@ include_once 'dbconfig.php';
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CRUD Operations With PHP and MySql - By Cleartuts</title>
+<title>Admin Dashboard</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
