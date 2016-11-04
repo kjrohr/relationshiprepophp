@@ -43,31 +43,31 @@ if(isset($_POST['btn-save']))
                       <h2>Registration Form</h2>
                       <div class="form-group">
                           <label for="username" class="col-sm-3 control-label">Username </label>
-                          <div class="col-sm-6">
+                          <div class="col-sm-9">
                               <input type="text" name="username" placeholder="Username" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
                           <label for="first_name" class="col-sm-3 control-label">First Name</label>
-                          <div class="col-sm-6">
+                          <div class="col-sm-9">
                               <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
                           <label for="last_name" class="col-sm-3 control-label">Last Name</label>
-                          <div class="col-sm-6">
+                          <div class="col-sm-9">
                               <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
                           <label for="email" class="col-sm-3 control-label">Email</label>
-                          <div class="col-sm-6">
+                          <div class="col-sm-9">
                               <input type="email" name="email" placeholder="example@example.com" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
                           <label for="address" class="col-sm-3 control-label">Country</label>
-                          <div class="col-sm-6">
+                          <div class="col-sm-9">
                               <input type="text" name="address" placeholder="123 Test Lane Winter Park FL, 32792" class="form-control" required />
                           </div>
                       </div> <!-- /.form-group -->
@@ -78,7 +78,7 @@ if(isset($_POST['btn-save']))
                           </div>
                       </div> <!-- /.form-group -->
                       <div class="form-group">
-                          <div class="col-sm-6 col-sm-offset-3">
+                          <div class="col-sm-9 col-sm-offset-3">
                               <div class="checkbox">
                                   <label>
                                       <input type="checkbox">By checking this box, I hearby accept Relationship Repo's <a href="#">Terms and Conditions</a>.
@@ -87,7 +87,7 @@ if(isset($_POST['btn-save']))
                           </div>
                       </div> <!-- /.form-group -->
                       <div class="form-group">
-                          <div class="col-sm-6 col-sm-offset-3">
+                          <div class="col-sm-9 col-sm-offset-3">
                               <button type="submit" name="btn-save" class="btn btn-primary btn-block">Register</button>
                           </div>
                       </div>
