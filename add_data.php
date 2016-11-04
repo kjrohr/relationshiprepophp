@@ -41,7 +41,7 @@ if(isset($_POST['btn-save']))
     <form method="post">
     <table align="center">
     <tr>
-    <td align="center"><a href="read_user.php">Admin Dashboard</a></td>
+    <td align="center"><a href="read_data.php">Admin Dashboard</a></td>
     </tr>
     <tr>
     <td><input type="text" name="username" placeholder="Username" required /></td>
