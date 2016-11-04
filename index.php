@@ -70,7 +70,7 @@
         <div class="carousel-caption">
           <h1>Example headline.</h1>
           <p>Text text text text text text text.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          <p><a class="btn btn-lg btn-primary" href="/add_data.php" role="button">Sign up today</a></p>
         </div>
       </div>
     </div>
