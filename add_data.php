@@ -3,13 +3,18 @@ include_once 'dbconfig.php';
 if(isset($_POST['btn-save']))
 {
  // variables for input data
+ $username = $_POST['username'];
  $first_name = $_POST['first_name'];
  $last_name = $_POST['last_name'];
+ $age = $_POST['age'];
+ $email = $_POST['email'];
+ $address= $_POST['address'];
+
  // variables for input data
 
  // sql query for inserting data into database
 
-        $sql_query = "INSERT INTO users(first_name,last_name) VALUES('$first_name','$last_name')";
+        $sql_query = "INSERT INTO users(username,first_name,last_name,age,email,address) VALUES('$username','$first_name','$last_name','$age','$email','$address')";
  mysql_query($sql_query);
 
         // sql query for inserting data into database
@@ -40,10 +45,22 @@ if(isset($_POST['btn-save']))
     <td align="center"><a href="index.php">back to main page</a></td>
     </tr>
     <tr>
+    <td><input type="text" name="username" placeholder="Username" required /></td>
+    </tr>
+    <tr>
     <td><input type="text" name="first_name" placeholder="First Name" required /></td>
     </tr>
     <tr>
     <td><input type="text" name="last_name" placeholder="Last Name" required /></td>
+    </tr>
+    <tr>
+    <td><input type="text" name="age" placeholder="22" required /></td>
+    </tr>
+    <tr>
+    <td><input type="text" name="email" placeholder="example@example.com" required /></td>
+    </tr>
+    <tr>
+    <td><input type="text" name="address" placeholder="123 Test Lane Winter Park FL, 32792" required /></td>
     </tr>
     <tr>
     <td><button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
