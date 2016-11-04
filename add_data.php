@@ -41,7 +41,7 @@ if(isset($_POST['btn-save']))
       <div class="container" style="max-width:530px; margin: 0 auto;">
                   <form class="form-horizontal" role="form">
                       <h2>Registration Form</h2>
-                      <div style="text-align: center;">
+                      <div style="margin-left: 30%;">
                       <div class="form-group">
                         <div class="col-sm-9">
                               <input type="text" name="username" placeholder="Username" class="form-control" required />
