@@ -3,6 +3,7 @@ include_once 'dbconfig.php';
 if(isset($_POST['btn-save']))
 {
  // variables for input data
+ $username = $_POST['username'];
  $first_name = $_POST['first_name'];
  $last_name = $_POST['last_name'];
  $age = $_POST['age'];
@@ -10,7 +11,7 @@ if(isset($_POST['btn-save']))
 
  // sql query for inserting data into database
 
-        $sql_query = "INSERT INTO users(first_name,last_name,age) VALUES('$first_name','$last_name','$age')";
+        $sql_query = "INSERT INTO users(username,first_name,last_name,age) VALUES('$username','$first_name','$last_name','$age')";
  mysql_query($sql_query);
 
         // sql query for inserting data into database
@@ -39,6 +40,9 @@ if(isset($_POST['btn-save']))
     <table align="center">
     <tr>
     <td align="center"><a href="index.php">back to main page</a></td>
+    </tr>
+    <tr>
+    <td><input type="text" name="username" placeholder="Username" required /></td>
     </tr>
     <tr>
     <td><input type="text" name="first_name" placeholder="First Name" required /></td>
