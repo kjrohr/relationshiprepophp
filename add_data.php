@@ -38,36 +38,36 @@ if(isset($_POST['btn-save']))
     <form method="post">
       <a href="index.php">back to main page</a></td>
 
-      <div class="container" style="max-width:530px;">
+      <div class="container" style="max-width:530px; margin: 0 auto;">
                   <form class="form-horizontal" role="form">
                       <h2>Registration Form</h2>
                       <div class="form-group">
-                        <div class="col-sm-7">
+                        <div class="col-sm-9">
                               <input type="text" name="username" placeholder="Username" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
-                          <div class="col-sm-7">
+                          <div class="col-sm-9">
                               <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
-                        <div class="col-sm-7">
+                        <div class="col-sm-9">
                               <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
-                        <div class="col-sm-7">
+                        <div class="col-sm-9">
                               <input type="email" name="email" placeholder="Email Address" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
-                          <div class="col-sm-7">
+                          <div class="col-sm-9">
                               <input type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
                           </div>
                       </div> <!-- /.form-group -->
                       <div class="form-group">
-                        <div class="col-sm-7">
+                        <div class="col-sm-9">
                           <input type="number" name="age" placeholder="Your Age" class="form-control" required />
                           </div>
                       </div> <!-- /.form-group -->
