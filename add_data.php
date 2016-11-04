@@ -8,12 +8,13 @@ if(isset($_POST['btn-save']))
  $last_name = $_POST['last_name'];
  $age = $_POST['age'];
  $email = $_POST['email'];
+ $address= $_POST['address'];
 
  // variables for input data
 
  // sql query for inserting data into database
 
-        $sql_query = "INSERT INTO users(username,first_name,last_name,age,email) VALUES('$username','$first_name','$last_name','$age','$email')";
+        $sql_query = "INSERT INTO users(username,first_name,last_name,age,email,address) VALUES('$username','$first_name','$last_name','$age','$email','$address')";
  mysql_query($sql_query);
 
         // sql query for inserting data into database
@@ -57,6 +58,9 @@ if(isset($_POST['btn-save']))
     </tr>
     <tr>
     <td><input type="text" name="email" placeholder="example@example.com" required /></td>
+    </tr>
+    <tr>
+    <td><input type="text" name="address" placeholder="123 Test Lane Winter Park FL, 32792" required /></td>
     </tr>
     <tr>
     <td><button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
