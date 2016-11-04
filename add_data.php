@@ -41,6 +41,7 @@ if(isset($_POST['btn-save']))
       <div class="container" style="max-width:530px; margin: 0 auto;">
                   <form class="form-horizontal" role="form">
                       <h2>Registration Form</h2>
+                      <div style="margin: 0 auto;">
                       <div class="form-group">
                         <div class="col-sm-9">
                               <input type="text" name="username" placeholder="Username" class="form-control" required />
@@ -84,6 +85,7 @@ if(isset($_POST['btn-save']))
                           <div class="col-sm-9">
                               <button type="submit" name="btn-save" class="btn btn-primary btn-block">Register</button>
                           </div>
+                      </div>
                       </div>
                   </form> <!-- /form -->
               </div> <!-- ./container -->
