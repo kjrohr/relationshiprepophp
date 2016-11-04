@@ -5,6 +5,9 @@ include 'header.php'
 ?>
 <!-- NAVBAR
 ================================================== -->
+<head>
+<title>Relationship Repo!</title>
+</head>
 <body>
 <div class="navbar-wrapper">
   <div class="container">
