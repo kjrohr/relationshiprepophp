@@ -36,27 +36,27 @@ if(isset($_POST['btn-save']))
 <div id="body">
  <div id="content">
     <form method="post">
-    <table align="center">
+    <table align="center" class="input-group input-group-lg">
     <tr>
     <td align="center"><a href="index.php">back to main page</a></td>
     </tr>
     <tr>
-    <td><input type="text" name="username" placeholder="Username" required /></td>
+    <td><input type="text" name="username" placeholder="Username" class="form-control" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="first_name" placeholder="First Name" required /></td>
+    <td><input type="text" name="first_name" placeholder="First Name" class="form-control" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="last_name" placeholder="Last Name" required /></td>
+    <td><input type="text" name="last_name" placeholder="Last Name" class="form-control" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="age" placeholder="22" required /></td>
+    <td><input type="text" name="age" placeholder="22" class="form-control" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="email" placeholder="example@example.com" required /></td>
+    <td><input type="text" name="email" placeholder="example@example.com" class="form-control" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="address" placeholder="123 Test Lane Winter Park FL, 32792" required /></td>
+    <td><input type="text" name="address" placeholder="123 Test Lane Winter Park FL, 32792" class="form-control" required /></td>
     </tr>
     <tr>
     <td><button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
