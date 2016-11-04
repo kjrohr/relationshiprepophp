@@ -1,4 +1,5 @@
 <?php
+include 'header.php'
 include_once 'dbconfig.php';
 if(isset($_POST['btn-save']))
 {
