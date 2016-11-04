@@ -38,7 +38,7 @@ if(isset($_POST['btn-save']))
     <form method="post">
       <a href="index.php">back to main page</a></td>
 
-      <div class="container1">
+      <div class="container">
                   <form class="form-horizontal" role="form">
                       <h2>Registration Form</h2>
                       <div class="form-group">
