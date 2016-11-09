@@ -41,13 +41,6 @@
     $_SESSION['user'] = $row['user_id'];
     header("Location: dashboard.php");
    } else {
-     echo $row['user_id'];
-     echo "<br />";
-     echo $row['username'];
-     echo "<br />";
-     echo $password;
-     echo "<br />";
-     echo $row['password'];
     $errMSG = "Incorrect Credentials, Try again...";
    }
 
