@@ -17,7 +17,7 @@
   $email = strip_tags($email);
   $email = htmlspecialchars($email);
 
-  $pass = trim($_POST['pass']);
+  $pass = trim($_POST['password']);
   $pass = strip_tags($pass);
   $pass = htmlspecialchars($pass);
   // prevent sql injections / clear user invalid inputs
