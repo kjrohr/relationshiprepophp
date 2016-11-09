@@ -45,11 +45,11 @@
     header("Location: dashboard.php");
    } else {
      echo $row['user_id'];
-     echo "\r\n";
+     echo "<br />";
      echo $row['username'];
-     echo "\r\n";
+     echo "<br />";
      echo $password;
-     echo "\r\n";
+     echo "<br />";
      echo $row['password'];
     $errMSG = "Incorrect Credentials, Try again...";
    }
