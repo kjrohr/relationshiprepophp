@@ -12,7 +12,7 @@ if(isset($_POST['btn-save']))
  $address = $_POST['address'];
  $pass = $_POST['pass'];
 
- $password = hash('sha256', $pass); 
+ $password = hash('sha256', $pass);
  // variables for input data
 
  // sql query for inserting data into database
@@ -72,6 +72,11 @@ if(isset($_POST['btn-save']))
                       <div class="form-group">
                         <div class="col-sm-9">
                           <input type="number" name="age" placeholder="Your Age" class="form-control" required />
+                          </div>
+                      </div> <!-- /.form-group -->
+                      <div class="form-group">
+                        <div class="col-sm-9">
+                          <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
                           </div>
                       </div> <!-- /.form-group -->
                       <div class="form-group">
