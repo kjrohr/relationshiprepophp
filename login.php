@@ -12,12 +12,13 @@
 
  if( isset($_POST['btn-login']) ) {
   $email = $_POST['email'];
-  $pass = $_POST['password'];
+  $pass = $_POST['pass'];
 
 
   if(empty($email)){
    $error = true;
    $emailError = "Please enter your email address.";
+
    header("Location: index.php");
   } else if ( !filter_var($email,FILTER_VALIDATE_EMAIL) ) {
    $error = true;
@@ -59,7 +60,7 @@
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-  <h2 class="">Sign In.</h2>
+  <h2>Sign In.</h2>
 
 
   <?php
@@ -67,9 +68,10 @@
       echo $errMSG;
     }
   ?>
+  <form method="post">
 
-  <input type="email" name="email" placeholder="Your Email" value="<?php echo $email; ?>" maxlength="40" />
-  <input type="password" name="password" placeholder="Your Password" maxlength="15" />
+  <input type="email" name="email" placeholder="Your Email" />
+  <input type="password" name="pass" placeholder="Your Password"/>
   <button type="submit"  name="btn-login">Sign In</button>
   <a href="add_data.php">Sign Up Here...</a>
 
