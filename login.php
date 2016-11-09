@@ -11,23 +11,18 @@
  $error = false;
 
  if( isset($_POST['btn-login']) ) {
+  $email = $_POST['email'];
+  $pass = $_POST['password'];
 
-  // prevent sql injections/ clear user invalid inputs
-  $email = trim($_POST['email']);
-  $email = strip_tags($email);
-  $email = htmlspecialchars($email);
-
-  $pass = trim($_POST['password']);
-  $pass = strip_tags($pass);
-  $pass = htmlspecialchars($pass);
-  // prevent sql injections / clear user invalid inputs
 
   if(empty($email)){
    $error = true;
    $emailError = "Please enter your email address.";
+   header("Location: index.php");
   } else if ( !filter_var($email,FILTER_VALIDATE_EMAIL) ) {
    $error = true;
    $emailError = "Please enter valid email address.";
+   header("Location: add_user.php");
   }
 
   if(empty($pass)){
