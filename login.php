@@ -73,9 +73,9 @@
     }
   ?>
 
-  <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php echo $email; ?>" maxlength="40" />
-  <input type="password" name="pass" class="form-control" placeholder="Your Password" maxlength="15" />
-  <button type="submit" class="btn btn-block btn-primary" name="btn-login">Sign In</button>
+  <input type="email" name="email" placeholder="Your Email" value="<?php echo $email; ?>" maxlength="40" />
+  <input type="password" name="password" placeholder="Your Password" maxlength="15" />
+  <button type="submit"  name="btn-login">Sign In</button>
   <a href="add_data.php">Sign Up Here...</a>
 
     </form>
