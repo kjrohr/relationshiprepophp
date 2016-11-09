@@ -10,8 +10,6 @@
  // select loggedin users detail
  $res=mysql_query("SELECT * FROM users WHERE user_id=".$_SESSION['user']);
  $userRow=mysql_fetch_array($res);
- echo $_SESSION['user'];
- echo $userRow['username'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,7 +20,7 @@
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-Hello <?php echo $userRow['userEmail']; ?>
+Hello <?php echo $userRow['username']; ?>
 <a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a>
 
 
