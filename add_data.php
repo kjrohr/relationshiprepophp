@@ -9,13 +9,15 @@ if(isset($_POST['btn-save']))
  $last_name = $_POST['last_name'];
  $age = $_POST['age'];
  $email = $_POST['email'];
- $address= $_POST['address'];
+ $address = $_POST['address'];
+ $pass = $_POST['pass'];
 
+ $password = hash('sha256', $pass); 
  // variables for input data
 
  // sql query for inserting data into database
 
-        $sql_query = "INSERT INTO users(username,first_name,last_name,age,email,address) VALUES('$username','$first_name','$last_name','$age','$email','$address')";
+        $sql_query = "INSERT INTO users(username,first_name,last_name,age,email,address,password) VALUES('$username','$first_name','$last_name','$age','$email','$address','$password')";
  mysql_query($sql_query);
 
         // sql query for inserting data into database
