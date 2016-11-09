@@ -18,12 +18,9 @@
   if(empty($email)){
    $error = true;
    $emailError = "Please enter your email address.";
-
-   header("Location: index.php");
   } else if ( !filter_var($email,FILTER_VALIDATE_EMAIL) ) {
    $error = true;
    $emailError = "Please enter valid email address.";
-   header("Location: add_data.php");
   }
 
   if(empty($pass)){
