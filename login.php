@@ -23,7 +23,7 @@
   } else if ( !filter_var($email,FILTER_VALIDATE_EMAIL) ) {
    $error = true;
    $emailError = "Please enter valid email address.";
-   header("Location: add_user.php");
+   header("Location: add_data.php");
   }
 
   if(empty($pass)){
