@@ -46,7 +46,7 @@
    } else {
      echo $row['user_id'];
      echo $row['username'];
-     echo $password;
+     echo $password, PHP_EOL;
      echo $row['password'];
     $errMSG = "Incorrect Credentials, Try again...";
    }
