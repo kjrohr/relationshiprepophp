@@ -71,8 +71,8 @@
 
     <div class="container" style="margin: 0 auto;">
                 <form class="form-horizontal" role="form">
+                  <h2>Sign In.</h2>
                   <div style="margin-left: 30%;">
-                      <h2>Sign In.</h2>
                   <div class="form-group">
                     <div class="col-sm-9">
   <input type="email" name="email" placeholder="Your Email" />
