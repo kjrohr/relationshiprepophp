@@ -86,7 +86,7 @@
     <div class="col-sm-9">
   <button type="submit"  name="btn-login" class="btn btn-primary btn-block">Sign In</button>
 </div></div>
-<div class="col-sm-3" style="float:right;">
+<div class="col-sm-9">
   <a href="add_data.php" class="btn btn-primary btn-block">Sign Up Here...</a>
 </div>
     </form>
