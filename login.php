@@ -57,6 +57,8 @@
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
+  <div id="body">
+   <div id="content">
   <h2>Sign In.</h2>
 
 
@@ -67,9 +69,21 @@
   ?>
   <form method="post">
 
+    <div class="container" style="max-width:530px; margin: 0 auto;">
+                <form class="form-horizontal" role="form">
+                  <div style="margin-left: 30%;">
+                  <div class="form-group">
+                    <div class="col-sm-9">
   <input type="email" name="email" placeholder="Your Email" />
+</div> </div>
+<div class="form-group">
+    <div class="col-sm-9">
   <input type="password" name="pass" placeholder="Your Password"/>
-  <button type="submit"  name="btn-login">Sign In</button>
+</div></div>
+<div class="form-group">
+    <div class="col-sm-9">
+  <button type="submit"  name="btn-login" class="btn btn-primary btn-block">Sign In</button>
+</div></div>
   <a href="add_data.php">Sign Up Here...</a>
 
     </form>
