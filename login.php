@@ -73,7 +73,7 @@
     <div class="container" style="max-width:530px; margin: 0 auto;">
                 <form class="form-horizontal" role="form">
                   <h2>Sign In.</h2>
-                  <div style="margin-left: 30%;">
+                  <div style="margin-left: 25%;">
                   <div class="form-group">
                     <div class="col-sm-9">
   <input type="email" name="email" placeholder="Your Email" />
@@ -85,7 +85,7 @@
 <div class="form-group">
     <div class="col-sm-9">
   <button type="submit"  name="btn-login" class="btn btn-primary btn-block">Sign In</button>
-</div></div>
+</div></div><br />
 <div class="col-sm-9">
   <a href="add_data.php" class="btn btn-primary btn-block">Sign Up Here...</a>
 </div>
