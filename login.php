@@ -69,7 +69,7 @@
   ?>
   <form method="post">
 
-    <div class="container" style="margin: 0 auto;">
+    <div class="container" style="max-width:530px; margin: 0 auto;">
                 <form class="form-horizontal" role="form">
                   <h2>Sign In.</h2>
                   <div style="margin-left: 30%;">
