@@ -75,17 +75,17 @@
                   <h2>Sign In.</h2>
                   <div style="margin-left: 25%;">
                   <div class="form-group">
-                    <div class="col-sm-9">
+                    <div class="col-sm-12">
   <input type="email" name="email" placeholder="Your Email" />
 </div> </div>
 <div class="form-group">
-    <div class="col-sm-9">
+    <div class="col-sm-12">
   <input type="password" name="pass" placeholder="Your Password"/>
 </div></div>
 <div class="form-group">
     <div class="col-sm-9">
   <button type="submit"  name="btn-login" class="btn btn-primary btn-block">Sign In</button>
-</div></div><br />
+</div></div><br /><br />
 <div class="col-sm-9">
   <a href="add_data.php" class="btn btn-primary btn-block">Sign Up Here...</a>
 </div>
