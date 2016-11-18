@@ -1,6 +1,7 @@
 <?php
  session_start();
  include 'header.php';
+ include 'nav.php';
  require_once 'dbconfig.php';
 
  // it will never let you open index(login) page if session is set
