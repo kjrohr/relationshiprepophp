@@ -1,7 +1,7 @@
 <?php
 
-include 'header.php'
-include 'nav.php'
+include 'header.php';
+include 'nav.php';
 
 ?>
 <!-- NAVBAR
