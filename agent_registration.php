@@ -23,7 +23,6 @@ $pass = $_POST['pass'];
  // variables for input data
 
  // sql query for inserting data into database
-        nsert into agents(first_name,last_name,age,user_name,email,gender,cell_phone,address,employer,company,company_address,company_phone,user_permissions,password) values(
         $sql_query = "INSERT INTO agents(first_name,last_name,age,user_name,email,gender,cell_phone,address,employer,company,company_address,company_phone,user_permissions,password) VALUES('$first_name','$last_name','$age','$user_name','$email','$gender','$cell_phone','$address','$employer','$company','$company_address','$company_phone','$user_permissions','$password')";
  mysql_query($sql_query);
 
