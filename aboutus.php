@@ -5,7 +5,6 @@ include 'header.php'
 ?>
 
 <title>Relationship Repo!</title>
-<link href="sticky-footer-navbar.css" rel="stylesheet">
 </head>
 <body>
 
