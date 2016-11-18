@@ -8,8 +8,6 @@ include 'header.php'
 <title>Relationship Repo!</title>
 </head>
 <body>
-<div class="navbar-wrapper">
-  <div class="container">
 
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -43,9 +41,6 @@ include 'header.php'
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-  </div>
-</div>
 
 
 <!-- Carousel
@@ -174,10 +169,8 @@ include 'header.php'
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="container">
     <p class="pull-right"><a href="#">Back to top</a></p>
     <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </div>
   </footer>
 
 </div><!-- /.container -->
