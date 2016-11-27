@@ -22,7 +22,7 @@
 <body>
 Hello <?php echo $userRow['username']; ?>
 <a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a>
-
+<a href="delete_user.php?delete"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Delete</a>
 
     <script src="assets/jquery-1.11.3-jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
