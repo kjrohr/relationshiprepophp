@@ -7,7 +7,6 @@
  }
 
 $user_id = $_SESSION['user'];
-
  if (isset($_GET['delete'])) {
    // sql to delete a record
    $res=mysql_query("DELETE FROM users WHERE user_id='$user_id'");
