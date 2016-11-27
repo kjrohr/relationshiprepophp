@@ -8,13 +8,7 @@
 
  if (isset($_GET['delete'])) {
    // sql to delete a record
-   $sql = "DELETE FROM users WHERE id='$_SESSION['user']'";
-
-   if ($conn->query($sql) === TRUE) {
-    echo "Record deleted successfully";
-   } else {
-    echo "Error deleting record: " . $conn->error;
-    }
+   $res=mysql_query("DELETE FROM users WHERE user_id=".$_SESSION['user']);
 
   unset($_SESSION['user']);
   session_unset();
