@@ -126,7 +126,7 @@ include 'nav.php';
               <div class="container">
                 <div class="section-heading">
                     <h2>Want to work for Relationship Repo?</h2>
-                    <p class="text-muted">Apply as an Agent with us today!</p>
+                    <p>Apply as an Agent with us today!</p>
                     <hr>
                 </div>
                   <a href="/agent_registration.php" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
