@@ -17,8 +17,8 @@ include 'nav.php';
                   <div class="col-sm-7">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-                              <a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+                              <h1>Relationship Repo does the thing, yo.</h1>
+                              <a href="/add_data.php" class="btn btn-outline btn-xl page-scroll">Sign Up Today!</a>
                           </div>
                       </div>
                   </div>
@@ -124,8 +124,8 @@ include 'nav.php';
       <section class="cta">
           <div class="cta-content">
               <div class="container">
-                  <h2>Stop waiting.<br>Start building.</h2>
-                  <a href="#contact" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
+                  <h2>Want to work for Relationship Repo?<br />Apply as an Agent today!</h2>
+                  <a href="/agent_registration.php" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
               </div>
           </div>
           <div class="overlay"></div>
@@ -133,7 +133,7 @@ include 'nav.php';
 
       <section id="contact" class="contact bg-primary">
           <div class="container">
-              <h2>We <i class="fa fa-heart"></i> new friends!</h2>
+              <h2>Social media and stuff and things!</h2>
               <ul class="list-inline list-social">
                   <li class="social-twitter">
                       <a href="#"><i class="fa fa-twitter"></i></a>
@@ -150,7 +150,7 @@ include 'nav.php';
 
       <footer>
           <div class="container">
-              <p>&copy; 2016 Start Bootstrap. All Rights Reserved.</p>
+              <p>&copy; 2016 Relationship Repo. All Rights Reserved.</p>
               <ul class="list-inline">
                   <li>
                       <a href="#">Privacy</a>
