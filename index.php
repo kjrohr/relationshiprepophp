@@ -8,191 +8,142 @@ include 'nav.php';
 ================================================== -->
 <title>Relationship Repo!</title>
 </head>
+<body>
 
-  <body id="page-top">
 
-      <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                      <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                  </button>
-                  <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
-              </div>
 
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
-                      <li>
-                          <a class="page-scroll" href="#download">Download</a>
-                      </li>
-                      <li>
-                          <a class="page-scroll" href="#features">Features</a>
-                      </li>
-                      <li>
-                          <a class="page-scroll" href="#contact">Contact</a>
-                      </li>
-                  </ul>
-              </div>
-              <!-- /.navbar-collapse -->
-          </div>
-          <!-- /.container-fluid -->
-      </nav>
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Example headline.</h1>
+          <p>Text text text text text text text.</p>
+          <p><a class="btn btn-lg btn-primary" href="/add_data.php" role="button">Sign up today</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Another example headline.</h1>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>One more for good measure.</h1>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!-- /.carousel -->
 
-      <header>
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-7">
-                      <div class="header-content">
-                          <div class="header-content-inner">
-                              <h1>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-                              <a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-5">
-                      <div class="device-container">
-                          <div class="device-mockup iphone6_plus portrait white">
-                              <div class="device">
-                                  <div class="screen">
-                                      <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                      <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
-                                  </div>
-                                  <div class="button">
-                                      <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </header>
 
-      <section id="download" class="download bg-primary text-center">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-8 col-md-offset-2">
-                      <h2 class="section-heading">Discover what all the buzz is about!</h2>
-                      <p>Our app is available on any mobile device! Download now to get started!</p>
-                      <div class="badges">
-                          <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-                          <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
 
-      <section id="features" class="features">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-12 text-center">
-                      <div class="section-heading">
-                          <h2>Unlimited Features, Unlimited Fun</h2>
-                          <p class="text-muted">Check out what you can do with this app theme!</p>
-                          <hr>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="device-container">
-                          <div class="device-mockup iphone6_plus portrait white">
-                              <div class="device">
-                                  <div class="screen">
-                                      <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                      <img src="img/demo-screen-1.jpg" class="img-responsive" alt=""> </div>
-                                  <div class="button">
-                                      <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-8">
-                      <div class="container-fluid">
-                          <div class="row">
-                              <div class="col-md-6">
-                                  <div class="feature-item">
-                                      <i class="icon-screen-smartphone text-primary"></i>
-                                      <h3>Device Mockups</h3>
-                                      <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                                  </div>
-                              </div>
-                              <div class="col-md-6">
-                                  <div class="feature-item">
-                                      <i class="icon-camera text-primary"></i>
-                                      <h3>Flexible Use</h3>
-                                      <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row">
-                              <div class="col-md-6">
-                                  <div class="feature-item">
-                                      <i class="icon-present text-primary"></i>
-                                      <h3>Free to Use</h3>
-                                      <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
-                                  </div>
-                              </div>
-                              <div class="col-md-6">
-                                  <div class="feature-item">
-                                      <i class="icon-lock-open text-primary"></i>
-                                      <h3>Open Source</h3>
-                                      <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-      </section>
+<div class="container marketing">
 
-      <section class="cta">
-          <div class="cta-content">
-              <div class="container">
-                  <h2>Stop waiting.<br>Start building.</h2>
-                  <a href="#contact" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
-              </div>
-          </div>
-          <div class="overlay"></div>
-      </section>
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Heading</h2>
+      <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Heading</h2>
+      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Heading</h2>
+      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
 
-      <section id="contact" class="contact bg-primary">
-          <div class="container">
-              <h2>We <i class="fa fa-heart"></i> new friends!</h2>
-              <ul class="list-inline list-social">
-                  <li class="social-twitter">
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                  </li>
-                  <li class="social-facebook">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                  </li>
-                  <li class="social-google-plus">
-                      <a href="#"><i class="fa fa-google-plus"></i></a>
-                  </li>
-              </ul>
-          </div>
-      </section>
 
-      <footer>
-          <div class="container">
-              <p>&copy; 2016 Start Bootstrap. All Rights Reserved.</p>
-              <ul class="list-inline">
-                  <li>
-                      <a href="#">Privacy</a>
-                  </li>
-                  <li>
-                      <a href="#">Terms</a>
-                  </li>
-                  <li>
-                      <a href="#">FAQ</a>
-                  </li>
-              </ul>
-          </div>
-      </footer>
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 col-md-push-5">
+      <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5 col-md-pull-7">
+      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- /END THE FEATURETTES -->
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </div>
+  </footer>
+
+</div><!-- /.container -->
 
 </body>
 </html>
