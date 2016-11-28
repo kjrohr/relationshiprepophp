@@ -4,7 +4,6 @@
 
 Agent Dashboard (Dashboard Logic)
 User update
-User delete
 Agent update
 Agent delete
 Agent update
