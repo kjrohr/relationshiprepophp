@@ -88,15 +88,15 @@ include 'nav.php';
                               <div class="col-md-6">
                                   <div class="feature-item">
                                       <i class="icon-screen-smartphone text-primary"></i>
-                                      <h3>Device Mockups</h3>
-                                      <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                                      <h3>Header 1</h3>
+                                      <p class="text-muted">Words and text and stuff and things!</p>
                                   </div>
                               </div>
                               <div class="col-md-6">
                                   <div class="feature-item">
                                       <i class="icon-camera text-primary"></i>
-                                      <h3>Flexible Use</h3>
-                                      <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                                      <h3>Header 2</h3>
+                                      <p class="text-muted">Words and text and stuff and things!</p>
                                   </div>
                               </div>
                           </div>
@@ -104,15 +104,15 @@ include 'nav.php';
                               <div class="col-md-6">
                                   <div class="feature-item">
                                       <i class="icon-present text-primary"></i>
-                                      <h3>Free to Use</h3>
-                                      <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                                      <h3>Header 3</h3>
+                                      <p class="text-muted">Words and text and stuff and things!</p>
                                   </div>
                               </div>
                               <div class="col-md-6">
                                   <div class="feature-item">
                                       <i class="icon-lock-open text-primary"></i>
-                                      <h3>Open Source</h3>
-                                      <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                                      <h3>Header 4</h3>
+                                      <p class="text-muted">Words and text and stuff and things!</p>
                                   </div>
                               </div>
                           </div>
@@ -124,7 +124,8 @@ include 'nav.php';
       <section class="cta">
           <div class="cta-content">
               <div class="container">
-                  <h2>Want to work for Relationship Repo?<br />Apply as an Agent today!</h2>
+                  <h3>Want to work for Relationship Repo?</h3>
+                  <h5>Apply as an Agent today!</h5>
                   <a href="/agent_registration.php" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
               </div>
           </div>
