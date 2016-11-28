@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'header.php';
 include_once 'dbconfig.php';
 
@@ -19,7 +20,7 @@ if(isset($_POST['btn-save']))
  //$pass = $_POST['pass'];
  $user_id = $_SESSION['user'];
 
- $password = hash('sha256', $pass);
+ //$password = hash('sha256', $pass);
  // variables for input data
 
  // sql query for inserting data into database
