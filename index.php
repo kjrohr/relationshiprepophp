@@ -124,8 +124,11 @@ include 'nav.php';
       <section class="cta">
           <div class="cta-content">
               <div class="container">
-                  <h3>Want to work for Relationship Repo?</h3>
-                  <h5>Apply as an Agent today!</h5>
+                <div class="section-heading">
+                    <h2>Want to work for Relationship Repo?</h2>
+                    <p class="text-muted">Apply as an Agent with us today!</p>
+                    <hr>
+                </div>
                   <a href="/agent_registration.php" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
               </div>
           </div>
