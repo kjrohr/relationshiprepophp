@@ -44,7 +44,8 @@ $pass = $_POST['pass'];
 <div id="body">
  <div id="content">
     <form method="post">
-      <a href="index.php">back to main page</a></td>
+      <a href="/login.php" class="btn btn-outline btn-xl page-scroll">Already Have An Account?</a>
+      <a href="/index.php" class="btn btn-outline btn-xl page-scroll">Back To Home</a>
 
       <div class="container" style="max-width:530px; margin: 0 auto;">
                   <form class="form-horizontal" role="form">
