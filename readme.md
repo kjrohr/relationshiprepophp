@@ -3,7 +3,6 @@
 ``` javascript
 
 Agent Dashboard (Dashboard Logic)
-User update
 Agent update
 Agent delete
 Agent update
