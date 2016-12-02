@@ -11,7 +11,7 @@
  $res=mysql_query("SELECT * FROM users WHERE user_id=".$_SESSION['user']);
  $userRow=mysql_fetch_array($res);
  echo $_SESSION['user'];
- if ($userRow['username'] === '') {
+ if (!$userRow['username']) {
    $res=mysql_query("SELECT * FROM agents WHERE userId=".$_SESSION['user']);
    $userRow=mysql_fetch_array($res);
    $userRow['username'] = $userRow['user_name'];
