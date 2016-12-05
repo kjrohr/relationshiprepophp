@@ -17,8 +17,8 @@ include 'nav.php';
                   <div class="col-sm-7">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin-bottom:0; font-size: 70px;">Sometimes, Things Just Don't Work Out</h1>
-                              <h2 style="margin-top:0; margin-bottom:30px; font-size:40px;">Relationship Repo is here for you - through the good times, and the bad.</h2>
+                              <h1 style="margin-bottom:0; font-size: 65px;">Sometimes, Things Just Don't Work Out</h1>
+                              <h2 style="margin-top:0; margin-bottom:30px; font-size:35px;">Relationship Repo is here for you - through the good times, and the bad.</h2>
                               <a href="/add_data.php" class="btn btn-outline btn-xl page-scroll">Sign Up Today!</a>
                           </div>
                       </div>
