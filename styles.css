@@ -3,12 +3,12 @@ body {
 }
 
 @font-face {
-  font-family: Blanch;
+  font-family: "Blanch";
   src: url(BLANCH_CAPS.otf);
 }
 
 h1 {
-  font-family: Blanch;
+  font-family: "Blanch", sans-serif;;
 }
 
 input {
