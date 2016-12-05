@@ -25,4 +25,9 @@ include 'nav.php';
     </div>
   </footer>
 
+<? php
+include 'livechat.php';
+
+ ?>
+
 </body>
