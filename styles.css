@@ -2,6 +2,15 @@ body {
   background: #b0d0d1;
 }
 
+@font-face {
+  font-family: Blanch;
+  src: url(BLANCH_CAPS.otf);
+}
+
+h1 {
+  font-family: Blanch;
+}
+
 input {
   margin-bottom: 10px;
 }
