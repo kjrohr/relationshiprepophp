@@ -2,7 +2,6 @@
 
 session_start();
 include 'header.php';
-include 'nav.php';
 require_once 'dbconfig.php';
 
 // it will never let you open index(login) page if session is set
@@ -76,7 +75,7 @@ if( isset($_POST['btn-login']) ) {
 
   <div class="container">
   	<div class="row">
-  		<a class="btn btn-primary" data-toggle="modal" href="#LoginModal" style="margin-top:300px;">Login</a>
+  		<a class="btn btn-primary" data-toggle="modal" href="#LoginModal">Login</a>
 
           <div class="modal hide" id="LoginModal">
             <div class="modal-header">
