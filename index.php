@@ -208,8 +208,8 @@ if(isset($_POST['btn-save']))
               <div class="loginmodal-container">
                 <form method="post">
                   <div class="container" style="max-width:530px; margin: 0 auto;">
-                    <a href="/login.php" class="btn btn-outline btn-xl page-scroll">Already Have An Account?</a><br />
                               <form class="form-horizontal" role="form">
+                                <a href="/login.php" class="btn btn-outline btn-xl">Already Have An Account?</a><br />
                                   <h2 style="color:white;">Sign Up With Relationship Repo</h2>
                                   <div style="margin-left: 30%;">
                                   <div class="form-group">
