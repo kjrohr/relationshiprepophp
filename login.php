@@ -71,17 +71,17 @@
                         <div style="margin-left: 30%;">
                         <div class="form-group">
                           <div class="col-sm-9">
-                                <input type="email" name="email" placeholder="Your Email" required/>
+                                <input type="email" name="email" placeholder="Your Email" class="form-control" required/>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-9">
-                                <input type="password" name="pass" placeholder="Your Password" required />
+                                <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
                             </div>
                         </div>
                         <div class="form-group">
                           <div class="col-sm-9">
-                                <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
+                                <input type="text" name="last_name" placeholder="Last Name"  required />
                             </div>
                         </div>
                         <div class="form-group">
