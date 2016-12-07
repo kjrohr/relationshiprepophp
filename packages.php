@@ -76,7 +76,7 @@ if( isset($_POST['btn-login']) ) {
 
   <div class="container">
   	<div class="row">
-  		<a class="btn btn-primary" data-toggle="modal" href="#LoginModal" >Login</a>
+  		<a class="btn btn-primary" data-toggle="modal" href="#LoginModal" style="margin-top:300px;">Login</a>
 
           <div class="modal hide" id="LoginModal">
             <div class="modal-header">
