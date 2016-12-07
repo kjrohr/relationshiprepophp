@@ -73,31 +73,25 @@ if( isset($_POST['btn-login']) ) {
     }
   ?>
 
-  <div class="container">
-  	<div class="row">
-  		<a class="btn btn-primary" data-toggle="modal" href="#LoginModal">Login</a>
 
-          <div class="modal hide" id="LoginModal">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">x</button>
-              <h3>Login to Relationship Repo</h3>
-            </div>
-            <div class="modal-body">
-              <form method="post" action='' name="login_form">
-                <p><input type="email" name="email" placeholder="Your Email" /></p>
-                <p><input type="password" name="pass" placeholder="Your Password"/></p>
-                <p><button type="submit" class="btn btn-primary">Sign in</button>
-                  <a href="#">Forgot Password?</a>
-                </p>
-              </form>
-            </div>
-            <div class="modal-footer">
-              New To Relationship Repo?
-              <a href="add_data.php" class="btn btn-primary btn-block">Register</a>
-            </div>
-          </div>
-  	</div>
-  </div>
+  <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      	  <div class="modal-dialog">
+  				<div class="loginmodal-container">
+  					<h1>Login to Your Account</h1><br>
+  				  <form>
+  					<input type="text" name="user" placeholder="Username">
+  					<input type="password" name="pass" placeholder="Password">
+  					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+  				  </form>
+
+  				  <div class="login-help">
+  					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+  				  </div>
+  				</div>
+  			</div>
+  		  </div>
 
 
 
