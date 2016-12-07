@@ -68,7 +68,7 @@
         <div class="container" style="max-width:650px; margin: 0 auto;">
                     <form class="form-horizontal" role="form">
 
-                        <h2>Welcome Back to Relationship Repo! <br /> Please Sign In.</h2>
+                        <h2 style="margin: 35% 0 40px 0">Welcome Back to Relationship Repo! <br /> Please Sign In.</h2>
 
                         <?php
                          if ( isset($errMSG) ) {
