@@ -68,15 +68,15 @@
         <div class="container" style="max-width:530px; margin: 0 auto;">
                     <form class="form-horizontal" role="form" method="post">
                         <h2>Welcome Back! Please Sign In.</h2>
-                        
+
                         <div style="margin-left: 30%;">
                         <div class="form-group">
-                          <div class="col-sm-9">
+                          <div class="col-sm-12">
                                 <input type="email" name="email" placeholder="Your Email" required />
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-sm-9">
+                            <div class="col-sm-12">
                                 <input type="password" name="pass" placeholder="Your Password" required />
                             </div>
                         </div>
