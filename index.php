@@ -268,47 +268,6 @@ if(isset($_POST['btn-save']))
             </div>
           </div>
 
-          
-
-          <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-              	  <div class="modal-dialog">
-          				<div class="loginmodal-container">
-                    <form method="post">
-                      <div class="container" style="max-width:530px; margin: 0 auto;">
-                                  <form class="form-horizontal" role="form">
-                                    <h2>Sign In.</h2>
-
-                                    <?php
-                                     if ( isset($errMSG) ) {
-                                        echo $errMSG;
-                                      }
-                                    ?>
-
-                                    <div style="margin-left: 25%;">
-                                    <div class="form-group">
-                                      <div class="col-sm-12">
-                    <input type="email" name="email" placeholder="Your Email" />
-                  </div> </div>
-                  <div class="form-group">
-                      <div class="col-sm-12">
-                    <input type="password" name="pass" placeholder="Your Password"/>
-                  </div></div>
-                  <div class="form-group">
-                      <div class="col-sm-9">
-                    <button type="submit"  name="btn-login" class="btn btn-primary btn-block">Sign In</button>
-                  </div></div><br /><br />
-                  <div class="col-sm-9">
-                    <a href="add_data.php" class="btn btn-primary btn-block">Sign Up Here...</a>
-                  </div>
-                      </form>
-
-          				  <div class="login-help">
-          					<a href="#">Register</a> - <a href="#">Forgot Password</a>
-          				  </div>
-          				</div>
-          			</div>
-          		  </div>
-
       <!--Start of Tawk.to Script-->
       <script type="text/javascript">
       var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
