@@ -68,11 +68,7 @@
         <div class="container" style="max-width:530px; margin: 0 auto;">
                     <form class="form-horizontal" role="form" method="post">
                         <h2>Welcome Back! Please Sign In.</h2>
-                        <?php
-                         if ( isset($errMSG) ) {
-                            echo '<h3>'+ $errMSG; +'</h3>'
-                          }
-                        ?>
+                        
                         <div style="margin-left: 30%;">
                         <div class="form-group">
                           <div class="col-sm-9">
