@@ -206,12 +206,11 @@ if(isset($_POST['btn-save']))
       <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
               <div class="modal-dialog">
               <div class="loginmodal-container">
-                <h1>Sign Up With Relationship Repo</h1><br>
                 <form method="post">
-                  <a href="/login.php" class="btn btn-outline btn-xl page-scroll">Already Have An Account?</a>
                   <div class="container" style="max-width:530px; margin: 0 auto;">
+                    <a href="/login.php" class="btn btn-outline btn-xl page-scroll">Already Have An Account?</a><br />
                               <form class="form-horizontal" role="form">
-                                  <h2 style="color:white;">Registration Form</h2>
+                                  <h2 style="color:white;">Sign Up With Relationship Repo</h2>
                                   <div style="margin-left: 30%;">
                                   <div class="form-group">
                                     <div class="col-sm-9">
@@ -260,7 +259,7 @@ if(isset($_POST['btn-save']))
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#b0d0d1;">Register</button>
+                                          <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#415c6f;">Register</button>
                                       </div>
                                   </div>
                                   </div>
