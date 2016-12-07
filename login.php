@@ -66,7 +66,7 @@
   <header>
 
         <div class="container" style="max-width:650px; margin: 0 auto;">
-                    <form class="form-horizontal" role="form">
+                    <form method="post" class="form-horizontal" role="form">
 
                         <h2 style="margin: 30% 0 30px 0;">Welcome Back to Relationship Repo! <br /> Please Sign In.</h2>
 
