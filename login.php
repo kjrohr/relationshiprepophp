@@ -71,12 +71,12 @@
                         <h2>Welcome Back to Relationship Repo! <br /> Please Sign In.</h2>
 
                         <div style="margin-left: 15%;">
-                        <div class="form-group" style="margin-left:10%;">
+                        <div class="form-group" style="margin-left:5%;">
                           <div class="col-sm-9">
                                 <input type="email" name="email" placeholder="Your Email" class="form-control" required/>
                             </div>
                         </div>
-                        <div class="form-group" style="margin-left:10%;">
+                        <div class="form-group" style="margin-left:5%;">
                             <div class="col-sm-9">
                                 <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
                             </div>
