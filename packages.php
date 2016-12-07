@@ -1,65 +1,7 @@
 <?php
 
-session_start();
 include 'header.php';
-require_once 'dbconfig.php';
 
-// it will never let you open index(login) page if session is set
-if ( isset($_SESSION['user'])!="" ) {
- header("Location: dashboard.php");
- exit;
-}
-
-$error = false;
-
-if( isset($_POST['btn-login']) ) {
- $email = $_POST['email'];
- $pass = $_POST['pass'];
-
-
- if(empty($email)){
-  $error = true;
-  $emailError = "Please enter your email address.";
- } else if ( !filter_var($email,FILTER_VALIDATE_EMAIL) ) {
-  $error = true;
-  $emailError = "Please enter valid email address.";
- }
-
- if(empty($pass)){
-  $error = true;
-  $passError = "Please enter your password.";
- }
-
- // if there's no error, continue to login
- if (!$error) {
-
-  $password = hash('sha256', $pass); // password hashing using SHA256
-
-  $res=mysql_query("SELECT user_id, username, password FROM users WHERE email='$email'");
-  $row=mysql_fetch_array($res);
-  $count = mysql_num_rows($res); // if uname/pass correct it returns must be 1 row
-
-  if( $count == 1 && $row['password']==$password ) {
-   $_SESSION['user'] = $row['user_id'];
-   header("Location: dashboard.php");
-  } else {
-    $res=mysql_query("SELECT userId, user_name, password FROM agents WHERE email='$email'");
-    $row=mysql_fetch_array($res);
-    $count = mysql_num_rows($res); // if uname/pass correct it returns must be 1 row
-
-
-    if ($count == 1 && $row['password']==$password) {
-      $_SESSION['user'] = $row['userId'];
-      header("Location: dashboard.php");
-    }
-    else {
-   $errMSG = "Incorrect Credentials, Try again...";
- }
-  }
-
- }
-
-}
 ?>
 
 
@@ -67,11 +9,6 @@ if( isset($_POST['btn-login']) ) {
 </head>
 <body>
 
-  <?php
-   if ( isset($errMSG) ) {
-      echo $errMSG;
-    }
-  ?>
 
 
   <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
