@@ -209,8 +209,8 @@ if(isset($_POST['btn-save']))
                 <form method="post">
                   <div class="container" style="max-width:530px; margin: 0 auto;">
                               <form class="form-horizontal" role="form">
-                                  <h2 style="color:white;">Sign Up With Relationship Repo</h2>
-                                  <div>
+                                  <h2 style="color:white; text-align:center;">Sign Up With Relationship Repo</h2>
+                                  <div style="margin-left: 30%;">
                                   <div class="form-group">
                                     <div class="col-sm-9">
                                           <input type="text" name="username" placeholder="Username" class="form-control" required />
