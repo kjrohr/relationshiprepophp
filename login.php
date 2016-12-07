@@ -1,6 +1,7 @@
 <?php
  session_start();
  include 'header.php';
+ include 'nav.php';
  require_once 'dbconfig.php';
 
  // it will never let you open index(login) page if session is set
@@ -97,6 +98,23 @@
                 </div> <!-- ./container -->
 
   </header>
+
+  <footer>
+      <div class="container">
+          <p>&copy; 2016 Relationship Repo. All Rights Reserved.</p>
+          <ul class="list-inline">
+              <li>
+                  <a href="#">Privacy</a>
+              </li>
+              <li>
+                  <a href="#">Terms</a>
+              </li>
+              <li>
+                  <a href="#">FAQ</a>
+              </li>
+          </ul>
+      </div>
+  </footer>
 
 
     <!--Start of Tawk.to Script-->
