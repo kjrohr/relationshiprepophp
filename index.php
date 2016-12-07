@@ -209,8 +209,6 @@ if(isset($_POST['btn-save']))
                 <h1>Sign Up With Relationship Repo</h1><br>
                 <form method="post">
                   <a href="/login.php" class="btn btn-outline btn-xl page-scroll">Already Have An Account?</a>
-                  <a href="/index.php" class="btn btn-outline btn-xl page-scroll">Back To Home</a>
-
                   <div class="container" style="max-width:530px; margin: 0 auto;">
                               <form class="form-horizontal" role="form">
                                   <h2 style="color:white;">Registration Form</h2>
@@ -262,7 +260,7 @@ if(isset($_POST['btn-save']))
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <button type="submit" name="btn-save" class="btn btn-primary btn-block">Register</button>
+                                          <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#b0d0d1;">Register</button>
                                       </div>
                                   </div>
                                   </div>
