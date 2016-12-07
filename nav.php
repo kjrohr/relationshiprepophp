@@ -86,7 +86,7 @@ if( isset($_POST['btn-login']) ) {
                     <a href="/packages.php">Packages</a>
                 </li>
                 <li>
-                    <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                    <a href="/login.php">Login</a>
                 </li>
             </ul>
         </div>
