@@ -63,6 +63,7 @@ if( isset($_POST['btn-login']) ) {
 }
 ?>
 
+
 <title>Relationship Repo!</title>
 </head>
 <body>
@@ -73,40 +74,31 @@ if( isset($_POST['btn-login']) ) {
     }
   ?>
 
+  <div class="container">
+  	<div class="row">
+  		<a class="btn btn-primary" data-toggle="modal" href="#LoginModal" >Login</a>
 
-
-  <!-- Modal -->
-    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="ModalLabel">Login to Portal</h4>
+          <div class="modal hide" id="LoginModal">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">x</button>
+              <h3>Login to Relationship Repo</h3>
+            </div>
+            <div class="modal-body">
+              <form method="post" action='' name="login_form">
+                <p><input type="email" name="email" placeholder="Your Email" /></p>
+                <p><input type="password" name="pass" placeholder="Your Password"/></p>
+                <p><button type="submit" class="btn btn-primary">Sign in</button>
+                  <a href="#">Forgot Password?</a>
+                </p>
+              </form>
+            </div>
+            <div class="modal-footer">
+              New To Relationship Repo?
+              <a href="add_data.php" class="btn btn-primary btn-block">Register</a>
+            </div>
           </div>
-          <div class="modal-body">
-            <form class="form-horizontal" action="" method="post">
-              <fieldset>
-                <div class="form-group">
-                  <label for="inputID" class="col-lg-2 control-label">Email Address:</label>
-                  <div class="col-lg-10">
-                    <input type="email" name="email" placeholder="JohnDoe@email.com" />
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-                  <div class="col-lg-10">
-                    <input type="password" name="pass" placeholder="Password"/>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="submit" name="btn-login" class="btn btn-primary">Submit</button>
-                  <button class="btn btn-primary" href="add_data.php">Sign Up</button>
-                </div>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </div>
+  	</div>
+  </div>
 
 
 
