@@ -46,7 +46,7 @@ if(isset($_POST['btn-save']))
                           <div class="header-content-inner">
                               <h1 style="margin-bottom:0; font-size: 57px;">Sometimes, Things Just Don't Work Out</h1>
                               <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">Relationship Repo is here for you - through the good times, and the bad.</h2>
-                              <a href="#" data-toggle="modal" data-target="#login-modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
+                              <a href="#" data-toggle="modal" data-target="#signup-modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
 
 
 
@@ -203,7 +203,7 @@ if(isset($_POST['btn-save']))
           </div>
       </footer>
 
-      <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
               <div class="modal-dialog">
               <div class="loginmodal-container">
                 <form method="post">

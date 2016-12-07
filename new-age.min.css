@@ -1,6 +1,10 @@
+@font-face {
+  font-family: "Blanch";
+  src: url(BLANCH_CAPS.otf);
+}
 
 .heading-font {
-	font-family: Catamaran, Helvetica, Arial, sans-serif;
+	font-family: Blanch, Helvetica, Arial, sans-serif;
 	font-weight: 200;
 	letter-spacing: 1px
 }
@@ -19,11 +23,6 @@ body, html {
 body {
 	font-family: Muli, Helvetica, Arial, sans-serif;
 	webkit-tap-highlight-color: #222
-}
-
-@font-face {
-  font-family: "Blanch";
-  src: url(BLANCH_CAPS.otf);
 }
 
 .navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, h4, h5, h6 {
