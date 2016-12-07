@@ -11,7 +11,7 @@ include 'header.php';
 
 
 
-  <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+  <a href="#" data-toggle="modal" data-target="#login-modal" class="btn btn-outline btn-xl page-scroll">Login</a>
 
   <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
       	  <div class="modal-dialog">
