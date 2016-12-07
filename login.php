@@ -53,7 +53,7 @@
        header("Location: dashboard.php");
      }
      else {
-    $errMSG = "Sorry! The username or password you've entered was invalid.<br />Please try again!";
+    $errMSG = "The username or password you've entered was invalid.<br />Please try again!<br /><br />";
   }
    }
 
