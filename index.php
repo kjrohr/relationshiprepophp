@@ -209,7 +209,7 @@ if(isset($_POST['btn-save']))
                 <form method="post">
                   <div class="container" style="max-width:530px; margin: 0 auto;">
                               <form class="form-horizontal" role="form">
-                                  <h2 style="color:white; text-align:center;">Become a Member of Relationship Repo</h2>
+                                  <h2 style="color:white; margin-left: 30%;">Sign Up With Relationship Repo</h2>
                                   <div style="margin-left: 30%;">
                                   <div class="form-group">
                                     <div class="col-sm-9">
