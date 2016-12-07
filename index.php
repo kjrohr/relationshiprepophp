@@ -213,7 +213,7 @@ if(isset($_POST['btn-save']))
 
                   <div class="container" style="max-width:530px; margin: 0 auto;">
                               <form class="form-horizontal" role="form">
-                                  <h2>Registration Form</h2>
+                                  <h2 style="color:white;">Registration Form</h2>
                                   <div style="margin-left: 30%;">
                                   <div class="form-group">
                                     <div class="col-sm-9">
@@ -254,7 +254,7 @@ if(isset($_POST['btn-save']))
                                       <div class="col-sm-9">
                                           <div class="checkbox">
                                               <label>
-                                                  <input type="checkbox">By checking this box, I hearby accept Relationship Repo's <a href="#">Terms and Conditions</a>.
+                                                  <input type="checkbox" style="color:white;">By checking this box, I hearby accept Relationship Repo's <a href="#">Terms and Conditions</a>.
                                               </label>
                                           </div>
                                       </div>
