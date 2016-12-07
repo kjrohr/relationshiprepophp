@@ -67,7 +67,9 @@
 
         <div class="container" style="max-width:530px; margin: 0 auto;">
                     <form class="form-horizontal" role="form">
-                        <h2>Welcome Back! Please Sign In.</h2>
+                        <center>
+                        <h2>Welcome Back to Relationship Repo! <br /> Please Sign In.</h2>
+                        </center>
                         <div style="margin-left: 30%;">
                         <div class="form-group">
                           <div class="col-sm-9">
@@ -81,7 +83,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-9">
-                                <button type="submit" name="btn-login" class="btn btn-outline btn-xl">Register</button>
+                                <button style="margin-left: 10%;" type="submit" name="btn-login" class="btn btn-outline btn-xl">Register</button>
                             </div>
                         </div>
                         </div>
