@@ -71,7 +71,7 @@
                         <div style="margin-left: 30%;">
                         <div class="form-group">
                           <div class="col-sm-9">
-                                <input type="email" name="email" placeholder="Your Email" required />
+                                <input type="email" name="email" placeholder="Your Email" required/>
                             </div>
                         </div>
                         <div class="form-group">
@@ -79,10 +79,43 @@
                                 <input type="password" name="pass" placeholder="Your Password" required />
                             </div>
                         </div>
-
+                        <div class="form-group">
+                          <div class="col-sm-9">
+                                <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-9">
+                                <input type="email" name="email" placeholder="Email Address" class="form-control" required />
+                            </div>
+                        </div>
                         <div class="form-group">
                             <div class="col-sm-9">
-                                <button type="submit"  name="btn-login" class="btn btn-primary btn-block">Sign In</button>
+                                <input type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
+                            </div>
+                        </div> <!-- /.form-group -->
+                        <div class="form-group">
+                          <div class="col-sm-9">
+                            <input type="number" name="age" placeholder="Your Age" class="form-control" required />
+                            </div>
+                        </div> <!-- /.form-group -->
+                        <div class="form-group">
+                          <div class="col-sm-9">
+                            <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
+                            </div>
+                        </div> <!-- /.form-group -->
+                        <div class="form-group">
+                            <div class="col-sm-9">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">By checking this box, I hearby accept Relationship Repo's <a href="#">Terms and Conditions</a>.
+                                    </label>
+                                </div>
+                            </div>
+                        </div> <!-- /.form-group -->
+                        <div class="form-group">
+                            <div class="col-sm-9">
+                                <button type="submit" name="btn-save" class="btn btn-primary btn-block">Register</button>
                             </div>
                         </div>
                         </div>
