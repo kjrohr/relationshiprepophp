@@ -254,7 +254,8 @@ if(isset($_POST['btn-save']))
                                       <div class="col-sm-9">
                                           <div class="checkbox">
                                               <label>
-                                                  <input type="checkbox" style="color:white;">By checking this box, I hearby accept Relationship Repo's <a href="#">Terms and Conditions</a>.
+                                                  <input type="checkbox">
+                                                  <p style="color:white;">By checking this box, I hearby accept Relationship Repo's <a href="#">Terms and Conditions</a>.</p>
                                               </label>
                                           </div>
                                       </div>
