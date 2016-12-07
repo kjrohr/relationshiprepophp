@@ -259,7 +259,7 @@ if(isset($_POST['btn-save']))
                                   <div class="form-group">
                                       <div class="col-sm-9">
                                           <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#415c6f;">Register</button><br />
-                                          <a href="/login.php" class="btn btn-primary btn-outline">Already A Member?</a>
+                                          <a href="/login.php" class="btn btn-block btn-outline">Already A Member?</a>
                                       </div>
                                   </div>
                                   </div>
