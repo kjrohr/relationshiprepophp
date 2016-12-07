@@ -3,6 +3,30 @@
 include 'header.php';
 include 'nav.php';
 
+include_once 'dbconfig.php';
+if(isset($_POST['btn-save']))
+{
+ // variables for input data
+ $username = $_POST['username'];
+ $first_name = $_POST['first_name'];
+ $last_name = $_POST['last_name'];
+ $age = $_POST['age'];
+ $email = $_POST['email'];
+ $address = $_POST['address'];
+ $pass = $_POST['pass'];
+
+ $password = hash('sha256', $pass);
+ // variables for input data
+
+ // sql query for inserting data into database
+
+        $sql_query = "INSERT INTO users(username,first_name,last_name,age,email,address,password) VALUES('$username','$first_name','$last_name','$age','$email','$address','$password')";
+ mysql_query($sql_query);
+
+        // sql query for inserting data into database
+
+}
+
 ?>
 <!-- NAVBAR
 ================================================== -->
@@ -19,7 +43,87 @@ include 'nav.php';
                           <div class="header-content-inner">
                               <h1 style="margin-bottom:0; font-size: 57px;">Sometimes, Things Just Don't Work Out</h1>
                               <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">Relationship Repo is here for you - through the good times, and the bad.</h2>
-                              <a href="/add_data.php" class="btn btn-outline btn-xl page-scroll">Sign Up Today!</a>
+
+
+
+
+
+
+                              <a href="#" data-toggle="modal" data-target="#login-modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
+
+                              <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                      <div class="modal-dialog">
+                                      <div class="loginmodal-container">
+                                        <h1>Sign Up With Relationship Repo</h1><br>
+                                        <form method="post">
+                                          <a href="/login.php" class="btn btn-outline btn-xl page-scroll">Already Have An Account?</a>
+                                          <a href="/index.php" class="btn btn-outline btn-xl page-scroll">Back To Home</a>
+
+                                          <div class="container" style="max-width:530px; margin: 0 auto;">
+                                                      <form class="form-horizontal" role="form">
+                                                          <h2>Registration Form</h2>
+                                                          <div style="margin-left: 30%;">
+                                                          <div class="form-group">
+                                                            <div class="col-sm-9">
+                                                                  <input type="text" name="username" placeholder="Username" class="form-control" required />
+                                                              </div>
+                                                          </div>
+                                                          <div class="form-group">
+                                                              <div class="col-sm-9">
+                                                                  <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
+                                                              </div>
+                                                          </div>
+                                                          <div class="form-group">
+                                                            <div class="col-sm-9">
+                                                                  <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
+                                                              </div>
+                                                          </div>
+                                                          <div class="form-group">
+                                                            <div class="col-sm-9">
+                                                                  <input type="email" name="email" placeholder="Email Address" class="form-control" required />
+                                                              </div>
+                                                          </div>
+                                                          <div class="form-group">
+                                                              <div class="col-sm-9">
+                                                                  <input type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
+                                                              </div>
+                                                          </div> <!-- /.form-group -->
+                                                          <div class="form-group">
+                                                            <div class="col-sm-9">
+                                                              <input type="number" name="age" placeholder="Your Age" class="form-control" required />
+                                                              </div>
+                                                          </div> <!-- /.form-group -->
+                                                          <div class="form-group">
+                                                            <div class="col-sm-9">
+                                                              <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
+                                                              </div>
+                                                          </div> <!-- /.form-group -->
+                                                          <div class="form-group">
+                                                              <div class="col-sm-9">
+                                                                  <div class="checkbox">
+                                                                      <label>
+                                                                          <input type="checkbox">By checking this box, I hearby accept Relationship Repo's <a href="#">Terms and Conditions</a>.
+                                                                      </label>
+                                                                  </div>
+                                                              </div>
+                                                          </div> <!-- /.form-group -->
+                                                          <div class="form-group">
+                                                              <div class="col-sm-9">
+                                                                  <button type="submit" name="btn-save" class="btn btn-primary btn-block">Register</button>
+                                                              </div>
+                                                          </div>
+                                                          </div>
+                                                      </form> <!-- /form -->
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+
+
+
+
+
                           </div>
                       </div>
                   </div>
