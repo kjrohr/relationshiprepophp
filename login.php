@@ -70,6 +70,12 @@
 
                         <h2 style="margin: 30% 0 30px 0;">Welcome Back to Relationship Repo! <br /> Please Sign In.</h2>
 
+                        <?php
+                         if ( isset($errMSG) ) {
+                            echo $errMSG;
+                          }
+                        ?>
+
                         <div style="margin-left: 15%;">
                         <div class="form-group" style="margin-left:3%;">
                           <div class="col-sm-9">
@@ -92,39 +98,6 @@
 
   </header>
 
-
-  <div id="body">
-   <div id="content">
-
-
-
-  <?php
-   if ( isset($errMSG) ) {
-      echo $errMSG;
-    }
-  ?>
-  <form method="post">
-
-    <div class="container" style="max-width:530px; margin: 0 auto;">
-                <form class="form-horizontal" role="form">
-                  <h2>Sign In.</h2>
-                  <div style="margin-left: 25%;">
-                  <div class="form-group">
-                    <div class="col-sm-12">
-  <input type="email" name="email" placeholder="Your Email" />
-</div> </div>
-<div class="form-group">
-    <div class="col-sm-12">
-  <input type="password" name="pass" placeholder="Your Password"/>
-</div></div>
-<div class="form-group">
-    <div class="col-sm-9">
-  <button type="submit"  name="btn-login" class="btn btn-primary btn-block">Sign In</button>
-</div></div><br /><br />
-<div class="col-sm-9">
-  <a href="add_data.php" class="btn btn-primary btn-block">Sign Up Here...</a>
-</div>
-    </form>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
