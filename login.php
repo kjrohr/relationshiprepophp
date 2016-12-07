@@ -90,7 +90,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-9">
-                                <button style="margin-left:35%;" type="submit"  name="btn-login" class="btn btn-outline btn-xl">Sign In</button>
+                                <button style="margin-left:35%;" type="submit"  name="btn-login" class="btn btn-block btn-outline btn-xl">Sign In</button>
                             </div>
                         </div>
                         </div>

@@ -25,7 +25,7 @@
                     <a href="/packages.php">Packages</a>
                 </li>
                 <li>
-                    <a href="/login.php">Login</a>
+                    <a href="/login.php"><strong>Login</strong></a>
                 </li>
             </ul>
         </div>
