@@ -10,7 +10,7 @@ $(document).ready(function(){
     $.ajax({
       method: "POST",
       url: "dashboard.php",
-      data: x
+      data: { case_id: x}
     })
       .done(function( msg ) {
         alert( "Data Saved: " + msg );
