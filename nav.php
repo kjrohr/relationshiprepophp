@@ -53,6 +53,7 @@
 
 //});
 
+$('#tinylogo').hide();
 
 $(function(){
     $(window).scroll(function(){
