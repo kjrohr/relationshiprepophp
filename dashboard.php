@@ -20,11 +20,6 @@
    $_SESSION['user_type'] = 'agent';
  }
 
- if(!isset($_POST['claim']))
- {
-   echo '$td->parent()->first_child()';
- }
-
 ?>
 <!DOCTYPE html>
 <html>
