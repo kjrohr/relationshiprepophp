@@ -40,14 +40,16 @@ Hello <?php echo $userRow['username']; ?>
 // Agent dashboard is generated here
 if ($_SESSION['user_type'] == 'agent')
 {
-  $resCase=mysql_query("SELECT * FROM cases");
+$query="SELECT * FROM cases";
+$results = mysql_query($query);
 
-  while ($caseRow=mysql_fetch_array($resCase)) {
-    foreach($caseRow as $field) {
-      echo $field;  
+while ($row = mysql_fetch_array($results)) {
+    echo '<tr>';
+    foreach($row as $field) {
+        echo '<td>' . htmlspecialchars($field) . '</td>';
     }
+    echo '</tr>';
 }
-
 ?>
 <!-- Agent dashboard contents -->
 
