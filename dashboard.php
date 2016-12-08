@@ -12,14 +12,18 @@
  $userRow=mysql_fetch_array($res);
  echo $_SESSION['user'];
  $_SESSION['user_type'] = 'user';
+
  if (!$userRow['username']) {
    $res=mysql_query("SELECT * FROM agents WHERE userId=".$_SESSION['user']);
    $userRow=mysql_fetch_array($res);
    $userRow['username'] = $userRow['user_name'];
    $_SESSION['user_type'] = 'agent';
-
  }
 
+ if(!isset($_POST['claim']))
+ {
+   echo '$td->parent()->first_child()';
+ }
 
 ?>
 <!DOCTYPE html>
