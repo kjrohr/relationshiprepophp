@@ -20,10 +20,7 @@
 
  }
 
- if(!isset($_POST['claim']))
- {
-   echo $td->parent()->first_child();
- }
+
 ?>
 <!DOCTYPE html>
 <html>
