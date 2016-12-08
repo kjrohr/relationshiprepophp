@@ -64,7 +64,7 @@
 <!DOCTYPE html>
 <body>
 
-  <header>
+  <header id="loginpage">
 
         <div class="container" style="max-width:650px; margin: 0 auto;">
                     <form method="post" class="form-horizontal" role="form">

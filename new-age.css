@@ -353,6 +353,11 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
 	text-decoration: none
 }
 
+#loginpage {
+  background: url("img/lights.JPG") no-repeat center center fixed;
+  background-size: cover;
+}
+
 #download, #contact {
   background: #553331;
 }
