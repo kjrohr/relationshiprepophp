@@ -12,7 +12,14 @@ $(document).ready(function(){
                 dataType: 'text',
                 type: 'post',
                 contentType: 'application/x-www-form-urlencoded',
-                data: x
+                data: $(this).serialize(),
+                success: function( data, textStatus, jQxhr ){
+                    //$('#response pre').html( data );
+                    console.log(data);
+                },
+                error: function( jqXhr, textStatus, errorThrown ){
+                    console.log( errorThrown );
+                }
             });
   });
 
