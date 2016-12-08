@@ -19,7 +19,7 @@
    $userRow['username'] = $userRow['user_name'];
    $_SESSION['user_type'] = 'agent';
  }
- if (!isset($_POST['case_id']))
+ if (isset($_POST['case_id']))
  {
  echo 'case id: ';
  echo $_POST['case_id'];
