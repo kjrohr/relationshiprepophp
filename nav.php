@@ -10,7 +10,7 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top">
-              <img src="img/logo3.png" id="tinylogo" style="display:none;" alt="Relationship Repo"/>
+              <img src="img/logo3.png" id="tinylogo" alt="Relationship Repo"/>
               <img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/>
               </a>
         </div>
@@ -53,17 +53,17 @@
 
 //});
 
+
 $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 120) {
             $('#pagelogo')
               .animate({
                 opacity: 0.1,
-                height: 1
+                height: 0
               }, 200);
-            // $('#tinylogo')
-            //   .css({'display':'block'})
-            //   .fadeIn(400);
+              $('#tinylogo')
+                .fadeIn(600);
         }
     });
 });
