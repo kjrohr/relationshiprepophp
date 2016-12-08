@@ -59,7 +59,7 @@ p {
 	margin-bottom: 20px
 }
 .navbar-default {
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.7);
 	border-color: rgba(34, 34, 34, .05);
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
