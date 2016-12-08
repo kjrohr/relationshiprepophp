@@ -41,11 +41,13 @@ Hello <?php echo $userRow['username']; ?>
 if ($_SESSION['user_type'] == 'agent')
 {
   $resCase=mysql_query("SELECT * FROM cases");
-  $caseRow=mysql_fetch_array($resCase);
-  foreach ($caseRow as $case)
-  {
-    echo $case['content'];
-  }
+
+  while ($caseRow=mysql_fetch_array($resCase)) {
+    foreach($caseRow as $field) {
+      echo $field;  
+    }
+}
+
 ?>
 <!-- Agent dashboard contents -->
 
