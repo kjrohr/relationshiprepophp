@@ -20,8 +20,7 @@
              } else{
                  $('#pagelogo').attr("src","img/logo2.png");
              }
-        }); }
-
+        }); };
         </script>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
