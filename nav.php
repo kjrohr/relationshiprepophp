@@ -60,8 +60,7 @@ $(function(){
               .animate({
                 opacity: 0.1,
                 height: 1
-              }, 200); }
-        else if($(this).scrollTop() > 140){
+              }, 200);
             $('#tinylogo')
               .css({'display':'block'})
               .fadeIn(600);
