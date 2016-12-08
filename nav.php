@@ -53,10 +53,11 @@
 
 //});
 
+$('#tinylogo').hide();
 
 $(function(){
     $(window).scroll(function(){
-        if($(this).scrollTop() > 120) {
+        if($(this).scrollTop() >= 10) {
             $('#pagelogo')
               .animate({
                 opacity: 0.1,
