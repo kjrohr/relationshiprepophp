@@ -40,7 +40,7 @@
 $( window ).scroll(function() {
      if($(window).scrollTop() > 150){
        $('#pagelogo').hide();
-       $('#pagelogo').attr("src","img/logo3.png").fadeIn();
+       $('#pagelogo').attr("src","img/logo3.png").fadeIn("fast");
      } else if ($(window).scrollTop() <= 150){
          $('#pagelogo').attr("src","img/logo2.png");
      }
