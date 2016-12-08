@@ -19,6 +19,11 @@
    $_SESSION['user_type'] = 'agent';
 
  }
+
+ if(!isset($_POST['claim']))
+ {
+   echo $td->parent()->first_child()
+ }
 ?>
 <!DOCTYPE html>
 <html>
@@ -52,17 +57,15 @@ $results = mysql_query($query);
     <td>Content</td>
     <td>Accepted</td>
     <td>Completed</td>
-    <td>Claim</td>
   </tr>
 <?php
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
-
-        // Possible iterator solution
         if ($field['userId'] == '')
         {
-          echo '<td><button>Hi</button></td>';
+          // This is going to be a claim button for the agent
+          echo '<td><form method="post"><button name="claim">Claim?</button></form></td>';
         }
         else {
           echo '<td>' . htmlspecialchars($field) . '</td>';
@@ -91,6 +94,7 @@ else
 
     <script src="assets/jquery-1.11.3-jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
 
 
 
