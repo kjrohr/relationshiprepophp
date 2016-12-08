@@ -35,15 +35,24 @@ Hello <?php echo $userRow['username']; ?>
 <a href="update_user.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Update</a>
 
 <!-- Case logic -->
+<!-- Content will have to be added with PHP -->
 <?php
 // Agent dashboard is generated here
 if ($_SESSION['user_type'] == 'agent')
 {
-  echo 'if check: agent';
+?>
+<form>
+  <button>Agent Button</button>
+</form>
+<?php
 }
 elseif ($_SESSION['user_type'] == 'user')
 {
-  echo 'if check: user';
+?>
+<form>
+  <button>User Button</button>
+</form>
+<?php
 }
 else
 {
