@@ -39,7 +39,7 @@
 
 $( window ).scroll(function() {
      if($(window).scrollTop() > 150){
-       $('#pagelogo').fadeTo('fast', 0, function(){
+       $('#pagelogo').fadeTo('fast', 0.1, function(){
          $('#pagelogo').attr("src","img/logo3.png");
        });
 
