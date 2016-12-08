@@ -10,7 +10,7 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top">
-              <div id="logodiv"><img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/></a></div>
+              <img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,15 +54,11 @@
 $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 100) {
-            $('#pagelogo').fadeOut('slow');
+            $('#pagelogo').fadeOut('fast');
             $('#pagelogo')
                 .attr('src','img/logo3.png');
         }
-        if($(this).scrollTop() < 100) {
-            $('#pagelogo').fadeIn('fast');
-            $('#pagelogo')
-                .attr('src','img/logo2.png');
-        }
+      
     });
 });
 
