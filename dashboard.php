@@ -39,11 +39,11 @@ Hello <?php echo $userRow['username']; ?>
 // Agent dashboard is generated here
 if ($_SESSION['user_type'] == 'agent')
 {
-
+  echo 'if check: agent';
 }
 elseif ($_SESSION['user_type'] == 'user')
 {
-
+  echo 'if check: user';
 }
 else
 {
