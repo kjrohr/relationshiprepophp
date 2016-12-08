@@ -45,6 +45,14 @@ $results = mysql_query($query);
 
 ?>
 <table>
+  <tr>
+    <td>Case ID</td>
+    <td>User ID</td>
+    <td>Agent ID</td>
+    <td>Content</td>
+    <td>Accepted</td>
+    <td>Completed</td>
+  </tr>
 <?php
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
