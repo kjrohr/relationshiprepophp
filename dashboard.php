@@ -58,6 +58,10 @@ while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
         echo '<td>' . htmlspecialchars($field) . '</td>';
+        if (!$field['userId'])
+        {
+          echo '<button>Hi</button>';
+        }
     }
     echo '</tr>';
 }
