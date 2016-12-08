@@ -354,7 +354,8 @@ footer p {
 footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li a:hover {
 	text-decoration: none
 }
-.bg-primary {
+
+#download {
 	background: url('img/inwater.jpg');
 }
 .text-primary {

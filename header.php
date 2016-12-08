@@ -10,5 +10,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="new-age.min.js"></script>
-<link href="new-age.min.css" rel="stylesheet">
+<link href="new-age.css" rel="stylesheet">
 <link rel="stylesheet" href="styles.css" type="text/css" />
