@@ -61,7 +61,7 @@ while ($row = mysql_fetch_array($results)) {
         if ($field['userId'] == '')
         {
           // This is going to be a claim button for the agent
-          echo '<td><form method="post"><button class="claim" name="claim">Claim?</button></form></td>';
+          echo '<td><button class="claim" name="claim">Claim?</button></td>';
         }
         else {
           echo '<td>' . htmlspecialchars($field) . '</td>';
