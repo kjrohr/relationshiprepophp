@@ -54,12 +54,12 @@
 $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 100) {
-            $('#logodiv').fadeOut('slow');
+            $('#pagelogo').fadeOut('slow');
             $('#pagelogo')
                 .attr('src','img/logo3.png');
         }
         if($(this).scrollTop() < 100) {
-            $('#logodiv').fadeIn('fast');
+            $('#pagelogo').fadeIn('fast');
             $('#pagelogo')
                 .attr('src','img/logo2.png');
         }
