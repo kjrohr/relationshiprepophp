@@ -20,8 +20,7 @@
              } else{
                  $('#pagelogo').attr("src","img/logo2.png");
              }
-
-        })};
+        }); }
 
         </script>
 
