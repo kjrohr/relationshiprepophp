@@ -38,11 +38,14 @@
 // jQuery for Logo swap
 
 $( window ).scroll(function() {
-     if($(window).scrollTop() < 150){
-       $('#pagelogo').attr("src","img/logo2.png");
-     } else {
-       $('#pagelogo').fadeOut("fast").attr("src","img/logo3.png").fadeIn('fast').stop(true);
-     }
+     if($(window).scrollTop() > 100){
+       $('#pagelogo').hide("fast", function(){
+         $('#pagelogo').attr("src","img/logo3.png").fadeIn('fast');
+       });
+       //$('#pagelogo').attr("src","img/logo2.png");
+     } //else {
+       //$('#pagelogo').fadeOut("fast").attr("src","img/logo3.png").fadeIn('fast').stop(true);
+     //}
 
 });
 
