@@ -43,6 +43,9 @@ if ($_SESSION['user_type'] == 'agent')
 $query="SELECT * FROM cases";
 $results = mysql_query($query);
 
+?>
+<table>
+<?php
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
@@ -51,6 +54,7 @@ while ($row = mysql_fetch_array($results)) {
     echo '</tr>';
 }
 ?>
+</table>
 <!-- Agent dashboard contents -->
 
 <?php
