@@ -356,7 +356,7 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
 }
 
 #download {
-  background: url('img/dress.JPG') no-repeat center center fixed;
+  background: url('img/dress.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 .text-primary {
