@@ -298,7 +298,7 @@ section.cta .cta-content h2 {
 section.cta .overlay {
 	height: 100%;
 	width: 100%;
-  background: url('img/inwater.jpg') no-repeat center center fixed;
+  background: url('img/couple.jpg') no-repeat center center fixed;
 	position: absolute;
 	top: 0;
 	left: 0
@@ -353,10 +353,10 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
 	text-decoration: none
 }
 
-#download {
-  background: url('img/lights.JPG') no-repeat center center fixed;
-  background-size: cover;
+#download, #contact {
+  background: #553331;
 }
+
 .text-primary {
 	color: #553331
 }
