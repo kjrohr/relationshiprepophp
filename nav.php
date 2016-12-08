@@ -40,12 +40,12 @@
 // jQuery for Logo swap
 
 $( window ).scroll(function() {
-     if($(this).scrollTop() > 100){
+     if($(this).scrollTop() > 10){
        $('#pagelogo').fadeOut("fast", function(){
         $('#pagelogo').attr("src","img/logo3.png").fadeIn('fast');
       });
      }
-       $('#pagelogo').attr("src","img/logo2.png");
+      //  $('#pagelogo').attr("src","img/logo2.png");
     //   else {
     //    $('#pagelogo').fadeOut("fast").attr("src","img/logo3.png").fadeIn('fast').stop(true);
     //  }
