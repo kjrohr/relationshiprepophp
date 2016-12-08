@@ -55,6 +55,9 @@
 
 
 $(function(){
+  $('#tinylogo')
+    .hide()
+    .fadeIn(600);
     $(window).scroll(function(){
         if($(this).scrollTop() > 120) {
             $('#pagelogo')
@@ -62,8 +65,8 @@ $(function(){
                 opacity: 0.1,
                 height: 0
               }, 200);
-            $('#tinylogo')
-              .fadeIn(600);
+              // $('#tinylogo')
+              //   .fadeIn(600);
         }
     });
 });
