@@ -3,22 +3,22 @@
 ?>
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container" style="margin-left: 25px;">
+    <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top"><img src="#" id="pagelogo" alt="Relationship Repo"/></a>
+            <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top"><img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/></a>
         </div>
 
         <script> <!-- jQuery script to resize the nav logo -->
 
         $( window ).scroll(function() {
              if($(window).scrollTop() > 150){
-               $('#pagelogo').attr("src","img/logo3.png").css({"margin":"0 0 0 60px"});
+               $('#pagelogo').attr("src","img/logo3.png");
              } else{
-                 $('#pagelogo').attr("src","img/logo2.png").css({"margin-top":"15px"});
+                 $('#pagelogo').attr("src","img/logo2.png");
              }
 
         });
