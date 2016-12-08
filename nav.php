@@ -60,8 +60,7 @@ $(function(){
               .animate({
                 opacity: 0.1,
                 height: 0
-              }, 200);
-            $('#pagelogo')
+              }, 200)
               .attr(
                 "src", "img/logo3.png"
               )
