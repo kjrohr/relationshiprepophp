@@ -11,10 +11,12 @@
  $res=mysql_query("SELECT * FROM users WHERE user_id=".$_SESSION['user']);
  $userRow=mysql_fetch_array($res);
  echo $_SESSION['user'];
+ $_SESSION['user_type'] = 'user';
  if (!$userRow['username']) {
    $res=mysql_query("SELECT * FROM agents WHERE userId=".$_SESSION['user']);
    $userRow=mysql_fetch_array($res);
    $userRow['username'] = $userRow['user_name'];
+   $_SESSION['user_type'] = 'agent';
 
  }
 ?>
@@ -32,8 +34,29 @@ Hello <?php echo $userRow['username']; ?>
 <a href="delete_user.php?delete"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Delete</a>
 <a href="update_user.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Update</a>
 
+<!-- Case logic -->
+<?php
+// Agent dashboard is generated here
+if ($_SESSION['user_type'] == 'agent')
+{
+  echo 'if check: agent';
+}
+elseif ($_SESSION['user_type'] == 'user')
+{
+  echo 'if check: user';
+}
+else
+{
+  // Catch all
+}
+?>
+
     <script src="assets/jquery-1.11.3-jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
+
+
+
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
