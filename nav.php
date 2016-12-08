@@ -10,7 +10,6 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top">
-              <img src="img/logo3.png" id="tinylogo" alt="Relationship Repo"/>
               <img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/>
               </a>
         </div>
