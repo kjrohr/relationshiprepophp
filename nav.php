@@ -43,6 +43,7 @@ $( window ).scroll(function() {
      } else {
        $('#pagelogo').fadeOut("fast");
        $('#pagelogo').attr("src","img/logo3.png").fadeIn("fast");
+       break;
      }
 
 });
