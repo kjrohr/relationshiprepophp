@@ -47,7 +47,7 @@ if(isset($_POST['btn-save']))
                               <h1 style="margin-bottom:0; font-size: 57px;">Sometimes, Things Just Don't Work Out</h1>
                               <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">Relationship Repo is here for you - through the good times, and the bad.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
-              
+
 
 
 
@@ -112,7 +112,7 @@ if(isset($_POST['btn-save']))
                               <div class="device">
                                   <div class="screen">
                                       <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                      <img src="img/demo-screen-1.jpg" class="img-responsive" alt=""> </div>
+                                      <img src="img/logo.png" class="img-responsive" alt=""> </div>
                                   <div class="button">
                                       <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                                   </div>
