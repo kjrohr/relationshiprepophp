@@ -19,12 +19,19 @@
    $userRow['username'] = $userRow['user_name'];
    $_SESSION['user_type'] = 'agent';
  }
+
+
  if (isset($_POST['case_id']))
  {
  echo 'case id: ';
  echo $_POST['case_id'];
  echo '|||||||||';
+
+ $sql_query="INSERT INTO cases (userId) VALUES('$_POST['user']')";
+ mysql_query($sql_query);
   }
+
+
 ?>
 <!DOCTYPE html>
 <html>
