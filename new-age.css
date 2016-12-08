@@ -130,10 +130,8 @@ header {
 	position: relative;
 	width: 100%;
 	min-height: auto;
-	overflow-y: hidden;
-	background: url(../img/bg-pattern.png), #7b4397;
-	background: url(../img/bg-pattern.png), -webkit-linear-gradient(to left, #a26f6e, #415c6f);
-	background: url(../img/bg-pattern.png), linear-gradient(to left, #a26f6e, #415c6f);
+  background: url('img/photograph.JPG') no-repeat center center fixed;
+  background-size: cover;
 	color: #fff
 }
 header .header-content {
@@ -300,7 +298,7 @@ section.cta .cta-content h2 {
 section.cta .overlay {
 	height: 100%;
 	width: 100%;
-  background: url('img/photograph.JPG') no-repeat center center fixed;
+  background: url('img/inwater.jpg') no-repeat center center fixed;
 	position: absolute;
 	top: 0;
 	left: 0
@@ -356,7 +354,7 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
 }
 
 #download {
-  background: url('img/dress.jpg') no-repeat center center fixed;
+  background: url('img/lights.JPG') no-repeat center center fixed;
   background-size: cover;
 }
 .text-primary {
