@@ -27,7 +27,7 @@
  echo $_POST['case_id'];
  echo '|||||||||';
 
- $sql_query = "INSERT INTO cases(userId) VALUES('$_POST['user']')";
+ $sql_query = "INSERT INTO cases(userId) VALUES('$_POST['user']') WHERE case_id='.$_POST['case_id']'";
  mysql_query($sql_query);
   }
 
