@@ -43,7 +43,13 @@ if ($_SESSION['user_type'] == 'agent')
 $query="SELECT * FROM cases";
 $results = mysql_query($query);
 
-
+while ($row = mysql_fetch_array($results)) {
+    echo '<tr>';
+    foreach(array_unique($row) as $field) {
+        echo '<td>' . htmlspecialchars($field) . '</td>';
+    }
+    echo '</tr>';
+}
 ?>
 <!-- Agent dashboard contents -->
 
