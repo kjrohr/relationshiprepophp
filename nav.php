@@ -38,10 +38,10 @@
 // jQuery for Logo swap
 
 $( window ).scroll(function() {
+  $('#pagelogo').hide();
      if($(window).scrollTop() > 150){
-       $('#pagelogo').hide();
        $('#pagelogo').attr("src","img/logo3.png").fadeIn("fast");
-     } else if ($(window).scrollTop() <= 150){
+     } else {
          $('#pagelogo').attr("src","img/logo2.png");
      }
 
