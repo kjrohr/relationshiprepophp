@@ -148,9 +148,9 @@ if(isset($_POST['btn-save']))
       <section class="cta">
           <div class="cta-content">
               <div class="container">
-                    <h2>Want to work for Relationship Repo?</h2>
-                    <p>Apply as an Agent with us today!</p>
-                  <a href="/agent_registration.php" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
+                <h1 style="margin-bottom:0; font-size: 57px;">Want to work for Relationship Repo?</h1>
+                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">Relationship Repo is always actively seeking new agents.</h2>
+                  <a href="/agent_registration.php" class="btn btn-outline btn-xl page-scroll">Apply Today!</a>
               </div>
           </div>
           <div class="overlay"></div>
