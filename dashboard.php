@@ -58,8 +58,15 @@ $results = mysql_query($query);
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
-        echo '<td>' . htmlspecialchars($field) . '</td>';
-        
+
+        // Possible iterator solution
+        if ($field['userId'] == '')
+        {
+          echo '<td><button>Hi</button></td>';
+        }
+        else {
+          echo '<td>' . htmlspecialchars($field) . '</td>';
+        }
     }
     echo '</tr>';
 }
