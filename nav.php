@@ -45,7 +45,7 @@ $( window ).scroll(function() {
       $('#pagelogo').fadeOut("fast", function(){
         $('#pagelogo').attr("src","img/logo3.png").fadeIn('fast');
       });
-    } else {
+    } else if ($(this).scrollTop == 0 && logoChanged) {
       logoChanged=false;
       $('#pagelogo').fadeOut("fast", function(){
         $('#pagelogo').attr("src","img/logo2.png").fadeIn('fast');
