@@ -3,6 +3,11 @@
   src: url(BLANCH_CAPS.otf);
 }
 
+#mainNav:focus, #mainNav:hover {
+  color: #A26F6E;
+  font-weight: bolder;
+}
+
 .heading-font {
 	font-family: Blanch, Helvetica, Arial, sans-serif;
 	font-weight: 200;
@@ -37,7 +42,7 @@ a {
 	color: #553331
 }
 a:focus, a:hover {
-	color: #fcbd20
+	color: #A26F6E
 }
 hr {
 	max-width: 100px;
