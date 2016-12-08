@@ -60,13 +60,6 @@ $(function(){
               .animate({
                 opacity: 0.1,
                 height: 1
-              }, 200)
-              .attr(
-                "src", "img/logo3.png"
-              )
-              .animate({
-                opacity: 1,
-                height: 100%
               }, 200);
             // $('#tinylogo')
             //   .css({'display':'block'})
