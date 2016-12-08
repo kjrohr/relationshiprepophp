@@ -62,6 +62,9 @@ $(function(){
                 height: 0
               }, 200);
             $('#pagelogo')
+              .attr(
+                "src", "img/logo3.png"
+              )
               .animate({
                 opacity: 1,
                 height: 100%
