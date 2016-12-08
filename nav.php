@@ -16,8 +16,11 @@
 
         $( window ).scroll(function() {
              if($(window).scrollTop() > 200){
-               $('#pagelogo').css({'height': '50'});
+               $('#pagelogo').css({'display':'none'});
+             }else{
+                 $('#pagelogo').css({'display':'block'});
              }
+
         });
 
         </script>

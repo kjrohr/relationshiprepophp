@@ -99,7 +99,7 @@ p {
 }
 @media (min-width:768px) {
 	.navbar-default {
-		background-color: rgba(0,0,0,.5);
+		background-color: rgba(0,0,0,.7);
 		border-color: transparent
 	}
 	.navbar-default .navbar-header .navbar-brand {
