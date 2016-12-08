@@ -48,7 +48,7 @@ $( window ).scroll(function() {
     } else {
       logoChanged=false;
       $('#pagelogo').fadeOut("fast", function(){
-        $('#pagelogo').attr("src","img/logo3.png").fadeIn('fast');
+        $('#pagelogo').attr("src","img/logo2.png").fadeIn('fast');
       });
     }
       //  $('#pagelogo').attr("src","img/logo2.png");
