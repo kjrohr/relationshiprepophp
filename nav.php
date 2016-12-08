@@ -10,8 +10,9 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top">
+              <img src="img/logo3.png" id="tinylogo" style="display:none;" alt="Relationship Repo"/>
               <img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/>
-              <img src="img/logo3.png" id="tinylogo" alt="Relationship Repo"/></a>
+              </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -52,13 +53,13 @@
 
 //});
 
-$('#tinylogo').hide();
-
 $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 120) {
-            $('#pagelogo').fadeOut(100);
-            $('#tinylogo').fadeIn(100);
+            $('#pagelogo').fadeOut("fast");
+            $('#tinylogo')
+            .css({'display':'block'})
+            .fadeIn("fast");
         }
     });
 });
