@@ -40,33 +40,17 @@
 <script>
 // jQuery for Logo swap
 
-//$( window ).scroll(function() {
-     //if($(this).scrollTop() > 100){
-       //$('#pagelogo').fadeOut("fast", function(){
-        // $('#pagelogo').attr("src","img/logo3.png").fadeIn('fast');
-      // });
-     //}
-       //$('#pagelogo').attr("src","img/logo2.png");
-      //else {
-       //$('#pagelogo').fadeOut("fast").attr("src","img/logo3.png").fadeIn('fast').stop(true);
-     //}
+$( window ).scroll(function() {
+     if($(this).scrollTop() > 100){
+       $('#pagelogo').fadeOut("fast", function(){
+        $('#pagelogo').attr("src","img/logo3.png").fadeIn('fast');
+      });
+     }
+       $('#pagelogo').attr("src","img/logo2.png");
+    //   else {
+    //    $('#pagelogo').fadeOut("fast").attr("src","img/logo3.png").fadeIn('fast').stop(true);
+    //  }
 
-//});
-
-$('#tinylogo').hide();
-
-$(function(){
-    $(window).scroll(function(){
-        if($(this).scrollTop() >= 10) {
-            $('#pagelogo')
-              .animate({
-                opacity: 0.1,
-                height: 0
-              }, 200);
-              $('#tinylogo')
-                .fadeIn(600);
-        }
-    });
 });
 
 </script>
