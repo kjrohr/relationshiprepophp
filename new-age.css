@@ -274,13 +274,8 @@ section.features .feature-item i {
 	-webkit-text-fill-color: transparent
 }
 section.cta {
-	position: relative;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
+  background-image: url(img/photograph.jpg) no-repeat center center fixed;
 	background-size: cover;
-	-o-background-size: cover;
-	background-position: center;
-	background-image: url(img/photograph.jpg);
 	padding: 250px 0
 }
 section.cta .cta-content {
