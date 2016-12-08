@@ -9,7 +9,10 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top"><img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/></a>
+            <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top">
+              <img src="img/logo3.png" id="tinylogo" style="display:none;" alt="Relationship Repo"/>
+              <img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/>
+              </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,16 +40,32 @@
 <script>
 // jQuery for Logo swap
 
-$( window ).scroll(function() {
-     if($(window).scrollTop() > 100){
-       $('#pagelogo').fadeOut("fast", function(){
-         $('#pagelogo').attr("src","img/logo3.png").fadeIn('fast');
-       });
+//$( window ).scroll(function() {
+     //if($(this).scrollTop() > 100){
+       //$('#pagelogo').fadeOut("fast", function(){
+        // $('#pagelogo').attr("src","img/logo3.png").fadeIn('fast');
+      // });
+     //}
        //$('#pagelogo').attr("src","img/logo2.png");
-     } //else {
+      //else {
        //$('#pagelogo').fadeOut("fast").attr("src","img/logo3.png").fadeIn('fast').stop(true);
      //}
 
+//});
+
+$(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 120) {
+            $('#pagelogo')
+              .animate({
+                opacity: 0.1,
+                height: 0
+              }, 200);
+            $('#tinylogo')
+              .css({'display':'block'})
+              .fadeIn(400);
+        }
+    });
 });
 
 </script>
