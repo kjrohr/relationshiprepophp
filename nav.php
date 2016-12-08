@@ -9,7 +9,7 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top"><img src="img/logo2.png" style="margin-top:15px" id="pagelogo" alt="Relationship Repo"/></a>
+            <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top"><img src="#" id="pagelogo" alt="Relationship Repo"/></a>
         </div>
 
         <script> <!-- jQuery script to resize the nav logo -->
