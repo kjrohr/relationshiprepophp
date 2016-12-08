@@ -54,7 +54,11 @@
 $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 100) {
-            $('#pagelogo').fadeOut('fast');
+            $('#pagelogo').fadeOut(100);
+        } else {
+          $('#pagelogo')
+              .fadeIn(100);
+              .attr('src','img/logo3.png');
         }
 
     });
