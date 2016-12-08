@@ -35,23 +35,24 @@ Hello <?php echo $userRow['username']; ?>
 <a href="update_user.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Update</a>
 
 <!-- Case logic -->
-<!-- Content will have to be added with PHP -->
+
 <?php
 // Agent dashboard is generated here
 if ($_SESSION['user_type'] == 'agent')
 {
+  $resCase=mysql_query("SELECT * FROM cases");
+  $caseRow=mysql_fetch_array($resCase);
+  echo $caseRow['content'];
 ?>
-<form>
-  <button>Agent Button</button>
-</form>
+<!-- Agent dashboard contents -->
+
 <?php
 }
 elseif ($_SESSION['user_type'] == 'user')
 {
 ?>
-<form>
-  <button>User Button</button>
-</form>
+<!-- User dashboard contents -->
+
 <?php
 }
 else
