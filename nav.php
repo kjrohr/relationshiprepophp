@@ -57,10 +57,13 @@ $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 120) {
             $('#pagelogo')
-              .hide();
-            $('#tinylogo')
-              .css({'display':'block'})
-              .fadeIn(800);
+              .animate({
+                opacity: 0.1,
+                height: "toggle"
+              });
+            // $('#tinylogo')
+            //   .css({'display':'block'})
+            //   .fadeIn(800);
         }
     });
 });
