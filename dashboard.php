@@ -27,8 +27,8 @@
  // echo $_POST['case_id'];
  // echo '|||||||||';
 
- $sql_query = "UPDATE cases SET userId='$_POST['user']' WHERE case_id='$_POST['case_id']'";
- mysql_query($sql_query);
+ // $sql_query = "UPDATE cases SET userId='$_POST['user']' WHERE case_id='$_POST['case_id']'";
+ // mysql_query($sql_query);
   }
 
 
