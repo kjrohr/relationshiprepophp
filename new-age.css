@@ -3,7 +3,7 @@
   src: url(BLANCH_CAPS.otf);
 }
 
-#mainNav:focus, #mainNav:hover {
+#mainNav a:focus, #mainNav a:hover {
   color: #A26F6E;
   font-weight: bolder;
 }
