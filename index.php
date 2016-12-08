@@ -47,7 +47,7 @@ if(isset($_POST['btn-save']))
                               <h1 style="margin-bottom:0; font-size: 57px;">Sometimes, Things Just Don't Work Out</h1>
                               <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">Relationship Repo is here for you - through the good times, and the bad.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
-                              <a href="/login.php" class="btn btn-outline btn-xl page-scroll">Account Login</a>
+                              <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
 
 
