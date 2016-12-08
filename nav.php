@@ -59,8 +59,8 @@ $(function(){
             $('#pagelogo')
               .animate({
                 opacity: 0.1,
-                height: "toggle"
-              });
+                height: 0
+              }, 200);
             // $('#tinylogo')
             //   .css({'display':'block'})
             //   .fadeIn(800);
