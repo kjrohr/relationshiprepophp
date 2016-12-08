@@ -23,11 +23,11 @@
 
  if (isset($_POST['case_id']))
  {
- echo 'case id: ';
- echo $_POST['case_id'];
- echo '|||||||||';
+ // echo 'case id: ';
+ // echo $_POST['case_id'];
+ // echo '|||||||||';
 
- $sql_query = "INSERT INTO cases(userId) VALUES('$_POST['user']') WHERE case_id='.$_POST['case_id']'";
+ $sql_query = "UPDATE cases SET userId='$_POST['user']' WHERE case_id='$_POST['case_id']'";
  mysql_query($sql_query);
   }
 
