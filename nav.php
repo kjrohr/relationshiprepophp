@@ -56,10 +56,10 @@
 $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 120) {
-            $('#pagelogo').fadeOut(100);
+            $('#pagelogo').fadeOut("fast");
             $('#tinylogo')
             .css({'display':'block'})
-            .fadeIn();
+            .fadeIn("slow");
         }
     });
 });
