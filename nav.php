@@ -13,7 +13,7 @@
         </div>
 
         <script> <!-- jQuery script to resize the nav logo -->
-
+        $(document).ready(function){
         $( window ).scroll(function() {
              if($(window).scrollTop() > 150){
                $('#pagelogo').attr("src","img/logo3.png");
@@ -21,7 +21,7 @@
                  $('#pagelogo').attr("src","img/logo2.png");
              }
 
-        });
+        })};
 
         </script>
 
