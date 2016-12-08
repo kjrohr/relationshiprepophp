@@ -61,9 +61,9 @@ $(function(){
                 opacity: 0.1,
                 height: 0
               }, 200);
-            // $('#tinylogo')
-            //   .css({'display':'block'})
-            //   .fadeIn(800);
+            $('#tinylogo')
+              .css({'display':'block'})
+              .fadeIn(400);
         }
     });
 });
