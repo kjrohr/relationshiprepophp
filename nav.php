@@ -12,19 +12,6 @@
             <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top"><img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/></a>
         </div>
 
-        <script> <!-- jQuery script to resize the nav logo -->
-
-        $( window ).scroll(function() {
-             if($(window).scrollTop() > 150){
-               $('#pagelogo').attr("src","img/logo3.png");
-             } else{
-                 $('#pagelogo').attr("src","img/logo2.png");
-             }
-
-        });
-
-        </script>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -46,3 +33,17 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+
+<script>
+// jQuery for Logo swap
+
+$( window ).scroll(function() {
+     if($(window).scrollTop() > 150){
+       $('#pagelogo').attr("src","img/logo3.png");
+     } else{
+         $('#pagelogo').attr("src","img/logo2.png");
+     }
+
+});
+
+</script>
