@@ -355,7 +355,7 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
 	text-decoration: none
 }
 .bg-primary {
-	background: #553331;
+	background: url('img/inwater.jpg');
 	background: -webkit-linear-gradient(#553331, #423331);
 	background: linear-gradient(#553331, #423331)
 }
