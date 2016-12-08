@@ -149,7 +149,7 @@ if(isset($_POST['btn-save']))
           <div class="cta-content">
               <div class="container">
                 <h1 style="margin-bottom:0; font-size: 57px;">Want to work for Relationship Repo?</h1>
-                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #222;">Relationship Repo is actively seeking new agents.</h2>
+                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #222;">We are always looking for new agents!</h2>
                   <a href="/agent_registration.php" class="btn btn-outline btn-xl page-scroll">Apply Today!</a>
               </div>
           </div>
