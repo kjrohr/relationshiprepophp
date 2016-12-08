@@ -61,9 +61,14 @@ $(function(){
                 opacity: 0.1,
                 height: 0
               }, 200);
-            $('#tinylogo')
-              .css({'display':'block'})
-              .fadeIn(400);
+            $('#pagelogo')
+              .animate({
+                opacity: 1,
+                height: 100%
+              }, 200);
+            // $('#tinylogo')
+            //   .css({'display':'block'})
+            //   .fadeIn(400);
         }
     });
 });
