@@ -42,7 +42,10 @@ if ($_SESSION['user_type'] == 'agent')
 {
   $resCase=mysql_query("SELECT * FROM cases");
   $caseRow=mysql_fetch_array($resCase);
-  echo $caseRow['content'];
+  foreach ($caseRow as $case)
+  {
+    echo $case['content'];
+  }
 ?>
 <!-- Agent dashboard contents -->
 
