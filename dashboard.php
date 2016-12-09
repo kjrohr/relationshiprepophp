@@ -76,7 +76,6 @@ while ($row = mysql_fetch_array($results)) {
     $count = 0;
     foreach(array_unique($row) as $field) {
           $count = $count + 1;
-          echo 'Count: ' . $count . '<br />';
           if (!empty($field)) {
             echo '<td>' . htmlspecialchars($field) . '</td>';
           }
@@ -87,6 +86,7 @@ while ($row = mysql_fetch_array($results)) {
             // Catch all
           }
     }
+    echo '<td>halp</td>';
     echo '</tr>';
 }
 ?>
