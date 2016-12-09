@@ -186,6 +186,7 @@ elseif ($_SESSION['user_type'] == 'user')
     <?php
     while ($row = mysql_fetch_array($results)) {
         echo '<tr>';
+        var_dump($row);
         $case_owner = $row['user_id'];
         $count = 0;
         foreach(array_unique($row) as $field) {
@@ -203,6 +204,9 @@ elseif ($_SESSION['user_type'] == 'user')
         // If a case isn't claimed it can't be complete
         echo '<td><button class="complete" name="complete">Complete?</button></td>';
         echo '</tr>';
+        ?>
+
+        <?php
     }
   }
 
