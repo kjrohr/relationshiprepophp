@@ -213,7 +213,7 @@ elseif ($_SESSION['user_type'] == 'user')
         echo 'Last Name: ' . $agentRow['last_name'] . '<br />';
         echo 'Age: ' . $agentRow['age'] . '<br />';
         echo 'Email: ' . $agentRow['email'] . '<br />';
-        echo 'Employer: ' . $agentRow['employer '] . '<br />';
+        echo 'Employer: ' . $agentRow['employer'] . '<br />';
         echo 'Company: ' . $agentRow['company'] . '<br />';
         echo 'Company Address: ' . $agentRow['company_address'] . '<br />';
 
