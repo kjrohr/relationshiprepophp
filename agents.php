@@ -17,10 +17,11 @@ include 'nav.php';
                   <div class="col-sm-7">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin:35% 0 0; font-size: 57px;">So You Want To Become An Agent With Us?</h1>
-                              <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">There's a lot to learn before becoming an official agent.<br />
-                              Please be sure to read this page very carefully.</h2>
-                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" style="margin-left:15%">Apply Today</a>
+                              <h1 style="margin:25% 0 0; font-size: 57px;">So You Want To Become An Agent With Us?</h1>
+                              <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">Have you ever wanted to work for yourself but didn't know where to start?<br />
+                              Relationship Repo may just have the perfect job for you.</h2>
+                              <h3>Please be sure to read this entire page very carefully prior to filling out an application.</h3>
+                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
 
