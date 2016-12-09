@@ -3,7 +3,6 @@
 include 'header.php';
 include 'nav.php';
 
-<<<<<<< HEAD
 if (isset($_POST['apply-btn'])) {
   // Generate and Send Email
   $first_name = $_POST['first_name'];
@@ -136,11 +135,7 @@ if (isset($_POST['apply-btn'])) {
       <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
               <div class="modal-dialog">
               <div class="loginmodal-container">
-<<<<<<< HEAD
                 <form method="post">
-=======
-                <form action="" method="post">
->>>>>>> f6d35ef2fd667f4083b0239eb06632e597ae2d27
                   <div class="container" style="max-width:530px; margin: 0 auto;">
                               <form class="form-horizontal" role="form">
                                   <h2 style="color:white; margin-left: 10%;">Relationship Repo "Agent" Application</h2>
@@ -187,11 +182,7 @@ if (isset($_POST['apply-btn'])) {
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
-<<<<<<< HEAD
                                           <button type="submit" name="apply-btn" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
-=======
-                                          <button type="submit" name="submit" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
->>>>>>> f6d35ef2fd667f4083b0239eb06632e597ae2d27
                                           <a href="/login.php" class="btn btn-block btn-outline">Already Registered?</a>
                                       </div>
                                   </div>
