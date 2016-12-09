@@ -58,8 +58,7 @@ if ($_SESSION['user_type'] == 'agent')
 $query="SELECT * FROM cases WHERE userId=".$_SESSION['user'];
 $results = mysql_query($query);
 $test = mysql_fetch_array($results);
-var_dump($test);
-if (is_array($results)) {
+if (!is_array($test)) {
   // Need to display cases that aren't claimed
   $query="SELECT * FROM cases WHERE userId IS NULL";
   $results = mysql_query($query);
