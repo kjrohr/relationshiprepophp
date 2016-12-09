@@ -75,16 +75,16 @@ while ($row = mysql_fetch_array($results)) {
     foreach(array_unique($row) as $field) {
 
 
-          if (!empty($field)) {
-            echo '<td>' . htmlspecialchars($field) . '</td>';
-          }
-          elseif (empty($field) && empty($field['userId'])) {
-            echo '<td><button class="claim" name="claim">Claim?</button></td>';
-          }
-          elseif ()
-          else {
-
-          }
+          // if (!empty($field)) {
+          //   echo '<td>' . htmlspecialchars($field) . '</td>';
+          // }
+          // elseif (empty($field) && empty($field['userId'])) {
+          //   echo '<td><button class="claim" name="claim">Claim?</button></td>';
+          // }
+          // elseif ()
+          // else {
+          //
+          // }
 
         // The if logic below works sort of
         // if (is_null($field['userId']))
