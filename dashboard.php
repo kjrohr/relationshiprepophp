@@ -66,7 +66,7 @@ if ($test == 0) {
   // Need to display cases that aren't claimed
   $query="SELECT * FROM cases WHERE userId IS NULL AND completed IS NULL";
   $results = mysql_query($query);
-}
+
 ?>
 <table>
   <tr>
@@ -106,6 +106,7 @@ while ($row = mysql_fetch_array($results)) {
 <!-- Agent dashboard contents -->
 
 <?php
+} // END of if test == 0
 }
 elseif ($_SESSION['user_type'] == 'user')
 {
