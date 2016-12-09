@@ -55,7 +55,7 @@ if ($_SESSION['user_type'] == 'agent')
 {
 $query="SELECT * FROM cases";
 $results = mysql_query($query);
-
+header("Location: dashboard.php");
 ?>
 <table>
   <tr>
@@ -70,15 +70,19 @@ $results = mysql_query($query);
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
-          if (!empty($field)) {
-            echo '<td>' . htmlspecialchars($field) . '</td>';
-          }
-          elseif (empty($field) && empty($field['userId'])) {
-            echo '<td><button class="claim" name="claim">Claim?</button></td>';
-          }
-          else {
-            
-          }
+        echo $field[case_id];
+
+
+          // if (!empty($field)) {
+          //   echo '<td>' . htmlspecialchars($field) . '</td>';
+          // }
+          // elseif (empty($field) && empty($field['userId'])) {
+          //   echo '<td><button class="claim" name="claim">Claim?</button></td>';
+          // }
+          // elseif ()
+          // else {
+          //
+          // }
 
 
         // if (is_null($field['userId']))
