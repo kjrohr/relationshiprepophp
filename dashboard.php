@@ -220,6 +220,7 @@ elseif ($_SESSION['user_type'] == 'user')
         $agent=mysql_query("SELECT * FROM agents WHERE userId=".$active_agent);
         $agentRow=mysql_fetch_array($agent);
         // Format this better later
+        if (!empty($active_agent)){
         echo '<br />First Name: ' . $agentRow['first_name'] . '<br />';
         echo 'Last Name: ' . $agentRow['last_name'] . '<br />';
         echo 'Age: ' . $agentRow['age'] . '<br />';
@@ -227,7 +228,7 @@ elseif ($_SESSION['user_type'] == 'user')
         echo 'Employer: ' . $agentRow['employer'] . '<br />';
         echo 'Company: ' . $agentRow['company'] . '<br />';
         echo 'Company Address: ' . $agentRow['company_address'] . '<br />';
-
+      }
     }
   }
 
