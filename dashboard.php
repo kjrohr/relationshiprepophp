@@ -73,7 +73,7 @@ $results = mysql_query($query);
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
-          echo $field;
+
 
           // if (!empty($field)) {
           //   echo '<td>' . htmlspecialchars($field) . '</td>';
@@ -87,14 +87,14 @@ while ($row = mysql_fetch_array($results)) {
           // }
 
         // The if logic below works sort of
-        // if (is_null($field['userId']))
-        // {
-        //   // This is going to be a claim button for the agent
-        //   echo '<td><button class="claim" name="claim">Claim?</button></td>';
-        // }
-        // else {
-        //   echo '<td>' . htmlspecialchars($field) . '</td>';
-        // }
+        if (is_null($field['userId']))
+        {
+          // This is going to be a claim button for the agent
+          echo '<td><button class="claim" name="claim">Claim?</button></td>';
+        }
+        else {
+          echo '<td>' . htmlspecialchars($field) . '</td>';
+        }
     }
     echo '</tr>';
 }
