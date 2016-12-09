@@ -22,9 +22,6 @@
 
 
  if (isset($_POST['case_id'])) {
- // echo 'case id: ';
- // echo $_POST['case_id'];
- // echo '|||||||||';
  $userId = $_SESSION['user'];
  $case_id = $_POST['case_id'];
  $sql_query = "UPDATE cases SET userId='$userId' WHERE case_id='$case_id'";
@@ -78,8 +75,8 @@ while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     $count = 0;
     foreach(array_unique($row) as $field) {
-          var_dump($field);
           $count = $count + 1;
+          echo 'Count: ' . $count . '<br />';
           if (!empty($field)) {
             echo '<td>' . htmlspecialchars($field) . '</td>';
           }
