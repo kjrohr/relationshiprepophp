@@ -17,9 +17,8 @@ include 'nav.php';
                   <div class="col-sm-7">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin:25% 0 0; font-size: 57px;">Determine your own workload, determine your own income</h1>
+                              <h1 style="margin:25% 0 0; font-size: 57px;">So you're considering applying to be an Agent?</h1>
                               <h2 style="margin:0; font-size:30px;">
-                              Want to work for yourself but didn't know where to start?<br />
                               Relationship Repo may just have the perfect job for you.</h2>
                               <h3 style="margin: 0 0 30px 0; color: #A26F6E;">* Please be sure to read this entire page very carefully prior to filling out an application.</h3>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
@@ -38,10 +37,14 @@ include 'nav.php';
           <div class="container">
               <div class="row">
                   <div class="col-md-8 col-md-offset-2">
-                      <h2 class="section-heading">So you want to register as an Agent with us?</h2>
+                      <h2 class="section-heading" style="font-size: 52px">Design your own workload,</h2>
+                      <h2 class="section-heading" style="font-size: 52px">Design your own pay rate,</h2>
+                      <h2 class="section-heading" style="font-size: 52px">Design your own career.</h2>
+                      <h3>Have you always wanted to be your own boss, but didn't know where to start?</h3>
                       <h3>There are tons of perks that come along with becoming a registered Agent with Relationship Repo.</h3>
                       <h3>Set your own working rate and gain access to an unlimited amount of potential clients per month.</h3>
-                      <h3>Connect with clients on a case-by-case basis and enjoy the freedom that comes with creating your own work schedule.</h3>
+                      <h3>Connect with clients of your choosing and enjoy the freedom of creating your own work schedule.</h3>
+
 
                   </div>
               </div>
@@ -51,7 +54,7 @@ include 'nav.php';
       <section class="cta">
           <div class="cta-content">
               <div class="container">
-                <h1 style="margin-bottom:0; font-size: 57px;">Apply as a new agent today to benefit<br />from our Sign-On Discount!</h1>
+                <h1 style="margin-bottom:0; font-size: 57px;">Enjoy a discounted subscription fee as a new Agent</h1>
                 <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333;">New Agents that are approved through Relationship Repo recieve a reduced monthly subscription cost.</h2>
                 <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
               </div>
