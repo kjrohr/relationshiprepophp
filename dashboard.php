@@ -66,7 +66,7 @@ if ($test == 0) {
   // Need to display cases that aren't claimed
   $query="SELECT * FROM cases WHERE userId IS NULL AND completed IS NULL";
   $results = mysql_query($query);
-
+}
 ?>
 <table>
   <tr>
@@ -97,23 +97,6 @@ while ($row = mysql_fetch_array($results)) {
     // If a case isn't claimed it can't be complete
     echo '<td><button class="complete" name="complete">Complete?</button></td>';
     echo '</tr>';
-    ?>
-    </table>
-    <?php
-}
-}
-else {
-  ?>
-  <table>
-    <tr>
-      <td>Case ID</td>
-      <td>User ID</td>
-      <td>Agent ID</td>
-      <td>Content</td>
-      <td>Completed</td>
-    </tr>
-  <?php
-  // Display Agent's claimed case
 }
 
 // Query users table for owner of the case
