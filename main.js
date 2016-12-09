@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 
   $('.complete').on('click', function(){
-    var userId = $(this).parent().parent().children(':nth-child(3)').val();
+    var userId = $(this).parent().parent().children(':nth-child(3)').html();
     console.log(userId);
   });
 
