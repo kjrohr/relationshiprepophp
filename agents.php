@@ -3,6 +3,7 @@
 include 'header.php';
 include 'nav.php';
 
+<<<<<<< HEAD
 if (isset($_POST['apply-btn'])) {
   // Generate and Send Email
   $first_name = $_POST['first_name'];
@@ -16,6 +17,32 @@ if (isset($_POST['apply-btn'])) {
 
 
 }
+
+// if(isset($_POST['submit'])){
+//     $to = "zombiepoodles@icloud.com";
+//     $from = $_POST['email'];
+//     $first_name = $_POST['first_name'];
+//     $last_name = $_POST['last_name'];
+//     $phone = $_POST['phone'];
+//     $address = $_POST['address'];
+//     $birthday = $_POST['birthday'];
+//     $subject = "RR Agent Application Submission";
+//     $subject2 = "Your Application Has Been Received!";
+//
+//     $generic = "Please contact " . $first_name . " " . $last_name . "\n\n" . " Phone: " . $phone . "\n\n" . " Email: " . $from . "\n\n" . "Birthday: " . $birthday . "\n\n" . "Address: " . $address;
+//
+//     $message = "You've received an Agent application through the Relationship Repo website!" . "\n\n" . $generic;
+//
+//     $message2 = "Hey there " . $first_name . "," . "\n\n" . "We've received your Agent Application here at Relationship Repo and are currently in the process of reviewing your information." . "\n\n" . "Here is a copy of the information we've received from you." . $generic . "\n\n" . "Thanks so much for applying! Hopefully we'll talk to you soon.";
+//
+//     $headers = "From:" . $from;
+//     $headers2 = "From:" . $to;
+//     mail($to,$subject,$message,$headers);
+//     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+//     echo "Thanks for applying with us " . $first_name . ", someone will contact you shortly.";
+//     // You can also use header('Location: thank_you.php'); to redirect to another page.
+//     }
+
 ?>
 
 <title>Relationship Repo!</title>
@@ -109,7 +136,11 @@ if (isset($_POST['apply-btn'])) {
       <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
               <div class="modal-dialog">
               <div class="loginmodal-container">
+<<<<<<< HEAD
                 <form method="post">
+=======
+                <form action="" method="post">
+>>>>>>> f6d35ef2fd667f4083b0239eb06632e597ae2d27
                   <div class="container" style="max-width:530px; margin: 0 auto;">
                               <form class="form-horizontal" role="form">
                                   <h2 style="color:white; margin-left: 10%;">Relationship Repo "Agent" Application</h2>
@@ -148,7 +179,7 @@ if (isset($_POST['apply-btn'])) {
                                       <div class="col-sm-9">
                                           <div class="checkbox">
                                               <label>
-                                                  <input type="checkbox">
+                                                  <input type="checkbox" required>
                                                   <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="#" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
                                               </label>
                                           </div>
@@ -156,7 +187,11 @@ if (isset($_POST['apply-btn'])) {
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
+<<<<<<< HEAD
                                           <button type="submit" name="apply-btn" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
+=======
+                                          <button type="submit" name="submit" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
+>>>>>>> f6d35ef2fd667f4083b0239eb06632e597ae2d27
                                           <a href="/login.php" class="btn btn-block btn-outline">Already Registered?</a>
                                       </div>
                                   </div>
