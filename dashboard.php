@@ -146,6 +146,9 @@ else {
       // If a case isn't claimed it can't be complete
       echo '<td><button class="complete" name="complete">Complete?</button></td>';
       echo '</tr>';
+      ?>
+      </table>
+      <?php
   }
   $owner=mysql_query("SELECT * FROM users WHERE user_id=".$case_owner);
   $ownerRow=mysql_fetch_array($owner);
@@ -156,7 +159,7 @@ else {
   echo 'Email: ' . $ownerRow['email'] . '<br />';
   echo 'Address: ' . $ownerRow['address '] . '<br />';
   ?>
-</table>
+
 <?php
 }
 }
