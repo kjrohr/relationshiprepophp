@@ -54,11 +54,11 @@ Hello <?php echo $userRow['username']; ?>
 // Agent dashboard is generated here
 if ($_SESSION['user_type'] == 'agent')
 {
-$query="SELECT * FROM cases";
+
+// Need to display cases that aren't claimed
+$query="SELECT * FROM cases WHERE userId IS NULL";
 $results = mysql_query($query);
 
-// For sure breaks it
-//header("Location: dashboard.php");
 ?>
 <table>
   <tr>
