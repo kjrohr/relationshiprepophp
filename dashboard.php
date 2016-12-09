@@ -200,11 +200,12 @@ elseif ($_SESSION['user_type'] == 'user')
     while ($row = mysql_fetch_array($results)) {
         echo '<tr>';
         $active_agent = $row['userId'];
-        $count = 0;
         foreach(array_unique($row) as $field) {
-              $count = $count + 1;
               if (!empty($field)) {
                 echo '<td>' . htmlspecialchars($field) . '</td>';
+              }
+              elseif (empty($field)) {
+                echo '<td>test</td>';
               }
               else {
                 // Catch all
