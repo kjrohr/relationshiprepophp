@@ -209,13 +209,13 @@ elseif ($_SESSION['user_type'] == 'user')
         $agent=mysql_query("SELECT * FROM agents WHERE userId=".$active_agent);
         $agentRow=mysql_fetch_array($agent);
         // Format this better later
-        echo '<br />First Name: ' . $ownerRow['first_name'] . '<br />';
-        echo 'Last Name: ' . $ownerRow['last_name'] . '<br />';
-        echo 'Age: ' . $ownerRow['age'] . '<br />';
-        echo 'Email: ' . $ownerRow['email'] . '<br />';
-        echo 'Employer: ' . $ownerRow['employer '] . '<br />';
-        echo 'Company: ' . $ownerRow['company'] . '<br />';
-        echo 'Company Address: ' . $ownerRow['company_address'] . '<br />';
+        echo '<br />First Name: ' . $agentRow['first_name'] . '<br />';
+        echo 'Last Name: ' . $agentRow['last_name'] . '<br />';
+        echo 'Age: ' . $agentRow['age'] . '<br />';
+        echo 'Email: ' . $agentRow['email'] . '<br />';
+        echo 'Employer: ' . $agentRow['employer '] . '<br />';
+        echo 'Company: ' . $agentRow['company'] . '<br />';
+        echo 'Company Address: ' . $agentRow['company_address'] . '<br />';
 
     }
   }
