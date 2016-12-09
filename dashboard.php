@@ -63,10 +63,6 @@ if ($test == 0) {
   $query="SELECT * FROM cases WHERE userId IS NULL";
   $results = mysql_query($query);
 }
-
-
-
-
 ?>
 <table>
   <tr>
@@ -82,6 +78,7 @@ while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     $count = 0;
     foreach(array_unique($row) as $field) {
+          var_dump($field);
           $count = $count + 1;
           if (!empty($field)) {
             echo '<td>' . htmlspecialchars($field) . '</td>';
