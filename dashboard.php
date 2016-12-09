@@ -180,7 +180,7 @@ elseif ($_SESSION['user_type'] == 'user')
     ?>
     <form method='post'>
       <textarea name='content'>Please describe to us in detail your case.</textarea>
-      <button name='case-btn'>
+      <button name='case-btn'>Submit Case</button>
     </form>
     <?php
   }
