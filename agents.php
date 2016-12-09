@@ -48,7 +48,7 @@ include 'nav.php';
           </div>
       </section>
 
-      <section class="cta" style="background:url('img/sun.jpeg') no-repeat center center fixed; background-size: cover;">
+      <section class="cta" style="background:url('img/sun.jpg') no-repeat center center fixed; background-size: cover;">
           <div class="cta-content">
               <div class="container">
                 <h1 style="margin-bottom:0; font-size: 57px;">Current Promotional Offers:</h1>
