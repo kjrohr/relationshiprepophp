@@ -158,7 +158,22 @@ elseif ($_SESSION['user_type'] == 'user')
 <!-- User dashboard contents -->
 <?php
   $username = $userRow['username'];
-  echo 'Username: ' . $username;
+  $first_name = $userRow['first_name'];
+  $last_name = $userRow['last_name'];
+  $age = $userRow['age'];
+  $address = $userRow['address'];
+
+  $query="SELECT * FROM cases WHERE user_id=".$_SESSION['user'] . " AND completed IS NULL";
+  $results = mysql_query($query);
+  $test = mysql_num_rows($results);
+
+  if ($test == 0){
+    // Case Submission form
+  }
+  else {
+    // Table of Active Case with Agent's Data
+  }
+
 }
 else
 {
