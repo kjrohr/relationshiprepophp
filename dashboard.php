@@ -156,8 +156,9 @@ elseif ($_SESSION['user_type'] == 'user')
 {
 ?>
 <!-- User dashboard contents -->
-
 <?php
+  $username = $userRow['username'];
+  echo 'Username: ' . $username;
 }
 else
 {
