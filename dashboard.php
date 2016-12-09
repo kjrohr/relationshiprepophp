@@ -80,7 +80,6 @@ if ($test == 0) {
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     $case_owner = $row['user_id'];
-    echo '<br />' . $case_owner . '<br />';
     $count = 0;
     foreach(array_unique($row) as $field) {
           $count = $count + 1;
@@ -94,11 +93,12 @@ while ($row = mysql_fetch_array($results)) {
             // Catch all
           }
     }
-    //Completed Column needs logic
     // If a case isn't claimed it can't be complete
     echo '<td><button class="complete" name="complete">Complete?</button></td>';
     echo '</tr>';
 }
+
+// Query users table for owner of the case
 ?>
 </table>
 <!-- Agent dashboard contents -->
