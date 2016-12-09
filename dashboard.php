@@ -28,7 +28,7 @@
  $userId = $_SESSION['user'];
  $case_id = $_POST['case_id'];
  $sql_query = "UPDATE cases SET userId='$userId' WHERE case_id='$case_id'";
- mysql_query($sql_query);
+ // mysql_query($sql_query);
   }
 
 
@@ -70,6 +70,8 @@ header("Location: dashboard.php");
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
+          echo $field['case_id'];
+
           // if (!empty($field)) {
           //   echo '<td>' . htmlspecialchars($field) . '</td>';
           // }
