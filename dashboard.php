@@ -122,7 +122,6 @@ else {
   while ($row = mysql_fetch_array($results)) {
       echo '<tr>';
       $case_owner = $row['user_id'];
-      echo 'Case Owner : ' . $case_owner;
       $count = 0;
       foreach(array_unique($row) as $field) {
             $count = $count + 1;
@@ -140,6 +139,7 @@ else {
       echo '<td><button class="complete" name="complete">Complete?</button></td>';
       echo '</tr>';
   }
+  echo 'Case Owner: ' . $case_owner;
   ?>
 </table>
 <?php
