@@ -139,7 +139,14 @@ else {
       echo '<td><button class="complete" name="complete">Complete?</button></td>';
       echo '</tr>';
   }
-  echo 'Case Owner: ' . $case_owner;
+  $owner=mysql_query("SELECT * FROM users WHERE user_id=".$case_owner);
+  $ownerRow=mysql_fetch_array($owner);
+  // Format this better later
+  echo '<br />First Name: ' . $ownerRow['first_name'] . '<br />';
+  echo 'Last Name: ' . $ownerRow['last_name'] . '<br />';
+  echo 'Age: ' . $ownerRow['age'] . '<br />';
+  echo 'Email: ' . $ownerRow['email'] . '<br />';
+  echo 'Address: ' . $ownerRow['address '] . '<br />';
   ?>
 </table>
 <?php
