@@ -109,7 +109,6 @@ while ($row = mysql_fetch_array($results)) {
 } // END of if test == 0
 else {
   // If Agent has a case
-
   ?>
   <table>
     <tr>
@@ -122,8 +121,8 @@ else {
   <?php
   while ($row = mysql_fetch_array($results)) {
       echo '<tr>';
-
       $case_owner = $row['user_id'];
+      echo 'Case Owner : ' . $case_owner;
       $count = 0;
       foreach(array_unique($row) as $field) {
             $count = $count + 1;
