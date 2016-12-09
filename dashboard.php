@@ -81,7 +81,6 @@ while ($row = mysql_fetch_array($results)) {
           elseif (empty($field) && empty($field['userId'])) {
             echo '<td><button class="claim" name="claim">Claim?</button></td>';
           }
-          elseif ()
           else {
 
           }
