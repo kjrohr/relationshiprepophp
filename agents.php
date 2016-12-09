@@ -38,9 +38,10 @@ include 'nav.php';
           <div class="container">
               <div class="row">
                   <div class="col-md-8 col-md-offset-2">
-                      <h2 class="section-heading">Work at your own pace, get paid at your own rate</h2>
-                      <p>There are tons of perks that come along with becoming a registered Agent with Relationship Repo.</p>
-                      <p>Set your own working rate and gain access to an unlimited amount of potential clients per month.</p>
+                      <h2 class="section-heading">Determine your own workload,</h2>
+                      <h2 class="section-heading">Determine your own income</h2>
+                      <h3>There are tons of perks that come along with becoming a registered Agent with Relationship Repo.</h3>
+                      <h3>Set your own working rate and gain access to an unlimited amount of potential clients per month.</h3>
                   </div>
               </div>
           </div>
