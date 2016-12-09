@@ -70,7 +70,7 @@ $results = mysql_query($query);
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
-          echo $field['case_id'];
+
 
           // if (!empty($field)) {
           //   echo '<td>' . htmlspecialchars($field) . '</td>';
@@ -84,14 +84,14 @@ while ($row = mysql_fetch_array($results)) {
           // }
 
 
-        // if (is_null($field['userId']))
-        // {
-        //   // This is going to be a claim button for the agent
-        //   echo '<td><button class="claim" name="claim">Claim?</button></td>';
-        // }
-        // else {
-        //   echo '<td>' . htmlspecialchars($field) . '</td>';
-        // }
+        if (is_null($field['userId']))
+        {
+          // This is going to be a claim button for the agent
+          echo '<td><button class="claim" name="claim">Claim?</button></td>';
+        }
+        else {
+          echo '<td>' . htmlspecialchars($field) . '</td>';
+        }
     }
     echo '</tr>';
 }
