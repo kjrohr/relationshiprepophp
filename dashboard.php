@@ -86,7 +86,7 @@ while ($row = mysql_fetch_array($results)) {
           }
     }
     //Completed Column needs logic
-    echo '<td>Complete?</td>';
+    echo '<td><button class="complete" name="complete"Complete?</button></td>';
     echo '</tr>';
 }
 ?>
