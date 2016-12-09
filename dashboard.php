@@ -28,7 +28,7 @@
  $userId = $_SESSION['user'];
  $case_id = $_POST['case_id'];
  $sql_query = "UPDATE cases SET userId='$userId' WHERE case_id='$case_id'";
- // mysql_query($sql_query);
+mysql_query($sql_query);
   }
 
 
