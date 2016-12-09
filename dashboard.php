@@ -74,13 +74,13 @@ while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     $count = 0;
     foreach(array_unique($row) as $field) {
-          count = count + 1;
+          $count = $count + 1;
 
 
           if (!empty($field)) {
             echo '<td>' . htmlspecialchars($field) . '</td>';
           }
-          elseif (empty($field) && count == 3) {
+          elseif (empty($field) && $count == 3) {
             echo '<td><button class="claim" name="claim">Claim?</button></td>';
           }
           else {
