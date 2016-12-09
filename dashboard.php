@@ -73,6 +73,12 @@ while ($row = mysql_fetch_array($results)) {
           if (!empty($field)) {
             echo '<td>' . htmlspecialchars($field) . '</td>';
           }
+          elseif (empty($field) && empty($field['userId'])) {
+            echo '<td><button class="claim" name="claim">Claim?</button></td>';
+          }
+          else {
+            
+          }
 
 
         // if (is_null($field['userId']))
