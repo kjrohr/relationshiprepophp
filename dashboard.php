@@ -80,6 +80,7 @@ if ($test == 0) {
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     $case_owner = $row['user_id'];
+    echo '<br />' . $case_owner . '<br />';
     $count = 0;
     foreach(array_unique($row) as $field) {
           $count = $count + 1;
