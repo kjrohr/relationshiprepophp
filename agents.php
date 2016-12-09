@@ -27,7 +27,6 @@ if (isset($_POST['apply-btn'])) {
     echo "You did not do the thing";
   }
 }
-
 // if(isset($_POST['submit'])){
 //     $to = "zombiepoodles@icloud.com";
 //     $from = $_POST['email'];
