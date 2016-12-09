@@ -67,7 +67,6 @@ if ($test == 0) {
     <td>User ID</td>
     <td>Agent ID</td>
     <td>Content</td>
-    <td>Accepted</td>
     <td>Completed</td>
   </tr>
 <?php
