@@ -11,10 +11,14 @@ if (isset($_POST['apply-btn'])) {
   $email_from = $_POST['email'];
   $address = $_POST['address'];
   $birthday = $_POST['birthday'];
-
-  echo $first_name . '<br />' . $last_name . '<br />' . $phone . '<br />' . $email_from . '<br />' . $address . '<br />' . $birthday;
-
-
+  $email_to = 'catoverlord@gmail.com';
+  $email_subject = $first_name .  ' ' . $last_name . ' Agent Application';
+  $email_body = 'Hello my name is, ' . $first_name . ' ' . $last_name . ' I am interested in becoming a Relationship Repo Agent. ';
+  $email_body_cont = 'Here is my contact information, Phone: ' . $phone . ', Address: ' . $address . '. Thank you for your time and I hope to hear from you soon.';
+  $email_message = $email_body . $email_body_cont;
+  $headers = "From: $email_from \r\n";
+  $headers .= "Reply-To: $email_to \r\n";
+  mail($email_to,$email_subject,$email_message,$headers);
 }
 
 // if(isset($_POST['submit'])){
