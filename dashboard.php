@@ -174,6 +174,17 @@ elseif ($_SESSION['user_type'] == 'user')
   else {
     // Table of Active Case with Agent's Data
     echo 'Should be some cases here boss';
+    ?>
+    <table>
+      <tr>
+        <td>Case ID</td>
+        <td>User ID</td>
+        <td>Agent ID</td>
+        <td>Content</td>
+        <td>Completed</td>
+      </tr>
+    <?php
+    
   }
 
 }
