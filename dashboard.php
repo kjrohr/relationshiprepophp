@@ -81,6 +81,7 @@ while ($row = mysql_fetch_array($results)) {
     $count = 0;
     foreach(array_unique($row) as $field) {
           $count = $count + 1;
+          var_dump($field);
           if (!empty($field)) {
             echo '<td>' . htmlspecialchars($field) . '</td>';
           }
