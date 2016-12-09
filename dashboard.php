@@ -28,7 +28,8 @@
  $userId = $_SESSION['user'];
  $case_id = $_POST['case_id'];
  $sql_query = "UPDATE cases SET userId='$userId' WHERE case_id='$case_id'";
-mysql_query($sql_query);
+ // This one is good
+ mysql_query($sql_query);
   }
 
 
@@ -74,26 +75,26 @@ while ($row = mysql_fetch_array($results)) {
     foreach(array_unique($row) as $field) {
 
 
-          // if (!empty($field)) {
-          //   echo '<td>' . htmlspecialchars($field) . '</td>';
-          // }
-          // elseif (empty($field) && empty($field['userId'])) {
-          //   echo '<td><button class="claim" name="claim">Claim?</button></td>';
-          // }
-          // elseif ()
-          // else {
-          //
-          // }
+          if (!empty($field)) {
+            echo '<td>' . htmlspecialchars($field) . '</td>';
+          }
+          elseif (empty($field) && empty($field['userId'])) {
+            echo '<td><button class="claim" name="claim">Claim?</button></td>';
+          }
+          elseif ()
+          else {
 
+          }
 
-        if (is_null($field['userId']))
-        {
-          // This is going to be a claim button for the agent
-          echo '<td><button class="claim" name="claim">Claim?</button></td>';
-        }
-        else {
-          echo '<td>' . htmlspecialchars($field) . '</td>';
-        }
+        // The if logic below works sort of
+        // if (is_null($field['userId']))
+        // {
+        //   // This is going to be a claim button for the agent
+        //   echo '<td><button class="claim" name="claim">Claim?</button></td>';
+        // }
+        // else {
+        //   echo '<td>' . htmlspecialchars($field) . '</td>';
+        // }
     }
     echo '</tr>';
 }
