@@ -10,14 +10,14 @@ include 'nav.php';
 
   <body id="page-top">
 
-      <header id="agentheader" style="background:url('img/laugh.jpeg') no-repeat center center fixed; background-size: cover;">
+      <header style="background:url('img/laugh.jpeg') no-repeat center center fixed; background-size: cover;">
           <div class="container">
 
               <div class="row">
                   <div class="col-sm-7">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin-bottom:0; font-size: 57px;">So You Want To Become An Agent With Us?</h1>
+                              <h1 style="margin:35px 0 0; font-size: 57px;">So You Want To Become An Agent With Us?</h1>
                               <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">There's a lot to learn before becoming an official agent.<br />
                               Please be sure to read this page very carefully.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
