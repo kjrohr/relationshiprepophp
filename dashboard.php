@@ -54,10 +54,19 @@ Hello <?php echo $userRow['username']; ?>
 // Agent dashboard is generated here
 if ($_SESSION['user_type'] == 'agent')
 {
+// Need to show active cases, possibly limit to one per agent.
 
-// Need to display cases that aren't claimed
-$query="SELECT * FROM cases WHERE userId IS NULL";
+$query="SELECT * FROM cases WHERE userId=".$_SESSION['user'];
 $results = mysql_query($query);
+
+if (empty($results)) {
+  // Need to display cases that aren't claimed
+  $query="SELECT * FROM cases WHERE userId IS NULL";
+  $results = mysql_query($query);
+}
+
+
+
 
 ?>
 <table>
