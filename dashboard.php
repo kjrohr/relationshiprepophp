@@ -173,7 +173,7 @@ elseif ($_SESSION['user_type'] == 'user')
   }
   else {
     // Table of Active Case with Agent's Data
-    echo 'Should be some cases here boss';
+    $active_agent = '';
     ?>
     <table>
       <tr>
@@ -186,8 +186,7 @@ elseif ($_SESSION['user_type'] == 'user')
     <?php
     while ($row = mysql_fetch_array($results)) {
         echo '<tr>';
-        var_dump($row);
-        $case_owner = $row['user_id'];
+        $active_agent = $row['userId'];
         $count = 0;
         foreach(array_unique($row) as $field) {
               $count = $count + 1;
@@ -205,7 +204,7 @@ elseif ($_SESSION['user_type'] == 'user')
         echo '<td><button class="complete" name="complete">Complete?</button></td>';
         echo '</tr>';
         ?>
-
+      </table>
         <?php
     }
   }
