@@ -96,7 +96,7 @@ include 'nav.php';
       <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
               <div class="modal-dialog">
               <div class="loginmodal-container">
-                <form action="mailto:zombiepoodles@icloud.com;kjrohr@fullsail.edu?subject='RR Agent Application'" method="post" enctype="text/plain">
+                <form action="emailapp.php" method="post">
                   <div class="container" style="max-width:530px; margin: 0 auto;">
                               <form class="form-horizontal" role="form">
                                   <h2 style="color:white; margin-left: 10%;">Relationship Repo "Agent" Application</h2>
