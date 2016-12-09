@@ -75,8 +75,6 @@ while ($row = mysql_fetch_array($results)) {
     $count = 0;
     foreach(array_unique($row) as $field) {
           $count = $count + 1;
-
-
           if (!empty($field)) {
             echo '<td>' . htmlspecialchars($field) . '</td>';
           }
@@ -84,18 +82,8 @@ while ($row = mysql_fetch_array($results)) {
             echo '<td><button class="claim" name="claim">Claim?</button></td>';
           }
           else {
-
+            // Catch all
           }
-
-        // The if logic below works sort of
-        // if (is_null($field['userId']))
-        // {
-        //   // This is going to be a claim button for the agent
-        //   echo '<td><button class="claim" name="claim">Claim?</button></td>';
-        // }
-        // else {
-        //   echo '<td>' . htmlspecialchars($field) . '</td>';
-        // }
     }
     echo '</tr>';
 }
