@@ -21,14 +21,15 @@
  }
 
 
- if (isset($_POST['case_id']))
- {
+ if (isset($_POST['case_id'])) {
  // echo 'case id: ';
  // echo $_POST['case_id'];
  // echo '|||||||||';
-
- // $sql_query = "UPDATE cases SET userId='$_POST['user']' WHERE case_id='$_POST['case_id']'";
- // mysql_query($sql_query);
+ $userId = $_SESSION['user'];
+ $case_id = $_POST['case_id'];
+ $sql_query = "UPDATE cases SET userId='$userId' WHERE case_id='$case_id'";
+ // This one is good
+ mysql_query($sql_query);
   }
 
 
@@ -56,6 +57,8 @@ if ($_SESSION['user_type'] == 'agent')
 $query="SELECT * FROM cases";
 $results = mysql_query($query);
 
+// For sure breaks it
+//header("Location: dashboard.php");
 ?>
 <table>
   <tr>
@@ -69,15 +72,18 @@ $results = mysql_query($query);
 <?php
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
+    $count = 0;
     foreach(array_unique($row) as $field) {
-        if ($field['userId'] == '')
-        {
-          // This is going to be a claim button for the agent
-          echo '<td><button class="claim" name="claim">Claim?</button></td>';
-        }
-        else {
-          echo '<td>' . htmlspecialchars($field) . '</td>';
-        }
+          $count = $count + 1;
+          if (!empty($field)) {
+            echo '<td>' . htmlspecialchars($field) . '</td>';
+          }
+          elseif (empty($field) && $count == 3) {
+            echo '<td><button class="claim" name="claim">Claim?</button></td>';
+          }
+          else {
+            // Catch all
+          }
     }
     echo '</tr>';
 }
