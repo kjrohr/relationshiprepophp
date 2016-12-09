@@ -8,6 +8,10 @@ $(document).ready(function(){
   });
 
 
+  $('.complete').on('click', function(){
+    var userId = $(this).parent().parent().children(':nth-child(3)').val();
+    console.log(userId);
+  });
 
 
 });

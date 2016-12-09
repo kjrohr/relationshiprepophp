@@ -86,6 +86,7 @@ while ($row = mysql_fetch_array($results)) {
           }
     }
     //Completed Column needs logic
+    // If a case isn't claimed it can't be complete
     echo '<td><button class="complete" name="complete">Complete?</button></td>';
     echo '</tr>';
 }
