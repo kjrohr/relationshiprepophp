@@ -97,7 +97,47 @@ while ($row = mysql_fetch_array($results)) {
     // If a case isn't claimed it can't be complete
     echo '<td><button class="complete" name="complete">Complete?</button></td>';
     echo '</tr>';
+    ?>
+    </table>
+    <?php
 }
+}
+else {
+  ?>
+  <table>
+    <tr>
+      <td>Case ID</td>
+      <td>User ID</td>
+      <td>Agent ID</td>
+      <td>Content</td>
+      <td>Completed</td>
+    </tr>
+  <?php
+  // Display Agent's claimed case
+  while ($row = mysql_fetch_array($results)) {
+      echo '<tr>';
+
+      $case_owner = $row['user_id'];
+      $count = 0;
+      foreach(array_unique($row) as $field) {
+            $count = $count + 1;
+            if (!empty($field)) {
+              echo '<td>' . htmlspecialchars($field) . '</td>';
+            }
+            elseif (empty($field) && $count == 3) {
+              echo '<td><button class="claim" name="claim">Claim?</button></td>';
+            }
+            else {
+              // Catch all
+            }
+      }
+      // If a case isn't claimed it can't be complete
+      echo '<td><button class="complete" name="complete">Complete?</button></td>';
+      echo '</tr>';
+      ?>
+      </table>
+      <?php
+  }
 }
 
 // Query users table for owner of the case
