@@ -10,7 +10,6 @@
  // select loggedin users detail
  $res=mysql_query("SELECT * FROM users WHERE user_id=".$_SESSION['user']);
  $userRow=mysql_fetch_array($res);
- echo $_SESSION['user'];
  $_SESSION['user_type'] = 'user';
 
  if (!$userRow['username']) {
