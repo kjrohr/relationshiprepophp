@@ -55,7 +55,9 @@ if ($_SESSION['user_type'] == 'agent')
 {
 $query="SELECT * FROM cases";
 $results = mysql_query($query);
-header("Location: dashboard.php");
+
+// For sure breaks it
+//header("Location: dashboard.php");
 ?>
 <table>
   <tr>
