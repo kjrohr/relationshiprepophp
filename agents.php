@@ -10,7 +10,7 @@ include 'nav.php';
 
   <body id="page-top">
 
-      <header id="agentheader" style="background:url('img/laugh.jpeg') no-repeat center center fixed; background-size: cover;">
+      <header style="background:url('img/laugh.jpeg') no-repeat center center fixed; background-size: cover; height: 85%;">
           <div class="container">
 
               <div class="row">
