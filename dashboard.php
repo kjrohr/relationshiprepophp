@@ -57,9 +57,8 @@ if ($_SESSION['user_type'] == 'agent')
 // Need to show active cases, possibly limit to one per agent.
 $query="SELECT * FROM cases WHERE userId=".$_SESSION['user'];
 $results = mysql_query($query);
-$test = mysql_fetch_array($results);
-var_dump($test);
-if (!is_array($test)) {
+$test = mysql_num_rows($results);
+if ($test == 0) {
   // Need to display cases that aren't claimed
   $query="SELECT * FROM cases WHERE userId IS NULL";
   $results = mysql_query($query);
