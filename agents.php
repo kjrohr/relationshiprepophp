@@ -16,8 +16,9 @@ if (isset($_POST['apply-btn'])) {
   $email_body = 'Hello my name is, ' . $first_name . ' ' . $last_name . ' I am interested in becoming a Relationship Repo Agent. ';
   $email_body_cont = 'Here is my contact information, Phone: ' . $phone . ', Address: ' . $address . '. Thank you for your time and I hope to hear from you soon.';
   $email_message = $email_body . $email_body_cont;
-  $headers = "From: $email_from \r\n";
-  $headers .= "Reply-To: $email_to \r\n";
+  $headers = "From: " . $email_from . "\r\n" .
+             "Reply-To: " . $email_from . "\r\n" .
+             "X-Mailer: PHP/" . phpversion();
   mail($email_to,$email_subject,$email_message,$headers);
 }
 
