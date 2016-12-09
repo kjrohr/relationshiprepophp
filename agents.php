@@ -20,7 +20,7 @@ if (isset($_POST['apply-btn'])) {
   //            "Reply-To: " . $email_from . "\r\n" .
   //            "X-Mailer: PHP/" . phpversion();
   // mail($email_to,$email_subject,$email_message,$headers);
-  mail('kjrohr@yahoo.com','Testing mail()','Did you get that thing I sent ya');
+  mail('kjrohr@fullsail.edu','Testing mail()','Did you get that thing I sent ya');
 }
 
 // if(isset($_POST['submit'])){
