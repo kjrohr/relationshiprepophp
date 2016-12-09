@@ -122,7 +122,7 @@ if(isset($_POST['submit'])){
       <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
               <div class="modal-dialog">
               <div class="loginmodal-container">
-                <form action="emailapp.php" method="post">
+                <form action="" method="post">
                   <div class="container" style="max-width:530px; margin: 0 auto;">
                               <form class="form-horizontal" role="form">
                                   <h2 style="color:white; margin-left: 10%;">Relationship Repo "Agent" Application</h2>
@@ -169,7 +169,7 @@ if(isset($_POST['submit'])){
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <button type="submit" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
+                                          <button type="submit" name="submit" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
                                           <a href="/login.php" class="btn btn-block btn-outline">Already Registered?</a>
                                       </div>
                                   </div>
