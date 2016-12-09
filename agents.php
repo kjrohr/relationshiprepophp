@@ -17,10 +17,9 @@ include 'nav.php';
                   <div class="col-sm-7">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin:25% 0 0; font-size: 57px;">So you're considering applying to be an Agent?</h1>
-                              <h2 style="margin:0; font-size:30px;">
-                              Relationship Repo may just have the perfect job for you.</h2>
-                              <h3 style="margin: 0 0 30px 0; color: #A26F6E;">* Please be sure to read this entire page very carefully prior to filling out an application.</h3>
+                              <h1 style="margin:25% 0 0; font-size: 57px;">Register as an Agent with Relationship Repo</h1>
+                              <h2 style="margin:0; font-size:30px;">Relationship Repo is always accepting applications for new Agents.</h2>
+                              <h3 style="margin: 0 0 30px 0; color: #415B6F;">* Please be sure to read the <a href="#">terms and conditions</a> prior to filling out an application.</h3>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
@@ -33,13 +32,12 @@ include 'nav.php';
           </div>
       </header>
 
-      <section style="background: #A26F6E;" class="download bg-primary text-center">
+      <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
           <div class="container">
               <div class="row">
                   <div class="col-md-8 col-md-offset-2">
-                      <h2 class="section-heading" style="font-size: 52px">Design your own workload,</h2>
-                      <h2 class="section-heading" style="font-size: 52px">Design your own pay rate,</h2>
-                      <h2 class="section-heading" style="font-size: 52px">Design your own career.</h2>
+                      <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Design your own workload, Design your own pay rate,</h2>
+                      <h2 class="section-heading" style="font-size: 57px">Design your own career.</h2>
                       <h3>Have you always wanted to be your own boss, but didn't know where to start?</h3>
                       <h3>There are tons of perks that come along with becoming a registered Agent with Relationship Repo.</h3>
                       <h3>Set your own working rate and gain access to an unlimited amount of potential clients per month.</h3>
@@ -54,12 +52,11 @@ include 'nav.php';
       <section class="cta">
           <div class="cta-content">
               <div class="container">
-                <h1 style="margin-bottom:0; font-size: 57px;">Enjoy a discounted subscription fee as a new Agent</h1>
-                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333;">New Agents that are approved through Relationship Repo recieve a reduced monthly subscription cost.</h2>
+                <h1 style="margin-bottom:0; font-size: 57px;">Promotional Offers:</h1>
+                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333;">New Agents that are approved through Relationship Repo recieve a reduced monthly subscription cost of $25/month.</h2>
                 <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
               </div>
           </div>
-          <div class="overlay"></div>
       </section>
 
       <section id="contact" class="contact bg-primary">
