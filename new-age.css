@@ -139,6 +139,9 @@ header {
   background-size: cover;
 	color: #fff
 }
+#agentheader {
+  height: 85%;
+}
 header .header-content {
 	text-align: center;
 	padding: 150px 0 50px;
@@ -172,6 +175,9 @@ header .device-container .screen img {
 	header {
 		min-height: 100%
 	}
+  #agentheader {
+    min-height: 85%;
+  }
 	header .header-content {
 		text-align: left;
 		padding: 0;
