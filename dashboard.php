@@ -157,7 +157,7 @@ else {
   echo 'Last Name: ' . $ownerRow['last_name'] . '<br />';
   echo 'Age: ' . $ownerRow['age'] . '<br />';
   echo 'Email: ' . $ownerRow['email'] . '<br />';
-  echo 'Address: ' . $ownerRow['address '] . '<br />';
+  echo 'Address: ' . $ownerRow['address'] . '<br />';
   ?>
 
 <?php
