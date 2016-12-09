@@ -78,6 +78,7 @@ if ($test == 0) {
 <?php
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
+    var_dump($row);
     $count = 0;
     foreach(array_unique($row) as $field) {
           $count = $count + 1;
