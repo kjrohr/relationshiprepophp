@@ -70,7 +70,7 @@ $results = mysql_query($query);
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
-        if ($field['userId'] === '' || !$field['userId'])
+        if ($field['userId'] === '')
         {
           // This is going to be a claim button for the agent
           echo '<td><button class="claim" name="claim">Claim?</button></td>';
