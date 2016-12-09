@@ -206,9 +206,6 @@ elseif ($_SESSION['user_type'] == 'user')
               if (!empty($field)) {
                 echo '<td>' . htmlspecialchars($field) . '</td>';
               }
-              elseif (empty($field) && $count == 3) {
-                echo '<td><button class="claim" name="claim">Claim?</button></td>';
-              }
               else {
                 // Catch all
               }
