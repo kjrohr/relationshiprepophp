@@ -18,10 +18,10 @@ include 'nav.php';
                       <div class="header-content">
                           <div class="header-content-inner">
                               <h1 style="margin:25% 0 0; font-size: 57px;">So You Want To Become An Agent With Us?</h1>
-                              <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">
+                              <h2 style="margin:0; font-size:30px;">
                               Want to work for yourself but didn't know where to start?<br />
                               Relationship Repo may just have the perfect job for you.</h2>
-                              <h3 style="margin: 0 0 25px 0">Please be sure to read this entire page very carefully prior to filling out an application.</h3>
+                              <h3 style="margin: 0 0 30px 0">Please be sure to read this entire page very carefully prior to filling out an application.</h3>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
@@ -38,12 +38,9 @@ include 'nav.php';
           <div class="container">
               <div class="row">
                   <div class="col-md-8 col-md-offset-2">
-                      <h2 class="section-heading">Discover what all the buzz is about!</h2>
-                      <p>Our app is available on any mobile device! Download now to get started!</p>
-                      <div class="badges">
-                          <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-                          <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-                      </div>
+                      <h2 class="section-heading">Work at your own pace, get paid at your own rate</h2>
+                      <p>There are tons of perks that come along with becoming a registered Agent with Relationship Repo.</p>
+                      <p>Set your own working rate and gain access to an unlimited amount of potential clients per month.</p>
                   </div>
               </div>
           </div>
@@ -54,7 +51,6 @@ include 'nav.php';
               <div class="container">
                 <h1 style="margin-bottom:0; font-size: 57px;">Want to work for Relationship Repo?</h1>
                 <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333;">We are always looking for new agents!</h2>
-                  <a href="/agent_registration.php" class="btn btn-outline btn-xl page-scroll">Apply Today!</a>
               </div>
           </div>
           <div class="overlay"></div>
