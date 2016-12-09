@@ -79,8 +79,10 @@ if ($test == 0) {
 <?php
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
+
+    var_dump($row);
+    // Check length of row
     $case_owner = $row['user_id'];
-    echo '<br />' . $case_owner . '<br />';
     $count = 0;
     foreach(array_unique($row) as $field) {
           $count = $count + 1;
@@ -100,6 +102,7 @@ while ($row = mysql_fetch_array($results)) {
 }
 
 // Query users table for owner of the case
+
 ?>
 </table>
 <!-- Agent dashboard contents -->
