@@ -20,7 +20,7 @@ include 'nav.php';
                               <h1 style="margin:35% 0 0; font-size: 57px;">So You Want To Become An Agent With Us?</h1>
                               <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">There's a lot to learn before becoming an official agent.<br />
                               Please be sure to read this page very carefully.</h2>
-                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" style="margin-left:25%">Apply Today</a>
+                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" style="margin-left:15%">Apply Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
 
