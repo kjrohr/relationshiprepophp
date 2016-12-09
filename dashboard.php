@@ -205,7 +205,7 @@ elseif ($_SESSION['user_type'] == 'user')
                 echo '<td>' . htmlspecialchars($field) . '</td>';
               }
               elseif (empty($field)) {
-                echo '<td>test</td>';
+                echo '<td>Waiting for an Agent to Claim!</td>';
               }
               else {
                 // Catch all
