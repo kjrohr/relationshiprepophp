@@ -50,11 +50,14 @@
 <title>Welcome - <?php echo $userRow['username']; ?></title>
 </head>
 <body>
+<div class='container'>
+  <div class='row'>
+    <div class="col-sm-7">
 Hello <?php echo $userRow['username']; ?>
 <a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a>
 <a href="delete_user.php?delete"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Delete</a>
 <a href="update_user.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Update</a>
-
+  </div><!-- End of col-sm-7 -->
 <!-- Case logic -->
 
 <?php
@@ -244,8 +247,8 @@ else
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-
-
+  </div><!-- End of row -->
+</div><!-- End of container -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="main.js"></script>
     <!--Start of Tawk.to Script-->
