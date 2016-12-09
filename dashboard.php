@@ -86,8 +86,6 @@ while ($row = mysql_fetch_array($results)) {
             // Catch all
           }
     }
-    //Accepted Column, considering removing from table
-    echo '<td></td>';
     //Completed Column needs logic
     echo '<td>Complete?</td>';
     echo '</tr>';
