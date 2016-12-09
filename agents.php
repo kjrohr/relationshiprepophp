@@ -17,10 +17,10 @@ include 'nav.php';
                   <div class="col-sm-7">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin:35px 0 0; font-size: 57px;">So You Want To Become An Agent With Us?</h1>
+                              <h1 style="margin:35% 0 0; font-size: 57px;">So You Want To Become An Agent With Us?</h1>
                               <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">There's a lot to learn before becoming an official agent.<br />
                               Please be sure to read this page very carefully.</h2>
-                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
+                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" style="margin-left:25%">Apply Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
 
@@ -32,7 +32,7 @@ include 'nav.php';
           </div>
       </header>
 
-      <section id="download" class="download bg-primary text-center">
+      <section style="background: #A26F6E;" class="download bg-primary text-center">
           <div class="container">
               <div class="row">
                   <div class="col-md-8 col-md-offset-2">
