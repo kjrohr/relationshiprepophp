@@ -11,7 +11,10 @@ $(document).ready(function(){
   $('.complete').on('click', function(){
     var userId = $(this).parent().parent().children(':nth-child(3)').html();
     if(Math.floor(userId) == userId && $.isNumeric(userId)) {
-      alert('yes its an int!');
+      var case_id = $(this).parent().parent().children(':first-child').text();
+      $.post('dashboard.php', 'complete=' + case_id, function (response) {
+         location.reload();
+      });
     }
 
     console.log(userId);

@@ -29,6 +29,12 @@
  mysql_query($sql_query);
   }
 
+  if (isset($_POST['complete'])) {
+    $case_id = $_POST['complete'];
+    $sql_query = "UPDATE cases SET completed='true' WHERE case_id='$case_id'";
+    mysql_query($sql_query);
+  }
+
 
 ?>
 <!DOCTYPE html>
