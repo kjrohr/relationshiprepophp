@@ -93,6 +93,65 @@ include 'nav.php';
       </footer>
 
 
+      <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+              <div class="modal-dialog">
+              <div class="loginmodal-container">
+                <form action="mailto:zombiepoodles@icloud.com;kjrohr@fullsail.edu?subject='RR Agent Application'" method="post" enctype="text/plain">
+                  <div class="container" style="max-width:530px; margin: 0 auto;">
+                              <form class="form-horizontal" role="form">
+                                  <h2 style="color:white; margin-left: 10%;">Relationship Repo "Agent" Application</h2>
+                                  <div style="margin-left: 30%;">
+                                  <div class="form-group">
+                                      <div class="col-sm-9">
+                                          <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="col-sm-9">
+                                          <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="col-sm-9">
+                                          <input type="tel" name="phone" placeholder="Phone Number" class="form-control" required />
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="col-sm-9">
+                                          <input type="email" name="email" placeholder="Email Address" class="form-control" required />
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <div class="col-sm-9">
+                                          <input type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
+                                      </div>
+                                  </div> <!-- /.form-group -->
+                                  <div class="form-group">
+                                    <div class="col-sm-9">
+                                      <input type="date" name="birthday" max="2000-12-31" placeholder="Birthdate" class="form-control" required />
+                                      </div>
+                                  </div> <!-- /.form-group -->
+                                  <div class="form-group">
+                                      <div class="col-sm-9">
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox">
+                                                  <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="#" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
+                                              </label>
+                                          </div>
+                                      </div>
+                                  </div> <!-- /.form-group -->
+                                  <div class="form-group">
+                                      <div class="col-sm-9">
+                                          <button type="submit" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
+                                          <a href="/login.php" class="btn btn-block btn-outline">Already Registered?</a>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </form> <!-- /form -->
+              </div>
+            </div>
+          </div>
 
 
       <!--Start of Tawk.to Script-->
