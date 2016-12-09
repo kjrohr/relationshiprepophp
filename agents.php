@@ -51,8 +51,8 @@ include 'nav.php';
       <section class="cta" style="background:url('img/sun.jpg') no-repeat center center fixed; background-size: cover;">
           <div class="cta-content">
               <div class="container">
-                <h1 style="margin-bottom:0; font-size: 57px;">Current Promotional Offers:</h1>
-                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333;">New Agents that are approved through Relationship Repo recieve a reduced monthly subscription rate of $25/month.</h2>
+                <h1 style="margin-bottom:0; font-size: 57px; color:#FFF;">Current Promotional Offers:</h1>
+                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #FFF;">New Agents that are approved through Relationship Repo recieve a reduced monthly subscription rate of $25/month.</h2>
                 <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
               </div>
           </div>
