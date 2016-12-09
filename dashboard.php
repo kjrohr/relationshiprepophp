@@ -73,7 +73,7 @@ $results = mysql_query($query);
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach(array_unique($row) as $field) {
-
+          echo '<br />' . $field;
 
           // if (!empty($field)) {
           //   echo '<td>' . htmlspecialchars($field) . '</td>';
