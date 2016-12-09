@@ -74,7 +74,7 @@ while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     $count = 0;
     foreach(array_unique($row) as $field) {
-          count++;
+          count = count + 1;
 
 
           if (!empty($field)) {
