@@ -5,21 +5,22 @@ include 'nav.php';
 
 if (isset($_POST['apply-btn'])) {
   // Generate and Send Email
-  $first_name = $_POST['first_name'];
-  $last_name = $_POST['last_name'];
-  $phone = $_POST['phone'];
-  $email_from = $_POST['email'];
-  $address = $_POST['address'];
-  $birthday = $_POST['birthday'];
-  $email_to = 'catoverlord@gmail.com';
-  $email_subject = $first_name .  ' ' . $last_name . ' Agent Application';
-  $email_body = 'Hello my name is, ' . $first_name . ' ' . $last_name . ' I am interested in becoming a Relationship Repo Agent. ';
-  $email_body_cont = 'Here is my contact information, Phone: ' . $phone . ', Address: ' . $address . '. Thank you for your time and I hope to hear from you soon.';
-  $email_message = $email_body . $email_body_cont;
-  $headers = "From: " . $email_from . "\r\n" .
-             "Reply-To: " . $email_from . "\r\n" .
-             "X-Mailer: PHP/" . phpversion();
-  mail($email_to,$email_subject,$email_message,$headers);
+  // $first_name = $_POST['first_name'];
+  // $last_name = $_POST['last_name'];
+  // $phone = $_POST['phone'];
+  // $email_from = $_POST['email'];
+  // $address = $_POST['address'];
+  // $birthday = $_POST['birthday'];
+  // $email_to = 'catoverlord@gmail.com';
+  // $email_subject = $first_name .  ' ' . $last_name . ' Agent Application';
+  // $email_body = 'Hello my name is, ' . $first_name . ' ' . $last_name . ' I am interested in becoming a Relationship Repo Agent. ';
+  // $email_body_cont = 'Here is my contact information, Phone: ' . $phone . ', Address: ' . $address . '. Thank you for your time and I hope to hear from you soon.';
+  // $email_message = $email_body . $email_body_cont;
+  // $headers = "From: " . $email_from . "\r\n" .
+  //            "Reply-To: " . $email_from . "\r\n" .
+  //            "X-Mailer: PHP/" . phpversion();
+  // mail($email_to,$email_subject,$email_message,$headers);
+  mail('catoverlord@gmail.com','Testing mail()','Did you get that thing I sent ya');
 }
 
 // if(isset($_POST['submit'])){
