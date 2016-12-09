@@ -46,7 +46,7 @@ if(isset($_POST['btn-save']))
                           <div class="header-content-inner">
                               <h1 style="margin-bottom:0; font-size: 57px;">Sometimes, Things Just Don't Work Out</h1>
                               <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">Relationship Repo is here for you - through the good times, and the bad.</h2>
-                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" style="margin-left:25%">Sign Up Today</a>
+                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" style="margin-left:15%">Sign Up Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
 
@@ -149,8 +149,8 @@ if(isset($_POST['btn-save']))
           <div class="cta-content">
               <div class="container">
                 <h1 style="margin-bottom:0; font-size: 57px;">Want to work for Relationship Repo?</h1>
-                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #222;">We are always looking for new agents!</h2>
-                  <a href="/agent_registration.php" class="btn btn-outline btn-xl page-scroll">Apply Today!</a>
+                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #222;">We are always looking for new agents to join our team!</h2>
+                  <a href="/agents.php" class="btn btn-outline btn-xl page-scroll">More Information</a>
               </div>
           </div>
           <div class="overlay"></div>
