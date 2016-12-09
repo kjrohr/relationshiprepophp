@@ -72,20 +72,23 @@ $results = mysql_query($query);
 <?php
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
+    $count = 0;
     foreach(array_unique($row) as $field) {
-
+          count++;
 
 
           if (!empty($field)) {
             echo '<td>' . htmlspecialchars($field) . '</td>';
           }
-          elseif (empty($field)) {
+          elseif (empty($field) && count == 3) {
             echo '<td><button class="claim" name="claim">Claim?</button></td>';
           }
           else {
 
           }
-
+          if (count==6) {
+            count = 0;
+          }
         // The if logic below works sort of
         // if (is_null($field['userId']))
         // {
