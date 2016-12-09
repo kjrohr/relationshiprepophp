@@ -80,7 +80,8 @@ if ($test == 0) {
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
 
-    var_dump($row);
+    
+    echo count($row);
     // Check length of row
     $case_owner = $row['user_id'];
     $count = 0;
