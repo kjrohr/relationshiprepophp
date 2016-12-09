@@ -184,7 +184,26 @@ elseif ($_SESSION['user_type'] == 'user')
         <td>Completed</td>
       </tr>
     <?php
-    
+    while ($row = mysql_fetch_array($results)) {
+        echo '<tr>';
+        $case_owner = $row['user_id'];
+        $count = 0;
+        foreach(array_unique($row) as $field) {
+              $count = $count + 1;
+              if (!empty($field)) {
+                echo '<td>' . htmlspecialchars($field) . '</td>';
+              }
+              elseif (empty($field) && $count == 3) {
+                echo '<td><button class="claim" name="claim">Claim?</button></td>';
+              }
+              else {
+                // Catch all
+              }
+        }
+        // If a case isn't claimed it can't be complete
+        echo '<td><button class="complete" name="complete">Complete?</button></td>';
+        echo '</tr>';
+    }
   }
 
 }
