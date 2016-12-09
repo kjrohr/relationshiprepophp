@@ -25,7 +25,7 @@ if (isset($_POST['apply-btn'])) {
   }
   else {
     echo "You did not do the thing";
-/  }
+  }
 }
 
 // if(isset($_POST['submit'])){
