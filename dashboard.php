@@ -57,6 +57,7 @@ Hello <?php echo $userRow['username']; ?>
 // Agent dashboard is generated here
 if ($_SESSION['user_type'] == 'agent')
 {
+$case_owner = '';
 // Need to show active cases, possibly limit to one per agent.
 $query="SELECT * FROM cases WHERE userId=".$_SESSION['user'] . " AND completed IS NULL";
 $results = mysql_query($query);
@@ -78,7 +79,8 @@ if ($test == 0) {
 <?php
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
-    var_dump($row);
+    $case_owner = $row['user_id'];
+    echo '<br />' . $case_owner . '<br />';
     $count = 0;
     foreach(array_unique($row) as $field) {
           $count = $count + 1;
