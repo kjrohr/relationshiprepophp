@@ -86,9 +86,7 @@ while ($row = mysql_fetch_array($results)) {
           else {
 
           }
-          if (count==6) {
-            count = 0;
-          }
+
         // The if logic below works sort of
         // if (is_null($field['userId']))
         // {
