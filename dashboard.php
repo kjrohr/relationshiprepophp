@@ -36,6 +36,14 @@
   }
 
 
+  if (isset($_POST['case-btn'])) {
+    // Add case to cases table
+     $user_id = $_SESSION['user'];
+     $content = $_POST['content'];
+     $sql_query="INSERT INTO cases (user_id,content) VALUES('$user_id','$content')";
+     mysql_query($sql_query);
+  }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -169,7 +177,12 @@ elseif ($_SESSION['user_type'] == 'user')
 
   if ($test == 0){
     // Case Submission form
-    echo 'No cases here boss';
+    ?>
+    <form method='post'>
+      <textarea name='content'>Please describe to us in detail your case.</textarea>
+      <button name='case-btn'>
+    </form>
+    <?php
   }
   else {
     // Table of Active Case with Agent's Data
