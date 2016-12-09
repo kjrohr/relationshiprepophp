@@ -1,7 +1,7 @@
 <?php
  session_start();
  require_once 'dbconfig.php';
- require_once 'header.php'
+ require_once 'header.php';
  // if session is not set this will redirect to login page
  if( !isset($_SESSION['user']) ) {
   header("Location: login.php");
