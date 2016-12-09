@@ -58,12 +58,12 @@ Hello <?php echo $userRow['username']; ?>
 if ($_SESSION['user_type'] == 'agent')
 {
 // Need to show active cases, possibly limit to one per agent.
-$query="SELECT * FROM cases WHERE userId=".$_SESSION['user'];
+$query="SELECT * FROM cases WHERE userId=".$_SESSION['user'] . " AND completed IS NULL";
 $results = mysql_query($query);
 $test = mysql_num_rows($results);
 if ($test == 0) {
   // Need to display cases that aren't claimed
-  $query="SELECT * FROM cases WHERE userId IS NULL";
+  $query="SELECT * FROM cases WHERE userId IS NULL AND completed IS NULL";
   $results = mysql_query($query);
 }
 ?>
