@@ -2,7 +2,20 @@
  include 'header.php';
 
  if (isset($_POST['stripeToken'])) {
-   
+
+   \Stripe\Stripe::setApiKey("sk_test_gB3FAuvgKMLtCNDhjVGIWcUu");
+   $token = $_POST['stripeToken'];
+   // Create a charge: this will charge the user's card
+try {
+  $charge = \Stripe\Charge::create(array(
+    "amount" => 1000, // Amount in cents
+    "currency" => "usd",
+    "source" => $token,
+    "description" => "Example charge"
+    ));
+} catch(\Stripe\Error\Card $e) {
+  // The card has been declined
+}
  }
 
  ?>

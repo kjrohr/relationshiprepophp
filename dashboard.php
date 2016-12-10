@@ -186,6 +186,7 @@ elseif ($_SESSION['user_type'] == 'user')
     ?>
     <form method='post'>
       <textarea name='content'>Please describe to us in detail your case.</textarea>
+      <!-- WILL NOT FIRE if apostrophe is present in textarea -->
       <button name='case-btn'>Submit Case</button>
     </form>
     <?php
