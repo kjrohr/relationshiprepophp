@@ -15,6 +15,7 @@ try {
     ));
 } catch(\Stripe\Error\Card $e) {
   // The card has been declined
+  echo 'Errythang broke my dude';
 }
  }
 
