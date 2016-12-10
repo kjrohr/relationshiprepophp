@@ -39,7 +39,7 @@
     // Add case to cases table
      $user_id = $_SESSION['user'];
      $content = $_POST['content'];
-     $sql_query="INSERT INTO cases (user_id,content) VALUES('$user_id','$content')";
+     $sql_query="INSERT INTO cases(user_id,content) VALUES('$user_id','$content')";
      mysql_query($sql_query);
   }
 

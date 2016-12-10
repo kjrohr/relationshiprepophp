@@ -2,7 +2,7 @@
  include 'header.php';
 
  if (isset($_POST['stripeToken'])) {
-   echo 'it be set captain';
+   
  }
 
  ?>
