@@ -3,7 +3,7 @@
 
  if (isset($_POST['stripeToken'])) {
 
-   \Stripe\Stripe::setApiKey("sk_test_gB3FAuvgKMLtCNDhjVGIWcUu");
+   \Stripe\Stripe::setApiKey("sk_live_cvgx6KUyzXg0xRVbwanWn1GT");
    $token = $_POST['stripeToken'];
    // Create a charge: this will charge the user's card
 try {
@@ -17,7 +17,7 @@ try {
     echo 'success';
 } catch(\Stripe\Error\Card $e) {
   // The card has been declined
-  echo 'Errythang broke my dude';
+  echo $e;
 }
  }
 
