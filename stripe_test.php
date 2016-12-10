@@ -13,6 +13,8 @@ try {
     "source" => $token,
     "description" => "Example charge"
     ));
+
+    echo 'success';
 } catch(\Stripe\Error\Card $e) {
   // The card has been declined
   echo 'Errythang broke my dude';
