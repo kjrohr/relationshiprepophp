@@ -8,7 +8,7 @@
  ?>
  </head>
  <body>
- <form action="/your-charge-code" method="POST" id="payment-form">
+ <form method="POST" id="payment-form">
    <span class="payment-errors"></span>
 
    <div class="form-row">
