@@ -3,7 +3,7 @@
 
  if (isset($_POST['stripeToken'])) {
 
-   \Stripe\Stripe::setApiKey("sk_live_cvgx6KUyzXg0xRVbwanWn1GT");
+   \Stripe\Stripe::setApiKey("sk_test_gB3FAuvgKMLtCNDhjVGIWcUu");
    $token = $_POST['stripeToken'];
    // Create a charge: this will charge the user's card
 try {
