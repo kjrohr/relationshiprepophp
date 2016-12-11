@@ -7,18 +7,18 @@
    $token = $_POST['stripeToken'];
    // Create a charge: this will charge the user's card
    echo 'token exists';
-try {
-  $charge = \Stripe\Charge::create(array(
-    "amount" => 1000, // Amount in cents
-    "currency" => "usd",
-    "source" => $token,
-    "description" => "Example charge"
-    ));
-    header('Location: dashboard.php');
-} catch(\Stripe\Error\Card $e) {
-  // The card has been declined
-  echo $e;
-}
+// try {
+//   $charge = \Stripe\Charge::create(array(
+//     "amount" => 1000, // Amount in cents
+//     "currency" => "usd",
+//     "source" => $token,
+//     "description" => "Example charge"
+//     ));
+//     header('Location: dashboard.php');
+// } catch(\Stripe\Error\Card $e) {
+//   // The card has been declined
+//   echo $e;
+// }
  }
 
  ?>
