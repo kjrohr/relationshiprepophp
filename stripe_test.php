@@ -6,6 +6,7 @@
    \Stripe\Stripe::setApiKey("sk_test_gB3FAuvgKMLtCNDhjVGIWcUu");
    $token = $_POST['stripeToken'];
    // Create a charge: this will charge the user's card
+   echo 'token exists';
 try {
   $charge = \Stripe\Charge::create(array(
     "amount" => 1000, // Amount in cents
