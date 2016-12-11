@@ -20,6 +20,9 @@
 //   echo $e;
 // }
  }
+ else {
+   echo 'token doesn not exist';
+ }
 
  ?>
  </head>
