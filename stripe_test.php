@@ -13,8 +13,7 @@ try {
     "source" => $token,
     "description" => "Example charge"
     ));
-
-    echo 'success';
+    header('Location: dashboard.php');
 } catch(\Stripe\Error\Card $e) {
   // The card has been declined
   echo $e;
