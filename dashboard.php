@@ -75,7 +75,8 @@
                       <a href="/aboutus.php">About Us</a>
                   </li>
                   <li>
-                      <a href="/login.php"><strong>Login</strong></a>
+                      <a href="logout.php?logout"><strong>Logout</strong></a>
+
                   </li>
               </ul>
           </div>
