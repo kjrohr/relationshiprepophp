@@ -1,5 +1,7 @@
 <?php
-
+if (isset($_SESSION['user'])){
+  header("Location: dashboard.php");
+}
 include 'header.php';
 include 'nav.php';
 include_once 'dbconfig.php';
