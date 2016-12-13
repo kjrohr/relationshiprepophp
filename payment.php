@@ -68,7 +68,7 @@ if (isset($_POST['stripeToken'])) {
   <div class="form-row">
     <label>
       <span>Card Number</span>
-      <input style='font-color: black !important;' type="text" size="20" data-stripe="number">
+      <input type="text" size="20" data-stripe="number">
     </label>
   </div>
 
