@@ -252,7 +252,17 @@ else
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-
+<span id='message'>
+<?
+  if(isset($_SESSION['message'])) {
+    echo $_SESSION['message'];
+    $_SESSION['message'] = '';
+  }
+  else {
+    echo 'No messages boss';
+  }
+?>
+</span>
 </div><!-- End of container -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="main.js"></script>
