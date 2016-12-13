@@ -186,9 +186,6 @@ else {
           <div class="row">
               <div class="col-md-8 col-md-offset-2">
                 <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Here is Your Active Case</h2>
-                <h2 class="section-heading" style="font-size: 57px">What You Do Helps Lessens the Pain of Our Users</h2>
-                <h3>We thank you for your vigilance in helping all our users.</h3>
-                <h3>Once a case is claimed please contact the user within 24 hours.</h3>
 
   <table>
     <tr>
