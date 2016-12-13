@@ -296,6 +296,23 @@ else
 ?>
 </div><!-- End of container -->
 
+<footer>
+    <div class="container">
+        <p>&copy; 2016 Relationship Repo. All Rights Reserved.</p>
+        <ul class="list-inline">
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li>
+                <a href="#">Terms</a>
+            </li>
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
 <div class="modal fade" id="case_creation-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
         <div class="loginmodal-container">
