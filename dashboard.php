@@ -2,7 +2,6 @@
  session_start();
  require_once 'dbconfig.php';
  require_once 'header.php';
- include 'nav.php';
  // if session is not set this will redirect to login page
  if( !isset($_SESSION['user']) ) {
   header("Location: login.php");
@@ -54,6 +53,20 @@
 <title>Welcome - <?php echo $userRow['username']; ?></title>
 </head>
 <body>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a href="/index.php">Home</a>
+        </li>
+          <li>
+              <a href="/aboutus.php">About Us</a>
+          </li>
+          <li>
+              <a href="/login.php"><strong>Login</strong></a>
+          </li>
+      </ul>
+  </div>
 <div class='container'>
   <div class='row'>
     <div class="col-sm-7">
