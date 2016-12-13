@@ -24,9 +24,6 @@
                     <a href="/aboutus.php">About Us</a>
                 </li>
                 <li>
-                    <a href="/packages.php">Services</a>
-                </li>
-                <li>
                     <a href="/login.php"><strong>Login</strong></a>
                 </li>
             </ul>
