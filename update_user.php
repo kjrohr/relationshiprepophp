@@ -84,9 +84,6 @@ if(isset($_POST['btn-save']))
 
 
 <div id="header">
- <div id="content">
-    <label>Update User</label>
-    </div>
 </div>
 <div id="body">
  <div id="content">
