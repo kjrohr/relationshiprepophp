@@ -227,6 +227,8 @@ elseif ($_SESSION['user_type'] == 'user')
       <!-- WILL NOT FIRE if apostrophe is present in textarea -->
       <button name='case-btn'>Submit Case</button>
     </form>
+
+    <a href="#create_case-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
     <?php
   }
   else {

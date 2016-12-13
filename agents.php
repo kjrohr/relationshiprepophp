@@ -23,8 +23,7 @@ if (isset($_POST['apply-btn'])) {
   $company_phone = $_POST['company_phone'];
   $user_permissions = "agent";
   $pass = $_POST['pass'];
-
-   $password = hash('sha256', $pass);
+  $password = hash('sha256', $pass);
    // variables for input data
 
    // sql query for inserting data into database
