@@ -39,14 +39,8 @@ if (isset($_POST['stripeToken'])) {
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/index.php">Hello <?php echo $userRow['username']; ?></a>
+                    <span>Please Finish Creating Your Case</span>
                 </li>
-                  <li>
-                      <a href="/aboutus.php">About Us</a>
-                  </li>
-                  <li>
-                      <a href="update_user.php">Update Info</a>
-                  </li>
                   <li>
                       <a href="logout.php?logout"><strong>Logout</strong></a>
                   </li>
