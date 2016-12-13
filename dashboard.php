@@ -269,7 +269,9 @@ elseif ($_SESSION['user_type'] == 'user')
                 echo '<td>' . htmlspecialchars($field) . '</td>';
               }
               elseif (empty($field)) {
+                if (is_null($active_agent)) {
                 echo '<td>Waiting for an Agent to Claim!</td>';
+              }
               }
               else {
                 // Catch all
