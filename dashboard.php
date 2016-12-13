@@ -254,7 +254,7 @@ else
 
 <?php
   if (isset($_SESSION['message'])) {
-    echo "<span id='message'>" . $_SESSION['messgage'] . "</span";
+    echo "<span id='message'>" . $_SESSION['message'] . "</span>";
   }
 ?>
 </div><!-- End of container -->
