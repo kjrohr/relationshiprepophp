@@ -126,8 +126,9 @@ if ($num_of_rows == 0){
 }
 else {
 ?>
-<h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Here is Your Active Case</h2>
+<h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Here is a List of Active Cases</h2>
 <h2 class="section-heading" style="font-size: 57px">What You Do Helps Lessen the Pain of Our Users</h2>
+<h3>Please claim one soon.</h3>
 <h3>We thank you for your vigilance in helping all our users.</h3>
 <h3>Once a case is claimed please contact the user within 24 hours.</h3>
 <table>
