@@ -252,7 +252,7 @@ else
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-<span id='message'>
+<span id='message'>asd
 <?
   if(isset($_SESSION['message'])) {
     echo $_SESSION['message'];
