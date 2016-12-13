@@ -106,7 +106,7 @@ if ($test == 0) {
   // Need to display cases that aren't claimed
   $query="SELECT * FROM cases WHERE userId IS NULL AND completed IS NULL";
   $results = mysql_query($query);
-
+  $num_of_rows = mysql_num_rows($results);
 ?>
 <div class='row'>
   <div class='col-sm-7'>
@@ -119,6 +119,12 @@ if ($test == 0) {
     <td>Completed</td>
   </tr>
 <?php
+if ($num_of_rows == 0){
+  echo 'no cases boss';
+}
+else {
+
+
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
 
@@ -150,6 +156,7 @@ while ($row = mysql_fetch_array($results)) {
 <!-- Agent dashboard contents -->
 
 <?php
+}
 } // END of if test == 0
 else {
   // If Agent has a case
