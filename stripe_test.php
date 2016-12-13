@@ -34,4 +34,10 @@ include "header.php";
   <input type="submit" class="submit" value="Submit Payment">
 </form>
 
-sdfadsfdsaf
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script type="text/javascript">
+  Stripe.setPublishableKey('pk_test_mVRIEcTc4r6RkVTj74wurQFE');
+</script>
+<script type="text/javascript" src="payment.js"></script>
+</body>
+</html>
