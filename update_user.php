@@ -74,6 +74,9 @@ if(isset($_POST['btn-save']))
       <!-- /.container-fluid -->
   </nav>
   <div class='container'>
+    <div class="page-header">
+      <h1 style="margin:25% 0 0; font-size: 57px;">Update User</h1>
+    </div>
   <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
       <div class="container">
           <div class="row">
