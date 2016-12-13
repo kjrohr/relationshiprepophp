@@ -244,6 +244,8 @@ elseif ($_SESSION['user_type'] == 'user')
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
+                  <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Case Information</h2>
+
     <table>
       <tr>
         <td>Case ID</td>
@@ -272,10 +274,7 @@ elseif ($_SESSION['user_type'] == 'user')
         echo '</tr>';
         ?>
       </table>
-    </div>
-</div>
-</div>
-</section>
+      <h3>Agent's Information</h3>
         <?php
         $agent=mysql_query("SELECT * FROM agents WHERE userId=".$active_agent);
         $agentRow=mysql_fetch_array($agent);
@@ -288,6 +287,13 @@ elseif ($_SESSION['user_type'] == 'user')
         echo 'Employer: ' . $agentRow['employer'] . '<br />';
         echo 'Company: ' . $agentRow['company'] . '<br />';
         echo 'Company Address: ' . $agentRow['company_address'] . '<br />';
+
+        ?>
+      </div>
+  </div>
+  </div>
+  </section>
+        <?php
       }
     }
   }
