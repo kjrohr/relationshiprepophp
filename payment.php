@@ -12,6 +12,7 @@ if (isset($_POST['stripeToken'])) {
   $user_id = $_SESSION['user'];
   $content = $_SESSION['content'];
   $sql_query="INSERT INTO cases(user_id,content) VALUES('$user_id','$content')";
+  mysql_query($sql_query);
   $_SESSION['message'] = 'Payment Successful!';
   unset($_SESSION['content']);
   header("Location: dashboard.php");
