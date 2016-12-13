@@ -344,6 +344,9 @@ elseif ($_SESSION['user_type'] == 'user')
           <?php
         }
         else {
+          ?>
+          <p>If an agent has claimed your case and has not contacted you within 24 hours please contact us.</p>
+          <?php
         $agent=mysql_query("SELECT * FROM agents WHERE userId=".$active_agent);
         $agentRow=mysql_fetch_array($agent);
         // Format this better later
