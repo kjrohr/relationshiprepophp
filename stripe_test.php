@@ -42,6 +42,10 @@
 
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+ <script type="text/javascript">
+  Stripe.setPublishableKey('pk_test_mVRIEcTc4r6RkVTj74wurQFE');
+ </script>
  <script src="main.js"></script>
 </body>
 </html>
