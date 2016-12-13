@@ -75,21 +75,21 @@ if (isset($_POST['stripeToken'])) {
   <div class="form-row">
     <label>
       <span>Expiration (MM/YY)</span>
-      <input type="text" size="2" data-stripe="exp_month">
+      <input style='color: black !important;' type="text" size="2" data-stripe="exp_month">
     </label>
     <span> / </span>
-    <input type="text" size="2" data-stripe="exp_year">
+    <input style='color: black !important;' type="text" size="2" data-stripe="exp_year">
   </div>
 
   <div class="form-row">
     <label>
       <span>CVC</span>
-      <input type="text" size="4" data-stripe="cvc">
+      <input style='color: black !important;' type="text" size="4" data-stripe="cvc">
     </label>
   </div>
 
 
-  <input type="submit" class="submit" value="Submit Payment">
+  <input style='color: black !important;' type="submit" class="submit" value="Submit Payment">
 </div>
 </div>
 </form>
