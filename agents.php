@@ -3,6 +3,11 @@
 include 'header.php';
 include 'nav.php';
 
+if (isset($_POST['apply-btn'])) {
+
+
+}
+
 ?>
 
 <title>Relationship Repo!</title>
