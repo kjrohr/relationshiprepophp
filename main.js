@@ -24,7 +24,7 @@ $(document).ready(function(){
     console.log('messages are empty');
   }
   else {
-    $('#message').fadeOut("slow");
+    $('#message').fadeOut(10000);
   }
 
 });
