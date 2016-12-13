@@ -29,5 +29,5 @@ form h2 {
 }
 
 .container .download .row #payment-form input {
-  color: black;
+  color: black !important;
 }
