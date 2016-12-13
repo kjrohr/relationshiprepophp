@@ -189,6 +189,7 @@ elseif ($_SESSION['user_type'] == 'user')
     // Case Submission form
     ?>
     <form method='post'>
+      <h2>When you create a case you are agreeing to pay a $10.00 fee.</h2>
       <textarea name='content'>Please describe to us in detail your case.</textarea>
       <!-- WILL NOT FIRE if apostrophe is present in textarea -->
       <button name='case-btn'>Submit Case</button>
