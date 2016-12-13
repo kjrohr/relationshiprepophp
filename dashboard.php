@@ -115,7 +115,14 @@ if ($test == 0) {
 
 <?php
 if ($num_of_rows == 0){
-  echo 'no cases boss';
+  ?>
+  <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Thank You for Doing What You Do!</h2>
+  <h2 class="section-heading" style="font-size: 57px">What You Do Helps Lessen the Pain of Our Users</h2>
+  <h3>We are here to help. Once you create a case, agents will be able to review it.</h3>
+  <h3>Once an agent has reviewed it they can choose to claim your case.</h3>
+  <h3>Once your case is claimed the claiming agent will contact you shortly.</h3>
+  <h3>We charge a $10.00 service fee for creating a case.</h3>
+  <?php
 }
 else {
 ?>
