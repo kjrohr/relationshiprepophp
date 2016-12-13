@@ -91,21 +91,6 @@
       <h1 style="margin:25% 0 0; font-size: 57px;">Welcome to Your Dashboard</h1>
     </div>
 
-      <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-8 col-md-offset-2">
-                      <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Design your workload, Design your pay rate,</h2>
-                      <h2 class="section-heading" style="font-size: 57px">Design your career.</h2>
-                      <h3>There are tons of perks that come along with becoming a registered Agent with Relationship Repo.</h3>
-                      <h3>Set your own working rate and gain access to an unlimited amount of potential clients per month.</h3>
-                      <h3>Connect with clients of your choosing and enjoy the freedom of creating your own work schedule.</h3>
-
-
-                  </div>
-              </div>
-          </div>
-      </section>
 <!-- Case logic -->
 
 <?php
@@ -233,8 +218,22 @@ elseif ($_SESSION['user_type'] == 'user')
     // Case Submission form
     ?>
 
-    <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
 
+    <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Design your workload, Design your pay rate,</h2>
+                    <h2 class="section-heading" style="font-size: 57px">Design your career.</h2>
+                    <h3>There are tons of perks that come along with becoming a registered Agent with Relationship Repo.</h3>
+                    <h3>Set your own working rate and gain access to an unlimited amount of potential clients per month.</h3>
+                    <h3>Connect with clients of your choosing and enjoy the freedom of creating your own work schedule.</h3>
+
+                    <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>  
+                </div>
+            </div>
+        </div>
+    </section>
 
     <?php
   }
