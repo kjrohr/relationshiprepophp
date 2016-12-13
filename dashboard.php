@@ -110,6 +110,13 @@ if ($test == 0) {
 ?>
 <div class='row'>
   <div class='col-sm-7'>
+
+<?php
+if ($num_of_rows == 0){
+  echo 'no cases boss';
+}
+else {
+?>
 <table>
   <tr>
     <td>Case ID</td>
@@ -119,11 +126,6 @@ if ($test == 0) {
     <td>Completed</td>
   </tr>
 <?php
-if ($num_of_rows == 0){
-  echo 'no cases boss';
-}
-else {
-
 
 while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
