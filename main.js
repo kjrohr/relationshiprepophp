@@ -20,4 +20,10 @@ $(document).ready(function(){
     }
   });
 
+  if ($('#message').is(':empty')){
+    console.log('messages are empty');
+  }
+  else {
+    // do something
+  }
 });
