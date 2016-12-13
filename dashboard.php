@@ -92,6 +92,22 @@
     </div>
       <h2>Sometimes, Things Just Don't Work Out</h2>
       <p>Let us help you, but pairing you with an agent.</p>
+
+      <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                      <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Design your workload, Design your pay rate,</h2>
+                      <h2 class="section-heading" style="font-size: 57px">Design your career.</h2>
+                      <h3>There are tons of perks that come along with becoming a registered Agent with Relationship Repo.</h3>
+                      <h3>Set your own working rate and gain access to an unlimited amount of potential clients per month.</h3>
+                      <h3>Connect with clients of your choosing and enjoy the freedom of creating your own work schedule.</h3>
+
+
+                  </div>
+              </div>
+          </div>
+      </section>
 <!-- Case logic -->
 
 <?php
