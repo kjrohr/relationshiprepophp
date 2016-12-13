@@ -280,11 +280,13 @@ elseif ($_SESSION['user_type'] == 'user')
         echo '</tr>';
         ?>
       </table>
+      <p>Our Agents our currently reviewing all cases.</p>
+      <p>We thank you for your patience while you wait for an agent to select your case</p>
+      <p>If an agent hasn't selected your case within 24 hours please contact us.</p>
       <h3>Agent's Information</h3>
         <?php
         if (is_null($active_agent)) {
           ?>
-          <h3>Agent Info</h3>
           <?php
         }
         else {
