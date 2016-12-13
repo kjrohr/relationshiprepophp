@@ -295,6 +295,106 @@ else
   }
 ?>
 </div><!-- End of container -->
+
+<div class="modal fade" id="case_creation-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+        <div class="loginmodal-container">
+          <form method="post">
+            <div class="container" style="max-width:530px; margin: 0 auto;">
+                        <form class="form-horizontal" role="form">
+                            <h2 style="color:white; margin-left: 10%;">Need to Create a Case?</h2>
+                            <div style="margin-left: 30%;">
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-sm-9">
+                                    <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-sm-9">
+                                <input type="radio" name="gender" value="male" class="form-control"> Male<br>
+                                <input type="radio" name="gender" value="female" class="form-control"> Female<br>
+                                </div>
+                            </div> <!-- /.form-group -->
+                            <div class="form-group">
+                              <div class="col-sm-9">
+                                    <input type="tel" name="cell_phone" placeholder="Phone Number" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-sm-9">
+                                    <input type="email" name="email" placeholder="Email Address" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <input type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
+                                </div>
+                            </div> <!-- /.form-group -->
+                            <div class="form-group">
+                              <div class="col-sm-9">
+                                <input type="date" name="age" max="2000-12-31" placeholder="Birthdate" class="form-control" required />
+                                </div>
+                            </div> <!-- /.form-group -->
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <input type="text" name="employer" placeholder="Employer's Name" class="form-control" required />
+                                </div>
+                            </div> <!-- /.form-group -->
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <input type="text" name="company" placeholder="Company Name" class="form-control" required />
+                                </div>
+                            </div> <!-- /.form-group -->
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <input type="text" name="company_address" placeholder="Address, City, State, Zip" class="form-control" required />
+                                </div>
+                            </div> <!-- /.form-group -->
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <input type="text" name="company_phone" placeholder="111.222.3333" class="form-control" required />
+                                </div>
+                            </div> <!-- /.form-group -->
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <input type="text" name="user_name" placeholder="User Name" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-sm-9">
+                                <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
+                                </div>
+                            </div> <!-- /.form-group -->
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" required>
+                                            <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="#" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div> <!-- /.form-group -->
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <button type="submit" name="apply-btn" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
+                                    <a href="/login.php" class="btn btn-block btn-outline">Already Registered?</a>
+                                </div>
+                            </div>
+                            </div>
+                        </form> <!-- /form -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
     <script src="main.js"></script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
