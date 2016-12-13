@@ -319,7 +319,6 @@ else
                             <div style="margin-left: 30%;">
                             <div class="form-group">
                                 <div class="col-sm-9">
-                                    <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
                                     <textarea name='content' class="form-control" required="">Please describe to us in detail about your case.</textarea>
                                 </div>
                             </div>
@@ -336,7 +335,6 @@ else
                             <div class="form-group">
                                 <div class="col-sm-9">
                                     <button type="submit" name="case-btn" class="btn btn-primary btn-block" style="background:#415c6f;">Submit Case</button><br />
-                                    <a href="/login.php" class="btn btn-block btn-outline">Already Registered?</a>
                                 </div>
                             </div>
                             </div>
