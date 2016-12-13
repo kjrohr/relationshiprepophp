@@ -39,7 +39,7 @@ if (isset($_POST['stripeToken'])) {
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <span>Please Finish Creating Your Case</span>
+                    <a>Please Finish Creating Your Case</a>
                 </li>
                   <li>
                       <a href="logout.php?logout"><strong>Logout</strong></a>
