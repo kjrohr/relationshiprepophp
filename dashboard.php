@@ -181,6 +181,11 @@ while ($row = mysql_fetch_array($results)) {
 else {
   // If Agent has a case
   ?>
+  <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+
   <table>
     <tr>
       <td>Case ID</td>
@@ -222,7 +227,9 @@ else {
   echo 'Email: ' . $ownerRow['email'] . '<br />';
   echo 'Address: ' . $ownerRow['address'] . '<br />';
   ?>
-
+</div>
+</div>
+</section>
 <?php
 }
 }
