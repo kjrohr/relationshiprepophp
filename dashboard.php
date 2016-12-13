@@ -255,6 +255,7 @@ else
 <?php
   if (isset($_SESSION['message'])) {
     echo "<span id='message'>" . $_SESSION['message'] . "</span>";
+    unset($_SESSION['message']);
   }
   else {
     echo 'does not exist';
