@@ -13,7 +13,7 @@ include 'nav.php';
   <!-- Begin page content -->
   <div class="container">
     <div class="page-header">
-      <h1>Who Are We?</h1>
+      <h1 style="margin:25% 0 0; font-size: 57px;">Who Are We?</h1>
     </div>
       <h2>Sometimes, Things Just Don't Work Out</h2>
       <p>Relationship Repo is an idea that was created by Lindsay Hampton and Karl Rohr. We at Relationship Repo want to take the pain out of having a bad break up.</p>
