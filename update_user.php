@@ -77,7 +77,7 @@ if(isset($_POST['btn-save']))
       <div class="container">
           <div class="row">
               <div class="col-md-8 col-md-offset-2">
-<center>
+
 
 <div id="header">
  <div id="content">
@@ -132,7 +132,6 @@ if(isset($_POST['btn-save']))
                   </form> <!-- /form -->
               </div> <!-- ./container -->
 
-</center>
 </div>
 </div>
 </section>
