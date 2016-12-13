@@ -160,6 +160,11 @@ while ($row = mysql_fetch_array($results)) {
 
 <?php
 }
+?>
+</div><!-- End of col-sm-7 -->
+</div><!-- End of row -->
+</section>
+<?php
 } // END of if test == 0
 else {
   // If Agent has a case
@@ -205,9 +210,7 @@ else {
   echo 'Email: ' . $ownerRow['email'] . '<br />';
   echo 'Address: ' . $ownerRow['address'] . '<br />';
   ?>
-</div><!-- End of col-sm-7 -->
-</div><!-- End of row -->
-</section>
+
 <?php
 }
 }
