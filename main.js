@@ -19,4 +19,12 @@ $(document).ready(function(){
       // User feedback somewhere
     }
   });
+
+  if ($('some_element').length == 0) {
+    //Add it to the dom
+    alert('heck!');
+    }
+    else {
+      // it does exist?
+    }
 });
