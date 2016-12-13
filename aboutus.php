@@ -16,10 +16,25 @@ include 'nav.php';
       <h1>Who Are We?</h1>
     </div>
     <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-    <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+    
   </div>
 
-√ß
+  <footer>
+      <div class="container">
+          <p>&copy; 2016 Relationship Repo. All Rights Reserved.</p>
+          <ul class="list-inline">
+              <li>
+                  <a href="#">Privacy</a>
+              </li>
+              <li>
+                  <a href="#">Terms</a>
+              </li>
+              <li>
+                  <a href="#">FAQ</a>
+              </li>
+          </ul>
+      </div>
+  </footer>
 
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
