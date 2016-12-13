@@ -223,22 +223,17 @@ elseif ($_SESSION['user_type'] == 'user')
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Design your workload, Design your pay rate,</h2>
-                    <h2 class="section-heading" style="font-size: 57px">Design your career.</h2>
-                    <h3>There are tons of perks that come along with becoming a registered Agent with Relationship Repo.</h3>
-                    <h3>Set your own working rate and gain access to an unlimited amount of potential clients per month.</h3>
-                    <h3>Connect with clients of your choosing and enjoy the freedom of creating your own work schedule.</h3>
+                    <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Do You Need to Start a Case?</h2>
+                    <h2 class="section-heading" style="font-size: 57px">Sometimes, Things Just Don't Work Out</h2>
+                    <h3>We are here to help. Once you create a case, agents will be able to review it.</h3>
+                    <h3>Once an agent has reviewed it they can choose to claim your case.</h3>
+                    <h3>Once your case is claimed the claiming agent will contact you shortly.</h3>
 
-                    <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
+                    <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Start a Case</a>
                 </div>
             </div>
         </div>
     </section>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-    <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
-  </div>
-</div>
     <?php
   }
   else {
