@@ -2,28 +2,11 @@
  include 'header.php';
 
  if (isset($_POST['stripeToken'])) {
-
-   \Stripe\Stripe::setApiKey("sk_test_gB3FAuvgKMLtCNDhjVGIWcUu");
-   $token = $_POST['stripeToken'];
-   // Create a charge: this will charge the user's card
    echo 'token exists';
-// try {
-//   $charge = \Stripe\Charge::create(array(
-//     "amount" => 1000, // Amount in cents
-//     "currency" => "usd",
-//     "source" => $token,
-//     "description" => "Example charge"
-//     ));
-//     header('Location: dashboard.php');
-// } catch(\Stripe\Error\Card $e) {
-//   // The card has been declined
-//   echo $e;
-// }
  }
  else {
-   echo 'token doesn not exist';
+   echo 'token does not exist';
  }
-
  ?>
  </head>
  <body>
