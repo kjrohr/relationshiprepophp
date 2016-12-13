@@ -53,33 +53,6 @@ if (isset($_POST['apply-btn'])) {
           </div>
       </section>
 
-      <section class="cta" style="background:url('img/sun.jpg') no-repeat center center fixed; background-size: cover;">
-          <div class="cta-content">
-              <div class="container">
-                <h1 style="margin-bottom:0; font-size: 57px; color:#FFF;">Current Promotional Offers:</h1>
-                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #FFF;">New Agents that are approved through Relationship Repo recieve a reduced monthly subscription rate of $25/month.</h2>
-                <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
-              </div>
-          </div>
-      </section>
-
-      <section id="contact" class="contact bg-primary">
-          <div class="container">
-              <h2>Social media and stuff and things!</h2>
-              <ul class="list-inline list-social">
-                  <li class="social-twitter">
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                  </li>
-                  <li class="social-facebook">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                  </li>
-                  <li class="social-google-plus">
-                      <a href="#"><i class="fa fa-google-plus"></i></a>
-                  </li>
-              </ul>
-          </div>
-      </section>
-
       <footer>
           <div class="container">
               <p>&copy; 2016 Relationship Repo. All Rights Reserved.</p>
