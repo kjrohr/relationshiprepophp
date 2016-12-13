@@ -51,8 +51,18 @@ if (isset($_POST['stripeToken'])) {
       <!-- /.container-fluid -->
   </nav>
 <div class='container'>
-  
-<form method="POST" id="payment-form">
+  <div class="page-header">
+    <h1 style="margin:25% 0 0; font-size: 57px;">Update User</h1>
+  </div>
+<section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+  <form method="POST" id="payment-form" class="form-horizontal">
+  <div class="container" style="max-width:530px; margin: 0 auto;">
+    <h2 style="color:white; margin-left: 10%;">$10.00 Case Creation Service Fee</h2>
+    <div style="margin-left: 30%;">
   <span class="payment-errors"></span>
 
   <div class="form-row">
@@ -80,8 +90,13 @@ if (isset($_POST['stripeToken'])) {
 
 
   <input type="submit" class="submit" value="Submit Payment">
+</div>
+</div>
 </form>
-
+</div>
+</div>
+</div>
+</section>
 </div>
 
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
