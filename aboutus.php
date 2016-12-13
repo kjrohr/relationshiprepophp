@@ -13,7 +13,7 @@ include 'nav.php';
   <!-- Begin page content -->
   <div class="container">
     <div class="page-header">
-      <h1>Who Are We?</h1>
+      <h1 style='text-align: left;'>Who Are We?</h1>
     </div>
       <h2>Sometimes, Things Just Don't Work Out</h2>
   </div>
