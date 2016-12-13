@@ -98,7 +98,22 @@ if (isset($_POST['stripeToken'])) {
 </div>
 </section>
 </div>
-
+<footer>
+    <div class="container">
+        <p>&copy; 2016 Relationship Repo. All Rights Reserved.</p>
+        <ul class="list-inline">
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li>
+                <a href="#">Terms</a>
+            </li>
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+        </ul>
+    </div>
+</footer>
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 <script type="text/javascript">
   Stripe.setPublishableKey('pk_test_mVRIEcTc4r6RkVTj74wurQFE');
