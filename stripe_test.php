@@ -2,6 +2,7 @@
 include "header.php";
 
 if (isset($_POST['stripeToken'])) {
+  $_SESSION['message'] = 'Payment Successful!';
   header("Location: dashboard.php");
 }
 ?>
