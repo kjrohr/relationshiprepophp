@@ -220,6 +220,7 @@ else {
       echo '</tr>';
       ?>
       </table>
+      <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Case Owner Information</h2>
       <?php
   }
   $owner=mysql_query("SELECT * FROM users WHERE user_id=".$case_owner);
