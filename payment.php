@@ -7,7 +7,7 @@ if( !isset($_SESSION['user']) || !isset($_SESSION['content'])) {
  exit;
 }
 
-
+echo $_SESSION['content'];
 
 if (isset($_POST['stripeToken'])) {
   $_SESSION['message'] = 'Payment Successful!';
