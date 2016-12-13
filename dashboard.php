@@ -295,13 +295,16 @@ elseif ($_SESSION['user_type'] == 'user')
         echo 'Company Address: ' . $agentRow['company_address'] . '<br />';
         }
         ?>
-      </div>
-  </div>
-  </div>
-  </section>
+
         <?php
       }
     }
+    ?>
+    </div>
+</div>
+</div>
+</section>
+<?php
   }
 
 }
