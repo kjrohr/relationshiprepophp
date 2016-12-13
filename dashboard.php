@@ -253,7 +253,7 @@ else
 </form>
 
 <span id='message'>asd
-<?
+<?php
   if(isset($_SESSION['message'])) {
     echo $_SESSION['message'];
     $_SESSION['message'] = '';
