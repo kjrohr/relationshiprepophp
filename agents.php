@@ -3,53 +3,6 @@
 include 'header.php';
 include 'nav.php';
 
-if (isset($_POST['apply-btn'])) {
-
-  // Karl's test
-  // Generate and Send Email
-  // $first_name = $_POST['first_name'];
-  // $last_name = $_POST['last_name'];
-  // $phone = $_POST['phone'];
-  // $email_from = $_POST['email'];
-  // $address = $_POST['address'];
-  // $birthday = $_POST['birthday'];
-  // $email_to = 'catoverlord@gmail.com';
-  // $email_subject = $first_name .  ' ' . $last_name . ' Agent Application';
-  // $email_body = 'Hello my name is, ' . $first_name . ' ' . $last_name . ' I am interested in becoming a Relationship Repo Agent. ';
-  // $email_body_cont = 'Here is my contact information, Phone: ' . $phone . ', Address: ' . $address . '. Thank you for your time and I hope to hear from you soon.';
-  // $email_message = $email_body . $email_body_cont;
-  // $headers = "From: " . $email_from . "\r\n" .
-  //            "Reply-To: " . $email_from . "\r\n" .
-  //            "X-Mailer: PHP/" . phpversion();
-  // mail($email_to,$email_subject,$email_message,$headers);
-  // End of Karl's test
-   
-// if(isset($_POST['submit'])){
-//     $to = "zombiepoodles@icloud.com";
-//     $from = $_POST['email'];
-//     $first_name = $_POST['first_name'];
-//     $last_name = $_POST['last_name'];
-//     $phone = $_POST['phone'];
-//     $address = $_POST['address'];
-//     $birthday = $_POST['birthday'];
-//     $subject = "RR Agent Application Submission";
-//     $subject2 = "Your Application Has Been Received!";
-//
-//     $generic = "Please contact " . $first_name . " " . $last_name . "\n\n" . " Phone: " . $phone . "\n\n" . " Email: " . $from . "\n\n" . "Birthday: " . $birthday . "\n\n" . "Address: " . $address;
-//
-//     $message = "You've received an Agent application through the Relationship Repo website!" . "\n\n" . $generic;
-//
-//     $message2 = "Hey there " . $first_name . "," . "\n\n" . "We've received your Agent Application here at Relationship Repo and are currently in the process of reviewing your information." . "\n\n" . "Here is a copy of the information we've received from you." . $generic . "\n\n" . "Thanks so much for applying! Hopefully we'll talk to you soon.";
-//
-//     $headers = "From:" . $from;
-//     $headers2 = "From:" . $to;
-//     mail($to,$subject,$message,$headers);
-//     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-//     echo "Thanks for applying with us " . $first_name . ", someone will contact you shortly.";
-//     // You can also use header('Location: thank_you.php'); to redirect to another page.
-//     }
-
-}
 ?>
 
 <title>Relationship Repo!</title>
