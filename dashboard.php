@@ -75,7 +75,7 @@
                       <a href="/aboutus.php">About Us</a>
                   </li>
                   <li>
-                      <a href="update_user.php">Update User</a>
+                      <a href="update_user.php">Update Info</a>
                   </li>
                   <li>
                       <a href="logout.php?logout"><strong>Logout</strong></a>
