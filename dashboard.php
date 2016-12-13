@@ -108,8 +108,10 @@ if ($test == 0) {
   $results = mysql_query($query);
   $num_of_rows = mysql_num_rows($results);
 ?>
-<div class='row'>
-  <div class='col-sm-7'>
+<section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
 
 <?php
 if ($num_of_rows == 0){
@@ -153,8 +155,7 @@ while ($row = mysql_fetch_array($results)) {
 
 ?>
 </table>
-</div><!-- End of col-sm-7 -->
-</div><!-- End of row -->
+
 <!-- Agent dashboard contents -->
 
 <?php
@@ -204,7 +205,9 @@ else {
   echo 'Email: ' . $ownerRow['email'] . '<br />';
   echo 'Address: ' . $ownerRow['address'] . '<br />';
   ?>
-
+</div><!-- End of col-sm-7 -->
+</div><!-- End of row -->
+</section>
 <?php
 }
 }
