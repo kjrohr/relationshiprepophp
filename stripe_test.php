@@ -4,9 +4,7 @@
  if (isset($_POST['stripeToken'])) {
    echo 'token exists';
  }
- else {
-   echo 'token does not exist';
- }
+
  ?>
  </head>
  <body>
@@ -40,7 +38,6 @@
     <input type="submit" class="submit" value="Submit Payment">
   </form>
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
  <script type="text/javascript">
   Stripe.setPublishableKey('pk_test_mVRIEcTc4r6RkVTj74wurQFE');
