@@ -141,6 +141,7 @@ else {
 <h3>Please claim one soon.</h3>
 <h3>We thank you for your vigilance in helping all our users.</h3>
 <h3>Once a case is claimed please contact the user within 24 hours.</h3>
+<h3>Please see that cases are handled as quickly as possible.</h3>
 <table>
   <tr>
     <td>Case ID</td>
