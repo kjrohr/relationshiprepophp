@@ -74,9 +74,19 @@
                   <li>
                       <a href="/aboutus.php">About Us</a>
                   </li>
-                  <li>
-                      <a href="update_user.php">Update Info</a>
-                  </li>
+                  <?php
+                  if ($_SESSION['user_type'] == 'agent') {
+
+                  }
+                  else {
+                    ?>
+                    <li>
+                        <a href="update_user.php">Update Info</a>
+                    </li>
+                    <?php
+                  }
+                   ?>
+
                   <li>
                       <a href="logout.php?logout"><strong>Logout</strong></a>
                   </li>
