@@ -1,6 +1,7 @@
 <?php
 session_start();
 include "header.php";
+require_once 'dbconfig.php';
 
 if( !isset($_SESSION['user']) || !isset($_SESSION['content'])) {
  header("Location: login.php");
@@ -11,13 +12,12 @@ if (isset($_POST['stripeToken'])) {
   $user_id = $_SESSION['user'];
   $content = $_SESSION['content'];
 
-  echo 'user_id: ' . $user_id . '. Content: ' . $content;
-
   $sql_query="INSERT INTO cases(user_id,content) VALUES('$user_id','$content')";
   mysql_query($sql_query);
   $_SESSION['message'] = 'Payment Successful!';
-  // unset($_SESSION['content']);
-  // header("Location: dashboard.php");
+
+  unset($_SESSION['content']);
+  header("Location: dashboard.php");
 }
 ?>
 
