@@ -229,12 +229,16 @@ elseif ($_SESSION['user_type'] == 'user')
                     <h3>Set your own working rate and gain access to an unlimited amount of potential clients per month.</h3>
                     <h3>Connect with clients of your choosing and enjoy the freedom of creating your own work schedule.</h3>
 
-                    <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>  
+                    <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
                 </div>
             </div>
         </div>
     </section>
-
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+    <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
+  </div>
+</div>
     <?php
   }
   else {
