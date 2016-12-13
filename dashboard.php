@@ -276,6 +276,12 @@ elseif ($_SESSION['user_type'] == 'user')
       </table>
       <h3>Agent's Information</h3>
         <?php
+        if (is_null($active_agent)) {
+
+        }
+        else {
+
+          }
         $agent=mysql_query("SELECT * FROM agents WHERE userId=".$active_agent);
         $agentRow=mysql_fetch_array($agent);
         // Format this better later
@@ -287,7 +293,7 @@ elseif ($_SESSION['user_type'] == 'user')
         echo 'Employer: ' . $agentRow['employer'] . '<br />';
         echo 'Company: ' . $agentRow['company'] . '<br />';
         echo 'Company Address: ' . $agentRow['company_address'] . '<br />';
-
+        }
         ?>
       </div>
   </div>
