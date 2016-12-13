@@ -5,7 +5,27 @@ include 'nav.php';
 
 if (isset($_POST['apply-btn'])) {
 
+  $first_name = $_POST['first_name'];
+  $last_name = $_POST['last_name'];
+  $age = $_POST['age'];
+  $user_name = $_POST['user_name'];
+  $email = $_POST['email'];
+  $gender = $_POST['gender'];
+  $cell_phone = $_POST['cell_phone'];
+  $address = $_POST['address'];
+  $employer = $_POST['employer'];
+  $company = $_POST['company'];
+  $company_address = $_POST['company_address'];
+  $company_phone = $_POST['company_phone'];
+  $user_permissions = "agent";
+  $pass = $_POST['pass'];
 
+   $password = hash('sha256', $pass);
+   // variables for input data
+
+   // sql query for inserting data into database
+          $sql_query = "INSERT INTO agents(first_name,last_name,age,user_name,email,gender,cell_phone,address,employer,company,company_address,company_phone,user_permissions,password) VALUES('$first_name','$last_name','$age','$user_name','$email','$gender','$cell_phone','$address','$employer','$company','$company_address','$company_phone','$user_permissions','$password')";
+   mysql_query($sql_query);
 }
 
 ?>
