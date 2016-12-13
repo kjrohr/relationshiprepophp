@@ -75,8 +75,10 @@
                       <a href="/aboutus.php">About Us</a>
                   </li>
                   <li>
+                      <a href="update_user.php">Update User</a>
+                  </li>
+                  <li>
                       <a href="logout.php?logout"><strong>Logout</strong></a>
-
                   </li>
               </ul>
           </div>
@@ -88,9 +90,7 @@
   <div class='row'>
     <div class="col-sm-7">
 Hello <?php echo $userRow['username']; ?>
-<a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a>
-<a href="delete_user.php?delete"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Delete</a>
-<a href="update_user.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Update</a>
+
   </div><!-- End of col-sm-7 -->
   </div><!-- End of row -->
 <!-- Case logic -->
