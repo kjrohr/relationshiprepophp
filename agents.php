@@ -2,7 +2,6 @@
 
 include 'header.php';
 include 'nav.php';
-include_once 'dbconfig.php';
 
 if (isset($_POST['apply-btn'])) {
 
