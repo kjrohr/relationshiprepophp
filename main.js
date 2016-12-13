@@ -20,9 +20,9 @@ $(document).ready(function(){
     }
   });
 
-  if ($('some_element').length == 0) {
+  if ($('#some_element').length == 0) {
     //Add it to the dom
-    alert('heck!');
+    console.log('does not exist!');
     }
     else {
       // it does exist?
