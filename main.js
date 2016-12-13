@@ -28,10 +28,4 @@ $(document).ready(function(){
     console.log('message is not empty');
   }
 
-  if ($('#message').text().trim().length) {
-      console.log('message has no text');
-    }
-    else {
-      console.log('message has text?');
-    }
 });

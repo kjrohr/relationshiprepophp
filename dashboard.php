@@ -252,17 +252,11 @@ else
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-<span id='message'>
 <?php
-  if(isset($_SESSION['message'])) {
-    echo $_SESSION['message'];
-    $_SESSION['message'] = '';
-  }
-  else {
-
+  if (isset($_SESSION['message'])) {
+    echo "<span id='message'>" . $_SESSION['messgage'] . "</span";
   }
 ?>
-</span>
 </div><!-- End of container -->
     <script src="main.js"></script>
     <!--Start of Tawk.to Script-->
