@@ -277,7 +277,9 @@ elseif ($_SESSION['user_type'] == 'user')
       <h3>Agent's Information</h3>
         <?php
         if (is_null($active_agent)) {
-
+          ?>
+          <h3>Agent Info</h3>
+          <?php
         }
         else {
         $agent=mysql_query("SELECT * FROM agents WHERE userId=".$active_agent);
