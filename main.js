@@ -25,5 +25,6 @@ $(document).ready(function(){
   }
   else {
     // do something
+    console.log('message is not empty');
   }
 });
