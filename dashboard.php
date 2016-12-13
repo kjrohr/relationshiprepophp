@@ -227,7 +227,7 @@ elseif ($_SESSION['user_type'] == 'user')
       <!-- WILL NOT FIRE if apostrophe is present in textarea -->
       <button name='case-btn'>Submit Case</button>
     </form>
-    <a href="#create_case-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
+    <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
 
 
     <?php
@@ -313,7 +313,7 @@ else
     </div>
 </footer>
 
-<div class="modal fade" id="case_creation-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+<div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
         <div class="loginmodal-container">
           <form method="post">
