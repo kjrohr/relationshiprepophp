@@ -38,9 +38,13 @@
   if (isset($_POST['case-btn'])) {
     // Add case to cases table
      $user_id = $_SESSION['user'];
-     $content = $_POST['content'];
-     $sql_query="INSERT INTO cases(user_id,content) VALUES('$user_id','$content')";
-     mysql_query($sql_query);
+     $_SESSION['content'] = $_POST['content'];
+     header('Location: payment.php')
+     //$sql_query="INSERT INTO cases(user_id,content) VALUES('$user_id','$content')";
+     //mysql_query($sql_query);
+
+     // Need to move this over to the stripe file
+
   }
 
 ?>

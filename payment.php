@@ -2,6 +2,13 @@
 session_start();
 include "header.php";
 
+if( !isset($_SESSION['user']) || !isset($_SESSION['content'])) {
+ header("Location: login.php");
+ exit;
+}
+
+
+
 if (isset($_POST['stripeToken'])) {
   $_SESSION['message'] = 'Payment Successful!';
   header("Location: dashboard.php");

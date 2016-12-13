@@ -4,6 +4,8 @@ include 'header.php';
 include 'nav.php';
 
 if (isset($_POST['apply-btn'])) {
+
+  // Karl's test
   // Generate and Send Email
   // $first_name = $_POST['first_name'];
   // $last_name = $_POST['last_name'];
@@ -20,13 +22,8 @@ if (isset($_POST['apply-btn'])) {
   //            "Reply-To: " . $email_from . "\r\n" .
   //            "X-Mailer: PHP/" . phpversion();
   // mail($email_to,$email_subject,$email_message,$headers);
-  if(mail('kjrohr@fullsail.edu','Testing mail()','Did you get that thing I sent ya')) {
-    echo "You did the thing";
-  }
-  else {
-    echo "You did not do the thing";
-  }
-}
+  // End of Karl's test
+   
 // if(isset($_POST['submit'])){
 //     $to = "zombiepoodles@icloud.com";
 //     $from = $_POST['email'];
