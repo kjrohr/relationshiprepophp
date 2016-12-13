@@ -240,6 +240,10 @@ elseif ($_SESSION['user_type'] == 'user')
     // Table of Active Case with Agent's Data
     $active_agent = '';
     ?>
+    <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
     <table>
       <tr>
         <td>Case ID</td>
@@ -267,6 +271,10 @@ elseif ($_SESSION['user_type'] == 'user')
         echo '<td><button class="complete" name="complete">Complete?</button></td>';
         echo '</tr>';
         ?>
+      </div>
+  </div>
+</div>
+</section>
       </table>
         <?php
         $agent=mysql_query("SELECT * FROM agents WHERE userId=".$active_agent);
