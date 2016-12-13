@@ -90,8 +90,6 @@
     <div class="page-header">
       <h1 style="margin:25% 0 0; font-size: 57px;">Welcome to Your Dashboard</h1>
     </div>
-      <h2>Sometimes, Things Just Don't Work Out</h2>
-      <p>Let us help you, but pairing you with an agent.</p>
 
       <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
           <div class="container">
