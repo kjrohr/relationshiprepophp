@@ -16,6 +16,9 @@ include 'nav.php';
       <h1>Who Are We?</h1>
     </div>
       <h2>Sometimes, Things Just Don't Work Out</h2>
+      <p>Relationship Repo is an idea that was created by Lindsay Hampton and Karl Rohr. We at Relationship Repo want to take the pain out of having a bad break up.</p>
+      <p>Sometimes, this don't go as planned and you need to leave the situation that you are in and sometimes that means leaving behind a lot of valuable belongings.</p>
+      <p>We want to help you reclaim those items safely and professionally. You can submit a 'case' to our Agents and one will select it and contact you shortly.</p>
   </div>
 
   <footer>
