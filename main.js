@@ -26,5 +26,6 @@ $(document).ready(function(){
     }
     else {
       // it does exist?
+      console.log('does it not exist!?');
     }
 });
