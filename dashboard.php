@@ -271,11 +271,11 @@ elseif ($_SESSION['user_type'] == 'user')
         echo '<td><button class="complete" name="complete">Complete?</button></td>';
         echo '</tr>';
         ?>
-      </div>
-  </div>
+      </table>
+    </div>
+</div>
 </div>
 </section>
-      </table>
         <?php
         $agent=mysql_query("SELECT * FROM agents WHERE userId=".$active_agent);
         $agentRow=mysql_fetch_array($agent);
