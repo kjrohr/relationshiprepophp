@@ -7,6 +7,7 @@ if( !isset($_SESSION['user']) || !isset($_SESSION['content'])) {
  exit;
 }
 
+echo $_SESSION['user'];
 
 if (isset($_POST['stripeToken'])) {
   $user_id = $_SESSION['user'];
