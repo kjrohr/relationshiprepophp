@@ -244,6 +244,12 @@ elseif ($_SESSION['user_type'] == 'user')
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
+                  <?php
+                    if (isset($_SESSION['message'])) {
+                      echo "<span id='message'><h2 class='section-heading' style='font-size: 57px; margin-bottom:0;'>" . $_SESSION['message'] . "</h2></span>";
+                      unset($_SESSION['message']);
+                    }
+                  ?>
                   <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Case Information</h2>
 
     <table>
@@ -315,12 +321,7 @@ else
 ?>
 
 
-<?php
-  if (isset($_SESSION['message'])) {
-    echo "<span id='message'>" . $_SESSION['message'] . "</span>";
-    unset($_SESSION['message']);
-  }
-?>
+
 </div><!-- End of container -->
 
 <footer>
