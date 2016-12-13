@@ -65,70 +65,6 @@ if(isset($_POST['btn-save']))
           </div>
       </header>
 
-      <section id="features" class="features">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-12 text-center">
-                      <div class="section-heading" style="margin-bottom: 25px">
-                          <h2>Unlimited Features, Unlimited Fun</h2>
-                          <p class="text-muted">Check out what you can do with this app theme!</p>
-                          <hr>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="device-container">
-                          <div class="device-mockup iphone6_plus portrait white">
-                              <div class="device">
-                                  <div class="screen">
-                                      <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                      <img src="img/logo.png" class="img-responsive" alt=""> </div>
-                                  <div class="button">
-                                      <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-8">
-                      <div class="container-fluid">
-                          <div class="row">
-                              <div class="col-md-6">
-                                  <div class="feature-item">
-                                      <i class="icon-screen-smartphone text-primary"></i>
-                                      <h3>Header 1</h3>
-                                      <p class="text-muted">Words and text and stuff and things!</p>
-                                  </div>
-                              </div>
-                              <div class="col-md-6">
-                                  <div class="feature-item">
-                                      <i class="icon-camera text-primary"></i>
-                                      <h3>Header 2</h3>
-                                      <p class="text-muted">Words and text and stuff and things!</p>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row">
-                              <div class="col-md-6">
-                                  <div class="feature-item">
-                                      <i class="icon-present text-primary"></i>
-                                      <h3>Header 3</h3>
-                                      <p class="text-muted">Words and text and stuff and things!</p>
-                                  </div>
-                              </div>
-                              <div class="col-md-6">
-                                  <div class="feature-item">
-                                      <i class="icon-lock-open text-primary"></i>
-                                      <h3>Header 4</h3>
-                                      <p class="text-muted">Words and text and stuff and things!</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-      </section>
 
       <section class="cta">
           <div class="cta-content">
@@ -139,23 +75,6 @@ if(isset($_POST['btn-save']))
               </div>
           </div>
           <div class="overlay"></div>
-      </section>
-
-      <section id="contact" class="contact bg-primary">
-          <div class="container">
-              <h2>Social media and stuff and things!</h2>
-              <ul class="list-inline list-social">
-                  <li class="social-twitter">
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                  </li>
-                  <li class="social-facebook">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                  </li>
-                  <li class="social-google-plus">
-                      <a href="#"><i class="fa fa-google-plus"></i></a>
-                  </li>
-              </ul>
-          </div>
       </section>
 
       <footer>
