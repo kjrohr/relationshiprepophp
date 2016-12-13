@@ -221,12 +221,7 @@ elseif ($_SESSION['user_type'] == 'user')
   if ($test == 0){
     // Case Submission form
     ?>
-    <form method='post'>
-      <p>When you create a case you are agreeing to pay a $10.00 fee.</p>
-      <textarea name='content'>Please describe to us in detail your case.</textarea>
-      <!-- WILL NOT FIRE if apostrophe is present in textarea -->
-      <button name='case-btn'>Submit Case</button>
-    </form>
+
     <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
 
 
@@ -313,6 +308,7 @@ else
     </div>
 </footer>
 
+
 <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
         <div class="loginmodal-container">
@@ -324,69 +320,9 @@ else
                             <div class="form-group">
                                 <div class="col-sm-9">
                                     <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
+                                    <textarea name='content' class="form-control" required="">Please describe to us in detail about your case.</textarea>
                                 </div>
                             </div>
-                            <div class="form-group">
-                              <div class="col-sm-9">
-                                    <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="col-sm-9">
-                                <input type="radio" name="gender" value="male" class="form-control"> Male<br>
-                                <input type="radio" name="gender" value="female" class="form-control"> Female<br>
-                                </div>
-                            </div> <!-- /.form-group -->
-                            <div class="form-group">
-                              <div class="col-sm-9">
-                                    <input type="tel" name="cell_phone" placeholder="Phone Number" class="form-control" required />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="col-sm-9">
-                                    <input type="email" name="email" placeholder="Email Address" class="form-control" required />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-sm-9">
-                                    <input type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
-                                </div>
-                            </div> <!-- /.form-group -->
-                            <div class="form-group">
-                              <div class="col-sm-9">
-                                <input type="date" name="age" max="2000-12-31" placeholder="Birthdate" class="form-control" required />
-                                </div>
-                            </div> <!-- /.form-group -->
-                            <div class="form-group">
-                                <div class="col-sm-9">
-                                    <input type="text" name="employer" placeholder="Employer's Name" class="form-control" required />
-                                </div>
-                            </div> <!-- /.form-group -->
-                            <div class="form-group">
-                                <div class="col-sm-9">
-                                    <input type="text" name="company" placeholder="Company Name" class="form-control" required />
-                                </div>
-                            </div> <!-- /.form-group -->
-                            <div class="form-group">
-                                <div class="col-sm-9">
-                                    <input type="text" name="company_address" placeholder="Address, City, State, Zip" class="form-control" required />
-                                </div>
-                            </div> <!-- /.form-group -->
-                            <div class="form-group">
-                                <div class="col-sm-9">
-                                    <input type="text" name="company_phone" placeholder="111.222.3333" class="form-control" required />
-                                </div>
-                            </div> <!-- /.form-group -->
-                            <div class="form-group">
-                                <div class="col-sm-9">
-                                    <input type="text" name="user_name" placeholder="User Name" class="form-control" required />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="col-sm-9">
-                                <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
-                                </div>
-                            </div> <!-- /.form-group -->
                             <div class="form-group">
                                 <div class="col-sm-9">
                                     <div class="checkbox">
@@ -399,7 +335,7 @@ else
                             </div> <!-- /.form-group -->
                             <div class="form-group">
                                 <div class="col-sm-9">
-                                    <button type="submit" name="apply-btn" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
+                                    <button type="submit" name="case-btn" class="btn btn-primary btn-block" style="background:#415c6f;">Submit Case</button><br />
                                     <a href="/login.php" class="btn btn-block btn-outline">Already Registered?</a>
                                 </div>
                             </div>
