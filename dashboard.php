@@ -256,6 +256,9 @@ else
   if (isset($_SESSION['message'])) {
     echo "<span id='message'>" . $_SESSION['message'] . "</span>";
   }
+  else {
+    echo 'does not exist';
+  }
 ?>
 </div><!-- End of container -->
     <script src="main.js"></script>
