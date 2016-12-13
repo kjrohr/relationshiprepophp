@@ -189,7 +189,7 @@ if (isset($_POST['apply-btn'])) {
               </div>
             </div>
           </div>
-
+        </div>
 
       <!--Start of Tawk.to Script-->
       <script type="text/javascript">
