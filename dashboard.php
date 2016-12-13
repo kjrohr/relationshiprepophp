@@ -280,8 +280,6 @@ elseif ($_SESSION['user_type'] == 'user')
 
         }
         else {
-
-          }
         $agent=mysql_query("SELECT * FROM agents WHERE userId=".$active_agent);
         $agentRow=mysql_fetch_array($agent);
         // Format this better later
