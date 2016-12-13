@@ -94,7 +94,6 @@
       <p>Relationship Repo is an idea that was created by Lindsay Hampton and Karl Rohr. We at Relationship Repo want to take the pain out of having a bad break up.</p>
       <p>Sometimes, this don't go as planned and you need to leave the situation that you are in and sometimes that means leaving behind a lot of valuable belongings.</p>
       <p>We want to help you reclaim those items safely and professionally. You can submit a 'case' to our Agents and one will select it and contact you shortly.</p>
-      <a href="#create_case-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
   </div>
 <!-- Case logic -->
 
@@ -228,6 +227,7 @@ elseif ($_SESSION['user_type'] == 'user')
       <!-- WILL NOT FIRE if apostrophe is present in textarea -->
       <button name='case-btn'>Submit Case</button>
     </form>
+    <a href="#create_case-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Need to Start a Case?</a>
 
 
     <?php
