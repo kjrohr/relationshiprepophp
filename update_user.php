@@ -73,6 +73,7 @@ if(isset($_POST['btn-save']))
       </div>
       <!-- /.container-fluid -->
   </nav>
+  <div class='container'>
   <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
       <div class="container">
           <div class="row">
@@ -135,4 +136,5 @@ if(isset($_POST['btn-save']))
 </div>
 </div>
 </section>
+</div>
 </body>
