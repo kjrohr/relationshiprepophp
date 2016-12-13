@@ -163,14 +163,14 @@ while ($row = mysql_fetch_array($results)) {
             echo '<td>' . htmlspecialchars($field) . '</td>';
           }
           elseif (empty($field) && $count == 3) {
-            echo '<td><button class="claim" name="claim">Claim?</button></td>';
+            echo '<td><button style="color: black !important;" class="claim" name="claim">Claim?</button></td>';
           }
           else {
             // Catch all
           }
     }
     // If a case isn't claimed it can't be complete
-    echo '<td><button class="complete" name="complete">Complete?</button></td>';
+    echo '<td><button style="color: black !important;" class="complete" name="complete">Complete?</button></td>';
     echo '</tr>';
 }
 
@@ -220,14 +220,14 @@ else {
               echo '<td>' . htmlspecialchars($field) . '</td>';
             }
             elseif (empty($field) && $count == 3) {
-              echo '<td><button class="claim" name="claim">Claim?</button></td>';
+              echo '<td><button style="color: black !important;" class="claim" name="claim">Claim?</button></td>';
             }
             else {
               // Catch all
             }
       }
       // If a case isn't claimed it can't be complete
-      echo '<td><button class="complete" name="complete">Complete?</button></td>';
+      echo '<td><button style="color: black !important;" class="complete" name="complete">Complete?</button></td>';
       echo '</tr>';
       ?>
       </table>
@@ -328,7 +328,7 @@ elseif ($_SESSION['user_type'] == 'user')
               }
         }
         // If a case isn't claimed it can't be complete
-        echo '<td><button class="complete" name="complete">Complete?</button></td>';
+        echo '<td><button style="color: black !important;" class="complete" name="complete">Complete?</button></td>';
         echo '</tr>';
         ?>
       </table>
