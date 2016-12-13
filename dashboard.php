@@ -228,7 +228,7 @@ elseif ($_SESSION['user_type'] == 'user')
                     <h3>We are here to help. Once you create a case, agents will be able to review it.</h3>
                     <h3>Once an agent has reviewed it they can choose to claim your case.</h3>
                     <h3>Once your case is claimed the claiming agent will contact you shortly.</h3>
-
+                    <h3>We charge a $10.00 service fee for creating a case.</h3>
                     <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Start a Case</a>
                 </div>
             </div>
