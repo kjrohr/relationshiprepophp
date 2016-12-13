@@ -1,5 +1,9 @@
 <?php
 include "header.php";
+
+if (isset($_POST['stripeToken']) {
+  echo 'token created';
+}
 ?>
 
 </head>
