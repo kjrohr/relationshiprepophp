@@ -32,22 +32,32 @@ include 'nav.php';
       </div>
   </header>
 
-  <section class="cta" style="padding: 90px 0">
-      <div class="cta-content">
-          <div class="container">
-            <h2 style="margin:0; font-size: 40px; max-width: none;">
-              Relationship Repo is a web service for any person who has lost their possessions to a relationship beyond repair. We are a company dedicated to connecting clients with with third-party sources who specialize in the delicate nature of recently ended relationships. Unlike any other company on the market today, Relationship Repo offers a unique and sought after service that
-               is both practical and comforting to those who may pursue further action.
-            </h2>
+  <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                  <h2 class="section-heading" style="font-size: 35px; margin-bottom:0;">Relationship Repo is a web service for any person who has lost their possessions to a relationship beyond repair. We are a company dedicated to connecting clients with with third-party sources who specialize in the delicate nature of recently ended relationships. Unlike any other company on the market today, Relationship Repo offers a unique and sought after service that
+                   is both practical and comforting to those who may pursue further action.</h2>
+              </div>
           </div>
       </div>
-      <div class="overlay" style="background: transparent;"></div>
   </section>
 
   <section class="cta" style="padding: 90px 0">
       <div class="cta-content">
           <div class="container">
-            <h3 style="color:pink;">Remember that girlfriend back in college who stole your heart and your favorite hoodie? There's still hope for the hoodie, and all the others out there like it.</h2>
+            <h2 style="margin:0; font-size: 40px; max-width: none;">
+              Remember that girlfriend back in college who stole your heart and your favorite hoodie? There's still hope for the hoodie, and all the others out there like it.
+            </h2>
+          </div>
+      </div>
+      <div class="overlay"></div>
+  </section>
+
+  <section class="cta" style="padding: 90px 0">
+      <div class="cta-content">
+          <div class="container">
+            <h3 style="color:pink;"></h2>
       </div>
       <div class="overlay"></div>
   </section>
