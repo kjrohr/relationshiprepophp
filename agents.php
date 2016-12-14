@@ -114,8 +114,10 @@ if (isset($_POST['apply-btn'])) {
                                   </div>
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                      <input type="radio" name="gender" value="male" class="form-control"> Male
-                                      <input type="radio" name="gender" value="female" class="form-control"> Female<br>
+                                      <select class="form-control" name="gender">
+                                        <option value="male">I Am A Male</option>
+                                        <option value="female">I Am A Female</option>
+                                      </select>
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
