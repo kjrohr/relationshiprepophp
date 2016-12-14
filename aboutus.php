@@ -16,7 +16,7 @@ include 'nav.php';
               <div class="col-sm-7">
                   <div class="header-content">
                       <div class="header-content-inner">
-                          <h1 style="margin:100px 0 10px 0; font-size: 70px;">What is Relationship Repo?</h1>
+                          <h1 style="margin:150px 0 10px 0; font-size: 70px;">What is Relationship Repo?</h1>
                           <h3 style="margin-top:0; margin-bottom:10px; max-width:80%; font-size: 35px;">
 
 
