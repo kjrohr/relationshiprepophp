@@ -17,7 +17,7 @@ include 'nav.php';
                   <div class="header-content">
                       <div class="header-content-inner">
                           <h1 style="margin:150px 0 10px 0; font-size: 70px;">What is Relationship Repo?</h1>
-                          <h3 style="margin-top:0; margin-bottom:10px; max-width:80%; font-size: 35px;">
+                          <h3 style="margin-top:0; margin-bottom:10px; max-width:80%; font-size: 32px;">
 
 
                             Have you ever been in a relationship that ended on <br />less than favorable terms?<br /> Has your desire to evade a broken relationship lead to the loss of your valuable or sentimental possessions?<br /> Are your friends trying to remain neutral and refusing to aid in reclaiming your property,<br /> or are you just too embarrassed to ask for help?</h3>
@@ -53,7 +53,7 @@ include 'nav.php';
             </div>
           </div>
       </div>
-      <div class="overlay"></div>
+      <div class="overlay" style="background: url('img/giggle.jpg') no-repeat center center fixed;"></div>
   </section>
 
   <section class="cta" style="padding: 90px 0">
