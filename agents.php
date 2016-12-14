@@ -119,8 +119,8 @@ if (isset($_POST['apply-btn'])) {
                                         <option value="male">I Am A Male</option>
                                         <option value="female">I Am A Female</option>
                                       </select>
-                                    </div><br />
-                                  </div> <!-- /.form-group -->
+                                    </div>
+                                  </div><br /> <!-- /.form-group -->
                                   <div class="form-group">
                                     <div class="col-sm-9">
                                           <input type="tel" name="cell_phone" placeholder="Phone Number" class="form-control" required />

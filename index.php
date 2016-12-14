@@ -47,11 +47,11 @@ if(isset($_POST['btn-save']))
                   <div class="col-sm-10">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin:100px 0 10px 0; font-size: 70px;">When "It's not you, it's me"</h1>
-                              <h2 style="margin-top:0; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - get your stuff back, get your life back.</h2>
+                              <h1 style="margin:100px 0 5px 0; font-size: 70px;">Your relationship ended, not your life.</h1>
+                              <h2 style="margin-top:0; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - get your stuff back, get your spark back.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
-                              <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">More Information</a>
+                              <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Learn More</a>
                           </div>
                       </div>
                   </div>
