@@ -35,7 +35,7 @@ include 'nav.php';
   <section class="cta">
       <div class="cta-content">
           <div class="container">
-            <h2 style="margin:0; font-size: 35px;">
+            <h2 style="margin:0; font-size: 35px; max-width: none;">
               Relationship Repo is a web service for any person who has lost their possessions to a relationship beyond repair. We are a company dedicated to connecting clients with with third-party sources who specialize in the delicate nature of recently ended relationships. Unlike any other company on the market today, Relationship Repo offers a unique and sought after service that
                is both practical and comforting to those who may pursue further action.
             </h2>
