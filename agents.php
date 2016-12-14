@@ -104,6 +104,16 @@ if (isset($_POST['apply-btn'])) {
                                   <div style="margin-left: 30%;">
                                   <div class="form-group">
                                       <div class="col-sm-9">
+                                          <input type="text" name="user_name" placeholder="User Name" class="form-control" required />
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="col-sm-9">
+                                      <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
+                                      </div>
+                                  </div> <!-- /.form-group -->
+                                  <div class="form-group">
+                                      <div class="col-sm-9">
                                           <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
                                       </div>
                                   </div>
@@ -114,7 +124,7 @@ if (isset($_POST['apply-btn'])) {
                                   </div>
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                      <select class="form-control" name="gender">
+                                      <select class="form-control" name="gender"><br />
                                         <option>Please Select One:</option>
                                         <option value="male">I Am A Male</option>
                                         <option value="female">I Am A Female</option>
@@ -123,7 +133,7 @@ if (isset($_POST['apply-btn'])) {
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                          <br /><input type="tel" name="cell_phone" placeholder="Phone Number" class="form-control" required />
+                                          <input type="tel" name="cell_phone" placeholder="Phone Number" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
@@ -159,16 +169,6 @@ if (isset($_POST['apply-btn'])) {
                                   <div class="form-group">
                                       <div class="col-sm-9">
                                           <input type="text" name="company_phone" placeholder="111.222.3333" class="form-control" required />
-                                      </div>
-                                  </div> <!-- /.form-group -->
-                                  <div class="form-group">
-                                      <div class="col-sm-9">
-                                          <input type="text" name="user_name" placeholder="User Name" class="form-control" required />
-                                      </div>
-                                  </div>
-                                  <div class="form-group">
-                                    <div class="col-sm-9">
-                                      <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
