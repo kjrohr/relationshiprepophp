@@ -120,10 +120,10 @@ if (isset($_POST['apply-btn'])) {
                                         <option value="female">I Am A Female</option>
                                       </select>
                                     </div>
-                                  </div><br /> <!-- /.form-group -->
+                                  </div> <!-- /.form-group -->
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                          <input type="tel" name="cell_phone" placeholder="Phone Number" class="form-control" required />
+                                          <br /><input type="tel" name="cell_phone" placeholder="Phone Number" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
