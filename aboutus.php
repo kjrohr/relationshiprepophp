@@ -62,7 +62,7 @@ if(isset($_POST['btn-save']))
       <div class="container">
           <div class="row">
               <div class="col-md-10 col-md-offset-1">
-                  <h2 class="section-heading" style="font-size: 40px; margin-bottom:0;">Relationship Repo is a web service for any person who has lost their possessions to a relationship beyond repair. We are a company dedicated to connecting clients with with third-party sources who specialize in the delicate nature of recently ended relationships. Unlike any other company on the market today, Relationship Repo offers a unique and sought after service that
+                  <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">Relationship Repo is a web service for any person who has lost their possessions to a relationship beyond repair. We are a company dedicated to connecting clients with with third-party sources who specialize in the delicate nature of recently ended relationships. Unlike any other company on the market today, Relationship Repo offers a unique and sought after service that
                    is both practical and comforting to those who may pursue further action.</h2>
               </div>
           </div>
@@ -73,7 +73,7 @@ if(isset($_POST['btn-save']))
       <div class="cta-content">
           <div class="container" style="margin-left:50%;">
             <div class="col-md-10">
-            <h2 style="margin:0; font-size: 42.5px; max-width: 60%;">
+            <h2 style="margin:0 0 15px 0; font-size: 42.5px; max-width: 60%;">
               Remember that girlfriend back in college who stole your heart and your favorite hoodie? <br />There's still hope for the hoodie, and all the others out there like it.
             </h2>
             <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
