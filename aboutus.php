@@ -9,7 +9,7 @@ include 'nav.php';
 </head>
 <body id="page-top">
 
-  <header style="background: url('img/sun.jpg') no-repeat center center fixed; min-height: 95%;">
+  <header style="background: url('img/sun.jpg') no-repeat center center fixed; min-height: 85%;">
       <div class="container">
 
           <div class="row">
