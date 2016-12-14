@@ -57,14 +57,6 @@ include 'nav.php';
   <section class="cta" style="padding: 90px 0">
       <div class="cta-content">
           <div class="container">
-            <h3 style="color:pink;"></h2>
-      </div>
-      <div class="overlay"></div>
-  </section>
-
-  <section class="cta" style="padding: 90px 0">
-      <div class="cta-content">
-          <div class="container">
             <h1 style="margin-bottom:0; font-size: 57px;">Meet Our Team</h1>
             <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333; max-width:none;">We are always looking for new agents to join our team!</h2>
           </div>
