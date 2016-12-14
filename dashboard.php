@@ -50,7 +50,7 @@
 ?>
 
 
-<title>Welcome - <?php echo $userRow['username']; ?></title>
+<title>Welcome - <?php echo $userRow['first_name']; ?></title>
 </head>
 <body>
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -69,11 +69,9 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/index.php">Hello <?php echo $userRow['username']; ?></a>
+                    <a href="/index.php">Hello <?php echo $userRow['first_name'] . ' ' . $userRow['last_name']; ?></a>
                 </li>
-                  <li>
-                      <a href="/aboutus.php">About Us</a>
-                  </li>
+
                   <?php
                   if ($_SESSION['user_type'] == 'agent') {
 
@@ -81,7 +79,7 @@
                   else {
                     ?>
                     <li>
-                        <a href="update_user.php">Update Info</a>
+                        <a href="update_user.php">My Account</a>
                     </li>
                     <?php
                   }
@@ -98,7 +96,7 @@
   </nav>
   <div class="container">
     <div class="page-header">
-      <h1 style="margin:25% 0 0; font-size: 57px;">Welcome to Your Dashboard</h1>
+      <h1 style="margin:25% 0 0; font-size: 57px;">Welcome Back, <?php echo $userRow['first_name'] . ' ' . $userRow['last_name']; ?></h1>
     </div>
 
 <!-- Case logic -->
