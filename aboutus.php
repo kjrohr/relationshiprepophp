@@ -44,7 +44,7 @@ include 'nav.php';
       <div class="overlay" style="background: transparent;"></div>
   </section>
 
-  <section class="cta" style="padding:0;">
+  <section class="cta">
       <div class="cta-content">
           <div class="container">
             <h3 style="color:pink;">Remember that girlfriend back in college who stole your heart and your favorite hoodie? There's still hope for the hoodie, and all the others out there like it.</h2>
