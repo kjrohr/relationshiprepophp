@@ -39,12 +39,12 @@ if(isset($_POST['btn-save']))
       <div class="container">
 
           <div class="row">
-              <div class="col-sm-7">
+              <div class="col-sm-6">
                   <div class="header-content">
                       <div class="header-content-inner">
-                        <div style="margin:150px 0 10px 0; background: rgba(0,0,0,0.6); padding:25px;">
-                          <h1 style="font-size: 70px;">What is Relationship Repo?</h1>
-                          <h3 style="margin-top:0; margin-bottom:10px; max-width:80%; font-size: 32px;">
+                        <div style="margin:200px 0 10px 0; background: rgba(0,0,0,0.6); padding:25px 25px 25px 35px;">
+                          <h1 style="font-size: 68px;">What is Relationship Repo?</h1>
+                          <h3 style="margin-top:0; margin-bottom:10px; max-width:95%; font-size: 32px;">
 
 
                             It's difficult enough when relationships end on less-than-friendly terms. It's worse when you're at risk of losing your possessions, whether their value is sentimental or monetary. You don't want trouble. You don't want to drag your family or friends into it. You just want to get your stuff back and get on with your life.</h3>
