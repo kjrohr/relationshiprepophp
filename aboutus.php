@@ -9,7 +9,7 @@ include 'nav.php';
 </head>
 <body id="page-top">
 
-  <header style="background: url('img/sun.jpg') no-repeat center center fixed; height: 90%;">
+  <header style="background: url('img/sun.jpg') no-repeat center center fixed;">
       <div class="container">
 
           <div class="row">
@@ -32,7 +32,7 @@ include 'nav.php';
       </div>
   </header>
 
-  <section class="cta">
+  <section class="cta" style="padding: 90px 0">
       <div class="cta-content">
           <div class="container">
             <h2 style="margin:0; font-size: 40px; max-width: none;">
@@ -44,7 +44,7 @@ include 'nav.php';
       <div class="overlay" style="background: transparent;"></div>
   </section>
 
-  <section class="cta">
+  <section class="cta" style="padding: 90px 0">
       <div class="cta-content">
           <div class="container">
             <h3 style="color:pink;">Remember that girlfriend back in college who stole your heart and your favorite hoodie? There's still hope for the hoodie, and all the others out there like it.</h2>
@@ -52,7 +52,7 @@ include 'nav.php';
       <div class="overlay" style="padding:0;"></div>
   </section>
 
-  <section class="cta">
+  <section class="cta" style="padding: 90px 0">
       <div class="cta-content">
           <div class="container">
             <h1 style="margin-bottom:0; font-size: 57px;">Meet Our Team</h1>
