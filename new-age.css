@@ -3,6 +3,11 @@
   src: url(BLANCH_CAPS.otf);
 }
 
+@font-face {
+  font-family: "Blanch Light";
+  src: url(BLANCH_LIGHT.otf);
+}
+
 #mainNav a:focus, #mainNav a:hover {
   color: #A26F6E;
   font-weight: bolder;
@@ -77,11 +82,13 @@ p {
 	color: #fcbd20
 }
 .navbar-default .navbar-header .navbar-toggle {
+  font-family: "Blanch Light";
 	font-size: 18px;
 	color: #222;
 	padding: 8px 10px
 }
 .navbar-default .nav>li>a {
+  font-family: "Blanch Light";
 	font-size: 18px
 }
 .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
