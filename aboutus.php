@@ -17,7 +17,7 @@ include 'nav.php';
                   <div class="header-content">
                       <div class="header-content-inner">
                           <h1 style="margin-bottom:0; font-size: 57px;">What is Relationship Repo?</h1>
-                          <h3 style="margin-top:0; margin-bottom:30px; max-width:none;">
+                          <h3 style="margin-top:0; margin-bottom:30px; max-width:none; font-size: 35px; max-width: 50%;">
 
 
                             Have you ever been in a relationship that ended on less than favorable terms?<br /> Has your desire to evade a broken relationship lead to the loss of your valuable or sentimental possessions?<br /> Are your friends trying to remain neutral and refusing to aid in reclaiming your property, or are you just too embarrassed to ask for help? <br />That's where we come in.</h3>
@@ -35,7 +35,7 @@ include 'nav.php';
   <section class="cta">
       <div class="cta-content">
           <div class="container">
-            <h2 style="margin:0; font-size: 35px; max-width: none;">
+            <h2 style="margin:0; font-size: 40px; max-width: none;">
               Relationship Repo is a web service for any person who has lost their possessions to a relationship beyond repair. We are a company dedicated to connecting clients with with third-party sources who specialize in the delicate nature of recently ended relationships. Unlike any other company on the market today, Relationship Repo offers a unique and sought after service that
                is both practical and comforting to those who may pursue further action.
             </h2>
