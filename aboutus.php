@@ -8,7 +8,7 @@ include 'nav.php';
 <title>Relationship Repo!</title>
 </head>
 <body id="page-top">
-<header style="background:url('img/laugh.jpeg') no-repeat center center fixed; background-size: cover;">
+<header style="background:url('img/sun.jpg') no-repeat center center fixed; background-size: cover;">
 
   <!-- Begin page content -->
   <div class="container">
