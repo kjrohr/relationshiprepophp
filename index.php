@@ -47,8 +47,8 @@ if(isset($_POST['btn-save']))
                   <div class="col-sm-7">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin-bottom:0; font-size: 57px;">Sometimes, Things Just Don't Work Out</h1>
-                              <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">Relationship Repo is here for you - through the good times, and the bad.</h2>
+                              <h1 style="margin-bottom:0; font-size: 70px; max-width: none;">Sometimes, Things Just Don't Work Out</h1>
+                              <h2 style="margin-top:0; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - through the good times, and the bad.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
                           </div>
@@ -79,7 +79,7 @@ if(isset($_POST['btn-save']))
                         <div class="col-sm-4">
                           <span class="glyphicon glyphicon-thumbs-up" style="font-size:60px;"></span>
                           <h4 style="font-size:30px;">Satisfaction</h4>
-                          <p>Our systems are set up to allow you to choose which agent you'd like to take on your case.<br /> Once you've connected with your agent, you work together to form your own contract that suits your needs.</p>
+                          <p>Our systems are set up to allow you to choose which agent you'd like to take on your case. Once you've connected with your agent, you work together to form your own contract that suits your needs.</p>
                         </div>
                         </div>
                   </div>
@@ -95,7 +95,7 @@ if(isset($_POST['btn-save']))
           <div class="cta-content">
               <div class="container">
                 <h1 style="margin-bottom:0; font-size: 57px;">Want to work for Relationship Repo?</h1>
-                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333;">We are always looking for new agents to join our team!</h2>
+                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333; max-width:none;">We are always looking for new agents to join our team!</h2>
                   <a href="/agents.php" class="btn btn-outline btn-xl page-scroll">More Information</a>
               </div>
           </div>
