@@ -69,17 +69,17 @@ if(isset($_POST['btn-save']))
                         <div class="col-sm-4">
                           <span class="glyphicon glyphicon-user" style="font-size:60px;"></span>
                           <h4 style="font-size:40px;">Resources</h4>
-                          <p style="font-size:13px;">While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks. Choose your own agent or send us a live chat message any time you need help.</p>
+                          <p style="font-size:14px;">While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks. Choose your own agent or send us a live chat message any time you need help.</p>
                         </div>
                         <div class="col-sm-4">
                           <span class="glyphicon glyphicon-heart" style="font-size:60px;"></span>
                           <h4 style="font-size:40px;">Compassion</h4>
-                          <p style="font-size:13px;">Realistically, we've all had a time where we've been in a similar situation to yours. We understand what you're going through and we're here to help.</p>
+                          <p style="font-size:14px;">Realistically, we've all had a time where we've been in a similar situation to yours. We understand what you're going through and we're here to help.</p>
                         </div>
                         <div class="col-sm-4">
                           <span class="glyphicon glyphicon-thumbs-up" style="font-size:60px;"></span>
                           <h4 style="font-size:40px;">Satisfaction</h4>
-                          <p style="font-size:13px;">Our systems are set up to allow you to choose which agent you'd like to take on your case. Once you've connected with your agent, you work together to form your own contract that suits your needs.</p>
+                          <p style="font-size:14px;">Our systems are set up to allow you to choose which agent you'd like to take on your case. Once you've connected with your agent, you work together to form your own contract that suits your needs.</p>
                         </div>
                         </div>
                   </div>
