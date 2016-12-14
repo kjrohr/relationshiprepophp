@@ -16,13 +16,13 @@ include 'nav.php';
               <div class="col-sm-7">
                   <div class="header-content">
                       <div class="header-content-inner">
-                          <h1 style="margin:100px 0 10px 0; font-size: 65px;">What is Relationship Repo?</h1>
-                          <h3 style="margin-top:0; margin-bottom:10px; max-width:80%; font-size: 30px;">
+                          <h1 style="margin:100px 0 10px 0; font-size: 70px;">What is Relationship Repo?</h1>
+                          <h3 style="margin-top:0; margin-bottom:10px; max-width:80%; font-size: 35px;">
 
 
                             Have you ever been in a relationship that ended on <br />less than favorable terms?<br /> Has your desire to evade a broken relationship lead to the loss of your valuable or sentimental possessions?<br /> Are your friends trying to remain neutral and refusing to aid in reclaiming your property,<br /> or are you just too embarrassed to ask for help?</h3>
 
-                          <h3 style="margin-top:0; max-width:80%; font-size: 40px;">That's where we come in.</h3>
+                          <h3 style="margin-top:0; max-width:80%; font-size: 45px;">That's where we come in.</h3>
 
 
                       </div>
