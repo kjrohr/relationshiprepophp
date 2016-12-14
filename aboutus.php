@@ -43,7 +43,7 @@ if(isset($_POST['btn-save']))
                   <div class="header-content">
                       <div class="header-content-inner">
                         <div style="margin:200px 0 10px 0; background: rgba(0,0,0,0.6); padding:25px 25px 25px 35px;">
-                          <h1 style="font-size: 68px; margin-bottom: 15px;">What is Relationship Repo?</h1>
+                          <h1 style="font-size: 68px; margin-bottom: 10px;">What is Relationship Repo?</h1>
                           <h3 style="margin-top:0; margin-bottom:10px; max-width:95%; font-size: 32px;">
 
 
@@ -76,7 +76,8 @@ if(isset($_POST['btn-save']))
           <div class="container">
             <div class="col-md-10" style="margin-left: 25%;">
             <h2 style="margin:0 0 25px 300px; font-size: 42.5px; max-width: 60%;">
-              Remember that girlfriend back in college who stole your heart and your favorite hoodie? <br />There's still hope for the hoodie, and all the others out there like it.
+              Remember that girlfriend back in college who stole your heart <b>and</b> your favorite hoodie?</h2>
+              <h2 style="margin:0 0 25px 300px; font-size: 42.5px; max-width: 60%;">There's still hope for the hoodie, and all the others out there like it.
             </h2>
             <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" style="margin-left: 335px;">Sign Up Today</a>
             <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
