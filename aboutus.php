@@ -43,7 +43,7 @@ if(isset($_POST['btn-save']))
                   <div class="header-content">
                       <div class="header-content-inner">
                         <div style="margin:200px 0 10px 0; background: rgba(0,0,0,0.6); padding:25px 25px 25px 35px;">
-                          <h1 style="font-size: 68px;">What is Relationship Repo?</h1>
+                          <h1 style="font-size: 68px; margin-bottom: 15px;">What is Relationship Repo?</h1>
                           <h3 style="margin-top:0; margin-bottom:10px; max-width:95%; font-size: 32px;">
 
 
