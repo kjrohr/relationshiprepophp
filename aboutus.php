@@ -46,7 +46,7 @@ if(isset($_POST['btn-save']))
                           <h3 style="margin-top:0; margin-bottom:10px; max-width:80%; font-size: 32px;">
 
 
-                            Have you ever been in a relationship that ended on <br />less than favorable terms?<br /> Has your desire to evade a broken relationship lead to the loss of your valuable or sentimental possessions?<br /> Are your friends trying to remain neutral and refusing to aid in reclaiming your property,<br /> or are you just too embarrassed to ask for help?</h3>
+                            It's difficult enough when relationships end on less-than-friendly terms. It's worse when you're at risk of losing your possessions, whether their value is sentimental or monetary. You don't want trouble. You don't want to drag your family or friends into it. You just want to get your stuff back and get on with your life.</h3>
 
                           <h3 style="margin-top:0; max-width:80%; font-size: 45px;">That's where we come in.</h3>
 
@@ -62,8 +62,9 @@ if(isset($_POST['btn-save']))
       <div class="container">
           <div class="row">
               <div class="col-md-10 col-md-offset-1">
-                  <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">Relationship Repo is a web service for any person who has lost their possessions to a relationship beyond repair. We are a company dedicated to connecting clients with with third-party sources who specialize in the delicate nature of recently ended relationships. Unlike any other company on the market today, Relationship Repo offers a unique and sought after service that
-                   is both practical and comforting to those who may pursue further action.</h2>
+                  <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">Relationship Repo is a web-based service that comes to your aid when you're
+                     at risk of losing your possessions due to a break-up. We connect you with people who specialize in handling such situations with sensitivity
+                     and professionalism. They will pick up your possessions for you — sparing you, your friends and your family the difficulty of dealing with your ex.</h2>
               </div>
           </div>
       </div>
@@ -94,6 +95,17 @@ if(isset($_POST['btn-save']))
           </div>
       </div>
       <div class="overlay" style="background: transparent;"></div>
+  </section>
+
+  <section class="cta">
+      <div class="cta-content">
+          <div class="container">
+            <h1 style="margin-bottom:0; font-size: 57px;">Want to work for Relationship Repo?</h1>
+            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333; max-width:none;">We are always looking for new agents to join our team!</h2>
+              <a href="/agents.php" class="btn btn-outline btn-xl page-scroll">More Information</a>
+          </div>
+      </div>
+      <div class="overlay"></div>
   </section>
 
   <footer>
