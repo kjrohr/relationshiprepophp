@@ -73,10 +73,10 @@ if(isset($_POST['btn-save']))
       <div class="cta-content">
           <div class="container" style="margin-left:50%;">
             <div class="col-md-10">
-            <h2 style="margin:0 0 15px 0; font-size: 42.5px; max-width: 60%;">
+            <h2 style="margin:0 0 25px 0; font-size: 42.5px; max-width: 60%;">
               Remember that girlfriend back in college who stole your heart and your favorite hoodie? <br />There's still hope for the hoodie, and all the others out there like it.
             </h2>
-            <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
+            <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" style="margin-left: 35px;">Sign Up Today</a>
             <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
 
