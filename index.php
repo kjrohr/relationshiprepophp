@@ -58,6 +58,53 @@ if(isset($_POST['btn-save']))
           </div>
       </header>
 
+      <section style="background: #A26F6E; padding:90px 0;" class="download bg-primary text-center">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-10 col-md-offset-1">
+                      <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">What Can Relationship Repo Do For You?</h2>
+                  </div>
+                  <div class="container-fluid text-center">
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <span class="glyphicon glyphicon-off"></span>
+                          <h4>POWER</h4>
+                          <p>Lorem ipsum dolor sit amet..</p>
+                        </div>
+                        <div class="col-sm-4">
+                          <span class="glyphicon glyphicon-heart"></span>
+                          <h4>LOVE</h4>
+                          <p>Lorem ipsum dolor sit amet..</p>
+                        </div>
+                        <div class="col-sm-4">
+                          <span class="glyphicon glyphicon-lock"></span>
+                          <h4>JOB DONE</h4>
+                          <p>Lorem ipsum dolor sit amet..</p>
+                        </div>
+                        </div>
+                        <br><br>
+                      <div class="row">
+                        <div class="col-sm-4">
+                          <span class="glyphicon glyphicon-leaf"></span>
+                          <h4>GREEN</h4>
+                          <p>Lorem ipsum dolor sit amet..</p>
+                        </div>
+                        <div class="col-sm-4">
+                          <span class="glyphicon glyphicon-certificate"></span>
+                          <h4>CERTIFIED</h4>
+                          <p>Lorem ipsum dolor sit amet..</p>
+                        </div>
+                        <div class="col-sm-4">
+                          <span class="glyphicon glyphicon-wrench"></span>
+                          <h4>HARD WORK</h4>
+                          <p>Lorem ipsum dolor sit amet..</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
 
       <section class="cta">
           <div class="cta-content">
