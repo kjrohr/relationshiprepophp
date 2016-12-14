@@ -67,39 +67,21 @@ if(isset($_POST['btn-save']))
                   <div class="container-fluid text-center">
                       <div class="row">
                         <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-user"></span>
-                          <h4 style="font-size:30px;">Real People</h4>
+                          <span class="glyphicon glyphicon-user" style="font-size:60px;"></span>
+                          <h4 style="font-size:30px;">Resources</h4>
                           <p>While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks.</p>
                         </div>
                         <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-heart"></span>
-                          <h4 style="font-size:30px;">LOVE</h4>
-                          <p>Lorem ipsum dolor sit amet..</p>
+                          <span class="glyphicon glyphicon-heart" style="font-size:60px;"></span>
+                          <h4 style="font-size:30px;">Compassion</h4>
+                          <p>Realistically, we've all had a time where we've been in a similar situation to yours. We understand what you're going through and we're here to help.</p>
                         </div>
                         <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-lock"></span>
-                          <h4 style="font-size:30px;">JOB DONE</h4>
-                          <p>Lorem ipsum dolor sit amet..</p>
+                          <span class="glyphicon glyphicon-thumbs-up" style="font-size:60px;"></span>
+                          <h4 style="font-size:30px;">Satisfaction</h4>
+                          <p>Our systems are set up to allow you to choose which agent you'd like to take on your case. Once you've connected with your agent, you work together to form your own contract that suits your needs.</p>
                         </div>
                         </div>
-                        <br><br>
-                      <div class="row">
-                        <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-leaf"></span>
-                          <h4 style="font-size:30px;">GREEN</h4>
-                          <p>Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-certificate"></span>
-                          <h4 style="font-size:30px;">CERTIFIED</h4>
-                          <p>Lorem ipsum dolor sit amet..</p>
-                        </div>
-                        <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-wrench"></span>
-                          <h4 style="font-size:30px;">HARD WORK</h4>
-                          <p>Lorem ipsum dolor sit amet..</p>
-                        </div>
-                    </div>
                   </div>
               </div>
           </div>
