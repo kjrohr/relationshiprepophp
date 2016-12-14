@@ -17,7 +17,7 @@ include 'nav.php';
                   <div class="header-content">
                       <div class="header-content-inner">
                           <h1 style="margin-bottom:0; font-size: 57px;">What is Relationship Repo?</h1>
-                          <h2 style="margin-top:0; margin-bottom:30px; font-size:30px;">Relationship Repo is here for you - through the good times, and the bad.</h2>
+                          <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; max-width:none;">Relationship Repo is here for you - through the good times, and the bad.</h2>
                       </div>
                   </div>
               </div>
@@ -25,14 +25,14 @@ include 'nav.php';
       </div>
   </header>
 
-  <section class="cta" style="background: transparent;">
+  <section class="cta">
       <div class="cta-content">
           <div class="container">
             <h1 style="margin-bottom:0; font-size: 57px;">Meet Our Team</h1>
-            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333;">We are always looking for new agents to join our team!</h2>
+            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333; max-width:none;">We are always looking for new agents to join our team!</h2>
           </div>
       </div>
-      <div class="overlay"></div>
+      <div class="overlay" style="background: transparent;"></div>
   </section>
 
 
