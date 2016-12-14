@@ -20,9 +20,9 @@ include 'nav.php';
                           <h3 style="margin-top:0; margin-bottom:30px; max-width:80%; font-size: 30px;">
 
 
-                            Have you ever been in a relationship that ended on less than favorable terms?<br /> Has your desire to evade a broken relationship lead to the loss of your valuable or sentimental possessions?<br /> Are your friends trying to remain neutral and refusing to aid in reclaiming your property, or are you just too embarrassed to ask for help? <br />That's where we come in.</h3>
+                            Have you ever been in a relationship that ended on less than favorable terms?<br /> Has your desire to evade a broken relationship lead to the loss of your valuable or sentimental possessions?<br /> Are your friends trying to remain neutral and refusing to aid in reclaiming your property,<br /> or are you just too embarrassed to ask for help?</h3>
 
-
+                          <h3 style="margin-top:0; margin-bottom:30px; max-width:80%; font-size: 35px;">That's where we come in.</h3>
 
 
                       </div>
