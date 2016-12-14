@@ -11,6 +11,7 @@
 #mainNav a:focus, #mainNav a:hover {
   color: #A26F6E;
   font-family: "Blanch";
+  font-weight: normal;
 }
 
 .heading-font {
