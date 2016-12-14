@@ -9,7 +9,7 @@ include 'nav.php';
 </head>
 <body id="page-top">
 
-  <header>
+  <header style="background: url('img/sun.jpg') no-repeat center center fixed;">
       <div class="container">
 
           <div class="row">
@@ -25,7 +25,7 @@ include 'nav.php';
       </div>
   </header>
 
-  <section class="cta">
+  <section class="cta" style="background: transparent;">
       <div class="cta-content">
           <div class="container">
             <h1 style="margin-bottom:0; font-size: 57px;">Meet Our Team</h1>
