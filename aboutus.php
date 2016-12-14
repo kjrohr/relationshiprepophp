@@ -42,7 +42,8 @@ if(isset($_POST['btn-save']))
               <div class="col-sm-7">
                   <div class="header-content">
                       <div class="header-content-inner">
-                          <h1 style="margin:150px 0 10px 0; font-size: 70px;">What is Relationship Repo?</h1>
+                        <div style="margin:150px 0 10px 0; background: rgba(0,0,0,0.6); padding:25px;">
+                          <h1 style="font-size: 70px;">What is Relationship Repo?</h1>
                           <h3 style="margin-top:0; margin-bottom:10px; max-width:80%; font-size: 32px;">
 
 
@@ -50,7 +51,7 @@ if(isset($_POST['btn-save']))
 
                           <h3 style="margin-top:0; max-width:80%; font-size: 45px;">That's where we come in.</h3>
 
-
+                        </div>
                       </div>
                   </div>
               </div>
@@ -62,7 +63,7 @@ if(isset($_POST['btn-save']))
       <div class="container">
           <div class="row">
               <div class="col-md-10 col-md-offset-1">
-                  <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">Relationship Repo is a web-based service that comes to your aid when you're
+                  <h2 class="section-heading" style="font-size: 50px; margin-bottom:0;">Relationship Repo is a web-based service that comes to your aid when you're
                      at risk of losing your possessions due to a break-up. We connect you with people who specialize in handling such situations with sensitivity
                      and professionalism. They will pick up your possessions for you — sparing you, your friends and your family the difficulty of dealing with your ex.</h2>
               </div>
