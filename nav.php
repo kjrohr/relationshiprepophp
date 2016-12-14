@@ -1,5 +1,5 @@
 <?php
-
+  session_start();
 ?>
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -24,7 +24,20 @@
                     <a href="/aboutus.php">About Us</a>
                 </li>
                 <li>
-                    <a href="/login.php"><strong>Login</strong></a>
+                  <?php
+                    if (isset($_SESSION['user'])){
+                      // is logged in
+                      ?>
+                      <a href="logout.php?logout"><strong>Logout</strong></a>
+                      <?php
+                    }
+                    else {
+                      // is not logged in
+                      ?>
+                      <a href="/login.php"><strong>Login</strong></a>
+                      <?php
+                    }
+                  ?>
                 </li>
             </ul>
         </div>
