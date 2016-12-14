@@ -49,7 +49,7 @@ include 'nav.php';
           <div class="container">
             <h3 style="color:pink;">Remember that girlfriend back in college who stole your heart and your favorite hoodie? There's still hope for the hoodie, and all the others out there like it.</h2>
       </div>
-      <div class="overlay" style="padding:0;"></div>
+      <div class="overlay"></div>
   </section>
 
   <section class="cta" style="padding: 90px 0">
