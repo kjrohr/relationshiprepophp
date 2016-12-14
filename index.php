@@ -61,7 +61,7 @@ if(isset($_POST['btn-save']))
       <section style="background: #A26F6E; padding:90px 0;" class="download bg-primary text-center">
           <div class="container">
               <div class="row">
-                  <div class="col-md-10 col-md-offset-1" style="margin-bottom:35px;">
+                  <div class="col-md-10 col-md-offset-1" style="margin-bottom:45px;">
                       <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">What Can Relationship Repo Do For You?</h2>
                   </div>
                   <div class="container-fluid text-center">
@@ -69,7 +69,7 @@ if(isset($_POST['btn-save']))
                         <div class="col-sm-4">
                           <span class="glyphicon glyphicon-user" style="font-size:60px;"></span>
                           <h4 style="font-size:30px;">Resources</h4>
-                          <p>While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks.</p>
+                          <p>While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks. Choose your own agent or send us a live chat message any time you need help.</p>
                         </div>
                         <div class="col-sm-4">
                           <span class="glyphicon glyphicon-heart" style="font-size:60px;"></span>
@@ -79,9 +79,12 @@ if(isset($_POST['btn-save']))
                         <div class="col-sm-4">
                           <span class="glyphicon glyphicon-thumbs-up" style="font-size:60px;"></span>
                           <h4 style="font-size:30px;">Satisfaction</h4>
-                          <p>Our systems are set up to allow you to choose which agent you'd like to take on your case. Once you've connected with your agent, you work together to form your own contract that suits your needs.</p>
+                          <p>Our systems are set up to allow you to choose which agent you'd like to take on your case.<br /> Once you've connected with your agent, you work together to form your own contract that suits your needs.</p>
                         </div>
                         </div>
+                  </div>
+                  <div class="col-md-10 col-md-offset-1" style="margin-top:45px;">
+                      <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">It's our business to take care of yours.</h2>
                   </div>
               </div>
           </div>
