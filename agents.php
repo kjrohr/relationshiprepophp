@@ -115,10 +115,11 @@ if (isset($_POST['apply-btn'])) {
                                   <div class="form-group">
                                     <div class="col-sm-9">
                                       <select class="form-control" name="gender">
+                                        <option>Please Select One:</option>
                                         <option value="male">I Am A Male</option>
                                         <option value="female">I Am A Female</option>
                                       </select>
-                                      </div>
+                                    </div><br />
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                     <div class="col-sm-9">
