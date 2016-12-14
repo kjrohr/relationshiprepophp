@@ -61,15 +61,15 @@ if(isset($_POST['btn-save']))
       <section style="background: #A26F6E; padding:90px 0;" class="download bg-primary text-center">
           <div class="container">
               <div class="row">
-                  <div class="col-md-10 col-md-offset-1" style="margin-bottom:15px;">
+                  <div class="col-md-10 col-md-offset-1" style="margin-bottom:35px;">
                       <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">What Can Relationship Repo Do For You?</h2>
                   </div>
                   <div class="container-fluid text-center">
                       <div class="row">
                         <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-off"></span>
-                          <h4 style="font-size:30px;">POWER</h4>
-                          <p>Lorem ipsum dolor sit amet..</p>
+                          <span class="glyphicon glyphicon-user"></span>
+                          <h4 style="font-size:30px;">Real People</h4>
+                          <p>While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks.</p>
                         </div>
                         <div class="col-sm-4">
                           <span class="glyphicon glyphicon-heart"></span>
