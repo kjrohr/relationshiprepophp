@@ -11,10 +11,12 @@ include 'nav.php';
 <header style="background:url('img/sun.jpg') no-repeat center center fixed; background-size: cover;">
 
   <!-- Begin page content -->
-  <div class="container">
     <div class="page-header">
       <h1 style="margin:25% 0 0; font-size: 57px;">Who Are We?</h1>
     </div>
+  </header>
+
+  <div class="container" style="background: #000">
       <h2>Sometimes, Things Just Don't Work Out</h2>
       <p>Relationship Repo is an idea that was created by Lindsay Hampton and Karl Rohr. We at Relationship Repo want to take the pain out of having a bad break up.</p>
       <p>Sometimes, this don't go as planned and you need to leave the situation that you are in and sometimes that means leaving behind a lot of valuable belongings.</p>
