@@ -17,7 +17,7 @@ include 'nav.php';
                   <div class="header-content">
                       <div class="header-content-inner">
                           <h1 style="margin-bottom:0; font-size: 57px;">What is Relationship Repo?</h1>
-                          <h3 style="margin-top:0; margin-bottom:30px; max-width:none; font-size: 35px; max-width: 50%;">
+                          <h3 style="margin-top:0; margin-bottom:30px; max-width:none; font-size: 35px;">
 
 
                             Have you ever been in a relationship that ended on less than favorable terms?<br /> Has your desire to evade a broken relationship lead to the loss of your valuable or sentimental possessions?<br /> Are your friends trying to remain neutral and refusing to aid in reclaiming your property, or are you just too embarrassed to ask for help? <br />That's where we come in.</h3>
