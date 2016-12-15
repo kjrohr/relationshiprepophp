@@ -79,7 +79,7 @@ if(isset($_POST['btn-save']))
               Remember that girlfriend back in college who stole your heart <b>and</b> your favorite hoodie?</h2>
               <h2 style="margin:0 0 5px 300px; font-size: 42.5px; max-width: 60%;">There's still hope for the hoodie, and all the others out there like it.
             </h2>
-            <h4 style="margin:0 0 35px 300px; font-size: 25px; max-width: 60%;">(Plus, she didn't even like that band before she met you!)</h4>
+            <h4 style="margin:0 0 35px 300px; font-size: 25px; max-width: 60%; color: #A26F6E;">(Plus, she didn't even like that band before she met you!)</h4>
             <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll" style="margin-left: 335px;">Sign Up Today</a>
             <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
@@ -103,8 +103,8 @@ if(isset($_POST['btn-save']))
   <section class="cta">
       <div class="cta-content">
           <div class="container">
-            <h1 style="margin-bottom:0; font-size: 57px;">Want to work for Relationship Repo?</h1>
-            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333; max-width:none;">We are always looking for new agents to join our team!</h2>
+            <h1 style="margin-bottom:0; font-size: 57px; color: #AFD0D0;">Want to work for Relationship Repo?</h1>
+            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #AFD0D0; max-width:none;">We are always looking for new agents to join our team!</h2>
               <a href="/agents.php" class="btn btn-outline btn-xl page-scroll">More Information</a>
           </div>
       </div>
