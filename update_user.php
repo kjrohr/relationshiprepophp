@@ -69,7 +69,7 @@ if(isset($_POST['btn-save']))
 
       <!-- /.container-fluid -->
   </nav>
-  <div class='container' style="background:url('img/dress.jpg') no-repeat center center fixed; background-size: cover; margin:0; width:100%">
+  <div class='container' style="background:url('img/shoes.jpg') no-repeat center center fixed; background-size: cover; margin:0; width:100%">
     <div class="page-header">
       <h1 style="margin:25% 0 0; font-size: 57px;">Update Your Account Information</h1>
     </div>
