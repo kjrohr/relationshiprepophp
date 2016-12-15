@@ -27,6 +27,7 @@ $(document).ready(function(){
     $('#message').fadeOut(5000);
   }
 
+  // No thanks?
   $('#no-thanks').on('click', function(){
     $('#signup-modal').hide();
   });
