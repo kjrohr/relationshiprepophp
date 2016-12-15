@@ -100,15 +100,15 @@ if(isset($_POST['btn-save']))
 
               <div class="container-fluid text-center">
                   <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-5 col-md-offset-1">
                       <img src="/img/team-01.png" width="55%">
-                      <h4 style="font-size:40px;">Karl Rohr</h4>
-                      <h4 style="font-size:32px;">Back-End Developer</h4>
+                      <h4 style="font-size:40px; margin-bottom: 0;">Karl Rohr</h4>
+                      <h4 style="font-size:32px; color: #415B6F;">Back-End Developer</h4>
                     </div>
                     <div class="col-sm-5">
                       <img src="/img/team-02.png" width="55%"/>
-                      <h4 style="font-size:40px;">Lindsay Hampton</h4>
-                      <h4 style="font-size:32px;">Front-End Developer</h4>
+                      <h4 style="font-size:40px; margin-bottom: 0;">Lindsay Hampton</h4>
+                      <h4 style="font-size:32px; color: #415B6F;">Front-End Developer</h4>
                     </div>
                     </div>
                   </div>
