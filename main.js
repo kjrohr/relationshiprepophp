@@ -28,7 +28,7 @@ $(document).ready(function(){
   }
 
   $('#no-thanks').on('click', function(){
-    $('#signup-modal').css({"display", "hidden"});
+    $('#signup-modal').hide();
   });
 
 });
