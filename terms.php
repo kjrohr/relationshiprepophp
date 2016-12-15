@@ -13,7 +13,7 @@ include 'nav.php';
 
 
 
-      <header height="90%">
+      <header min-height="10px" height="90%">
           <div class="container">
 
               <div class="row">
