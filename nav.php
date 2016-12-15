@@ -18,7 +18,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li>
-                  <a href="/aboutus.php">Home</a>
+                  <a href="/index.php">Home</a>
+              </li>
+              <li>
+                  <a href="/aboutus.php">About Us</a>
               </li>
                 <li>
                     <a href="/agents.php">Agents</a>

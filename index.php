@@ -64,9 +64,9 @@ if(isset($_POST['btn-save']))
 
 
                               <h2 style="margin-top:5px; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - <br />we'll deal with the end so you can start a new beginning.</h2>
-                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
-                              <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
                               <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Learn More</a>
+                              <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
+
                           </div>
                       </div>
                   </div>
@@ -90,70 +90,6 @@ if(isset($_POST['btn-save']))
               </ul>
           </div>
       </footer>
-
-        <!-- Modal for Sign Up -->
-
-      <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none; background: black;">
-              <div class="modal-dialog">
-              <div class="loginmodal-container">
-                <form method="post">
-                  <div class="container" style="max-width:530px; margin: 0 auto;">
-                              <form class="form-horizontal" role="form">
-                                  <h2 style="color:white; margin-left: 10%;">Sign Up With Relationship Repo</h2>
-                                  <div style="margin-left: 30%;">
-                                  <div class="form-group">
-                                    <div class="col-sm-9">
-                                          <input style="margin-bottom:20px !important;" type="text" name="username" placeholder="Username" class="form-control" required />
-                                      </div>
-                                  </div>
-                                  <div class="form-group">
-                                      <div class="col-sm-9">
-                                          <input style="margin-bottom:20px !important;" type="text" name="first_name" placeholder="First Name" class="form-control" required />
-                                      </div>
-                                  </div>
-                                  <div class="form-group">
-                                    <div class="col-sm-9">
-                                          <input style="margin-bottom:20px !important;" type="text" name="last_name" placeholder="Last Name" class="form-control" required />
-                                      </div>
-                                  </div>
-                                  <div class="form-group">
-                                    <div class="col-sm-9">
-                                          <input style="margin-bottom:20px !important;" type="email" name="email" placeholder="Email Address" class="form-control" required />
-                                      </div>
-                                  </div>
-                                  <div class="form-group">
-                                      <div class="col-sm-9">
-                                          <input style="margin-bottom:20px !important;" type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
-                                      </div>
-                                  </div> <!-- /.form-group -->
-                                  <div class="form-group">
-                                    <div class="col-sm-9">
-                                      <input style="margin-bottom:20px !important;" type="number" name="age" placeholder="Your Age" class="form-control" required />
-                                      </div>
-                                  </div> <!-- /.form-group -->
-                                  <div class="form-group">
-                                    <div class="col-sm-9">
-                                      <input style="margin-bottom:20px !important;" type="password" name="pass" placeholder="Your Password" class="form-control" required />
-                                      </div>
-                                  </div> <!-- /.form-group -->
-                                  <div class="form-group">
-                                      <div class="col-sm-9">
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox">
-                                                  <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="#" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
-                                              </label>
-                                          </div>
-                                      </div>
-                                  </div> <!-- /.form-group -->
-                                  <div class="form-group">
-                                      <div class="col-sm-9">
-                                          <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#415c6f;">Register</button><br />
-                                          <a href="/login.php" class="btn btn-block btn-outline">Already A Member?</a>
-                                      </div>
-                                  </div>
-                                  </div>
-                              </form> <!-- /form -->
               </div>
             </div>
           </div>
