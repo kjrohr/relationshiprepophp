@@ -41,7 +41,6 @@ if(isset($_POST['btn-save']))
 </head>
 <body>
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -67,13 +66,16 @@ if(isset($_POST['btn-save']))
               </ul>
           </div>
           <!-- /.navbar-collapse -->
-      </div>
+
       <!-- /.container-fluid -->
   </nav>
-  <div class='container'>
+  <div class='container' style="background:url('img/fortune.jpeg') no-repeat center center fixed; background-size: cover; margin:0; width:100%">
     <div class="page-header">
-      <h1 style="margin:25% 0 0; font-size: 57px;">Update User</h1>
+      <h1 style="margin:25% 0 0; font-size: 57px;">Update Your Account Information</h1>
     </div>
+  </div>
+
+
   <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
       <div class="container">
           <div class="row">
@@ -90,7 +92,7 @@ if(isset($_POST['btn-save']))
       <div class="container" style="max-width:530px; margin: 0 auto;">
                   <form class="form-horizontal" role="form">
                       <h2>Registration Form</h2>
-                      <div style="margin-left: 30%;">
+                      <div>
                       <div class="form-group">
                         <div class="col-sm-9">
                               <input type="text" name="username" placeholder="Username" class="form-control" required />
