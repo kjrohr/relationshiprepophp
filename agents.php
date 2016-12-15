@@ -185,7 +185,7 @@ if (isset($_POST['apply-btn'])) {
                                       <div class="col-sm-9">
                                           <button type="submit" name="apply-btn" class="btn btn-primary btn-block" style="background:#415c6f;">Submit</button><br />
                                           <a href="/login.php" class="btn btn-block btn-outline">Already Registered?</a>
-                                          <span id="no-thanks">No Thanks</span>
+                                          <a id="no-thanks" class="btn btn-block btn-outline">No Thanks</a>
                                       </div>
                                   </div>
                                   </div>
