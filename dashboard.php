@@ -60,7 +60,7 @@
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                   <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
               </button>
-              <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top">
+              <a class="navbar-brand page-scroll" style="padding-top:5px;" href="/index.php">
                 <img src="img/logo3.png" id="pagelogo" alt="Relationship Repo"/>
                 </a>
           </div>
@@ -96,7 +96,7 @@
   </nav>
   <div class="container">
     <div class="page-header">
-      <h1 style="margin:25% 0 0; font-size: 57px;">Welcome Back, <?php echo $userRow['first_name'] . ' ' . $userRow['last_name']; ?></h1>
+      <h1 style="margin:25% 0 0; font-size: 57px;">Welcome Back, <?php echo $userRow['first_name'] ?>!</h1>
     </div>
 
 <!-- Case logic -->

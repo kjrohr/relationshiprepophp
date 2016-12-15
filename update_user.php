@@ -47,7 +47,7 @@ if(isset($_POST['btn-save']))
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                   <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
               </button>
-              <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top">
+              <a class="navbar-brand page-scroll" style="padding-top:5px;" href="/index.php">
                 <img src="img/logo3.png" id="pagelogo" alt="Relationship Repo"/>
                 </a>
           </div>
@@ -59,10 +59,7 @@ if(isset($_POST['btn-save']))
                     <a href="/index.php">Hello <?php echo $userRow['username']; ?></a>
                 </li>
                   <li>
-                      <a href="/aboutus.php">About Us</a>
-                  </li>
-                  <li>
-                      <a href="update_user.php">Update Info</a>
+                      <a href="update_user.php">My Account</a>
                   </li>
                   <li>
                       <a href="logout.php?logout"><strong>Logout</strong></a>

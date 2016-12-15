@@ -26,6 +26,17 @@
                 <li>
                     <a href="/agents.php">Agents</a>
                 </li>
+                  <?php
+                    if (isset($_SESSION['user'])){
+                      // is logged in
+                      ?>
+                    <li>
+                      <a href="/dashboard.php">My Account</a>
+                    </li>
+                      <?php
+                    }
+                  ?>
+
                 <li>
                   <?php
                     if (isset($_SESSION['user'])){
