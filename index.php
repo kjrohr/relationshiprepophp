@@ -51,11 +51,11 @@ if(isset($_POST['btn-save']))
                             <h1 style="margin:120px 0 5px 0; font-size: 90px; max-width:none;">Get your
 
                               <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; font-size: 70px; max-width:none;">
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 30px;">Stuff</h1></span>
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 10px;">Happiness</h1></span>
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 30px;">Heart</h1></span>
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 15px;">Optimism</h1></span>
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 30px;">Life</h1></span>
+                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 60px;">Stuff</h1></span>
+                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 20px;">Happiness</h1></span>
+                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 60px;">Heart</h1></span>
+                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 25px;">Optimism</h1></span>
+                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 60px;">Life</h1></span>
                                </div>
 
                                <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>
@@ -67,7 +67,7 @@ if(isset($_POST['btn-save']))
 
 
 
-                              <h2 style="margin-top:105px; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - <br />we'll deal with the end so you can start a new beginning.</h2>
+                              <h2 style="margin-top:15px; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - <br />we'll deal with the end so you can start a new beginning.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
                               <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Learn More</a>
