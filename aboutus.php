@@ -90,7 +90,7 @@ if(isset($_POST['btn-save']))
       <div class="overlay" style="background: url('img/giggle.jpg') no-repeat center center fixed;"></div>
   </section>
 
-  <section class="cta" style="padding: 70px 0">
+  <section class="cta" style="padding: 50px 0">
       <div class="cta-content">
           <div class="container">
             <h1 style="margin-bottom:30px; font-size: 70px;">Meet Our Team</h1>
