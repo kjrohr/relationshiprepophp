@@ -50,11 +50,12 @@ if(isset($_POST['btn-save']))
 
 
                             <div class="rw-sentence rw-words rw-words-1" style="margin:105px 0 5px 0; font-size: 70px; max-width:none;">
-                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">For when "Forever Mine" becomes "Nevermind"...</h1></span>
-                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">Get Your Stuff Without The Fuss...</h1></span>
-                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">Your ex doesn't even like that band!</h1></span>
-                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">The relationship ended, your life doesn't have to...</h1></span>
-                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">Get your Stuff back, get your life back...</h1></span>
+                              <h1 style="font-size: 70px; max-width:none;">Get your _____________ back.</h1>
+                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">Stuff</h1></span>
+                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">Happiness</h1></span>
+                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">Heart</h1></span>
+                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">Optimism</h1></span>
+                                 <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none;">Life</h1></span>
                              </div>
 
 
