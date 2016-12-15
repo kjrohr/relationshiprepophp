@@ -188,6 +188,7 @@ if(isset($_POST['btn-save']))
                                   <div class="col-sm-9">
                                       <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#415c6f;">Register</button><br />
                                       <a href="/login.php" class="btn btn-block btn-outline">Already A Member?</a>
+                                      <a id="no-thanks" class="btn btn-block btn-outline">No Thanks</a>
                                   </div>
                               </div>
                               </div>
@@ -200,7 +201,7 @@ if(isset($_POST['btn-save']))
 
 
 
-
+  <script src="main.js"></script>
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
