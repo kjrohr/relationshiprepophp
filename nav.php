@@ -9,7 +9,7 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" style="padding-top:5px;" href="#page-top">
+            <a class="navbar-brand page-scroll" style="padding-top:5px;" href="/index.php">
               <img src="img/logo2.png" id="pagelogo" alt="Relationship Repo"/>
               </a>
         </div>
@@ -18,10 +18,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li>
-                  <a href="/index.php">Home</a>
+                  <a href="/aboutus.php">Home</a>
               </li>
                 <li>
-                    <a href="/aboutus.php">About Us</a>
+                    <a href="/agents.php">Agents</a>
                 </li>
                 <li>
                   <?php

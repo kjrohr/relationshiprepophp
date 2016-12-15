@@ -19,6 +19,10 @@
 	display: inline;
 }
 
+span {
+  width: 1000px;
+}
+
 /* Animated Text Effect */
 
 .rw-words-1 span{
