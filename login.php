@@ -69,7 +69,7 @@
         <div class="container" style="max-width:650px; margin: 0 auto;">
                     <form method="post" class="form-horizontal" role="form">
 
-                        <h2 style="margin: 30% 0 30px 0;">Welcome Back to Relationship Repo! <br /> Please Sign In.</h2>
+                        <h2 style="margin: 30% 0 30px 0; font-size:40px;">Welcome Back to Relationship Repo! <br /> Please Sign In.</h2>
 
                         <?php
                          if ( isset($errMSG) ) {
@@ -90,7 +90,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-9">
-                                <a style="margin-left:35%;" type="submit"  name="btn-login" class="btn btn-outline btn-xl page-scroll">Sign In</a>
+                                <button style="margin-left:35%;" type="submit"  name="btn-login" class="btn btn-outline btn-xl page-scroll" style="background:#415c6f;">Sign In</button>
                             </div>
                         </div>
                         </div>
