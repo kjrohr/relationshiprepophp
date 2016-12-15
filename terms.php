@@ -21,18 +21,6 @@ include 'nav.php';
                       <div class="header-content">
                           <div class="header-content-inner">
 
-                            <h1 style="margin:120px 0 5px 0; font-size: 90px; max-width:none;">Take back your
-
-                              <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; max-width:none;">
-                                   <span style="max-width:none;"><h1 style="color: #AFD0D0; font-size: 130px; max-width:none; padding-left: 10px;">Belongings.</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #AFD0D0; font-size: 130px; max-width:none; padding-left: 10px;">Happiness.</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #AFD0D0; font-size: 130px; max-width:none; padding-left: 10px;">Peace of Mind.</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #AFD0D0; font-size: 130px; max-width:none; padding-left: 10px;">Heart.</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #AFD0D0; font-size: 130px; max-width:none; padding-left: 10px;">Life.</h1></span>
-                               </div></h1>
-
-
-
 
 
 
