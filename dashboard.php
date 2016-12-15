@@ -130,7 +130,6 @@ if ($test == 0) {
 if ($num_of_rows == 0){
   ?>
   <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Thank You for Doing What You Do!</h2>
-  <h2 class="section-heading" style="font-size: 57px">What You Do Helps Lessens the Pain of Our Users</h2>
   <h3>Suprisingly there are no cases to view at this time.</h3>
   <h3>We thank you for your vigilance in helping all our users.</h3>
   <h3>Once a user has submitted a case you may review it to claim.</h3>
@@ -139,8 +138,7 @@ if ($num_of_rows == 0){
 }
 else {
 ?>
-<h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Here is a List of Active Cases</h2>
-<h2 class="section-heading" style="font-size: 57px">What You Do Helps Lessens the Pain of Our Users</h2>
+<h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">These are our currently active cases.</h2>
 <h3>Please claim one soon.</h3>
 <h3>We thank you for your vigilance in helping all our users.</h3>
 <h3>Once a case is claimed please contact the user within 24 hours.</h3>
@@ -199,8 +197,7 @@ else {
       <div class="container">
           <div class="row">
               <div class="col-md-8 col-md-offset-2">
-                <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Here is Your Active Case</h2>
-                <h2 class="section-heading" style="font-size: 57px">What You Do Helps Lessens the Pain of Our Users</h2>
+                <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">You Have an Active Case!</h2>
                 <h3>We thank you for your vigilance in helping all our users.</h3>
                 <h3>Please contact this user within 24 hours.</h3>
 
