@@ -276,7 +276,7 @@ elseif ($_SESSION['user_type'] == 'user')
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading" style="font-size: 57px; margin-bottom:10px; line-height:.8;">Have you recently left your belongings with someone that you're no longer on speaking terms with?</h2>
+                    <h2 class="section-heading" style="font-size: 57px; max-width: 100%; margin-bottom:10px; line-height:.8;">Have you recently left your belongings with someone that you're no longer on speaking terms with?</h2>
                     <h3>We are here to help. Create a case using as much detail as possible.</h3>
                     <h3>Once an agent has reviewed it they can choose to claim your case.</h3>
                     <h3>Once your case has been claimed, your agent will be in contact with you shortly.</h3>
