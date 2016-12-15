@@ -93,7 +93,7 @@
       </div>
       <!-- /.container-fluid -->
   </nav>
-  <div class="container" style="background:url('img/inwater.jpg') no-repeat center center fixed; background-size: cover;">
+  <div class="container" style="background:url('img/heart.jpg') no-repeat center center fixed; background-size: cover; margin:0;">
     <div class="page-header">
       <h1 style="margin:25% 0 0; font-size: 57px;">Welcome Back, <?php echo $userRow['first_name'] ?>!</h1>
     </div>
