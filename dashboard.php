@@ -49,7 +49,12 @@
 
 ?>
 
+<style>
+h3 {
+  margin: 0;
+}
 
+</style>
 <title>Welcome - <?php echo $userRow['first_name']; ?></title>
 </head>
 <body>
@@ -275,7 +280,7 @@ elseif ($_SESSION['user_type'] == 'user')
                     <h3>We are here to help. Once you create a case, agents will be able to review it.</h3>
                     <h3>Once an agent has reviewed it they can choose to claim your case.</h3>
                     <h3>Once your case is claimed the claiming agent will contact you shortly.</h3>
-                    <h3>We charge a $10.00 service fee for creating a case.</h3>
+                    <h4 style="font-size: 25px; margin: 0 0 15px 0">* There is a $10.00 Service Fee for starting a new Case.</h4>
                     <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Start a Case</a>
                 </div>
             </div>
@@ -422,7 +427,7 @@ else
                                 </div>
                             </div> <!-- /.form-group -->
                             <div class="form-group">
-                                <div class="col-sm-9">
+                                <div class="col-sm-9 col-md-offset-1">
                                     <button type="submit" name="case-btn" class="btn btn-primary btn-block" style="background:#415c6f;">Submit Case</button><br />
                                 </div>
                             </div>
