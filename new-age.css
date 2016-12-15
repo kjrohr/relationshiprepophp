@@ -26,11 +26,11 @@
 	position: absolute;
 	opacity: 0;
   overflow: hidden;
-	-webkit-animation: rotateWord 15s linear 0s infinite;
-	-moz-animation: rotateWord 15s linear 0s infinite;
-	-o-animation: rotateWord 15s linear 0s infinite;
-	-ms-animation: rotateWord 15s linear 0s infinite;
-	animation: rotateWord 15s linear 0s infinite;
+	-webkit-animation: rotateWord 30s linear 0s infinite;
+	-moz-animation: rotateWord 30s linear 0s infinite;
+	-o-animation: rotateWord 30s linear 0s infinite;
+	-ms-animation: rotateWord 30s linear 0s infinite;
+	animation: rotateWord 30s linear 0s infinite;
 }
 
 .rw-words-1 span:nth-child(1) {
@@ -42,33 +42,33 @@
 }
 
 .rw-words-1 span:nth-child(2) {
-    -webkit-animation-delay: 3s;
-	-moz-animation-delay: 3s;
-	-o-animation-delay: 3s;
-	-ms-animation-delay: 3s;
-	animation-delay: 3s;
-}
-.rw-words-1 span:nth-child(3) {
     -webkit-animation-delay: 6s;
 	-moz-animation-delay: 6s;
 	-o-animation-delay: 6s;
 	-ms-animation-delay: 6s;
 	animation-delay: 6s;
 }
-.rw-words-1 span:nth-child(4) {
-    -webkit-animation-delay: 9s;
-	-moz-animation-delay: 9s;
-	-o-animation-delay: 9s;
-	-ms-animation-delay: 9s;
-	animation-delay: 9s;
-}
-
-.rw-words-1 span:nth-child(5) {
+.rw-words-1 span:nth-child(3) {
     -webkit-animation-delay: 12s;
 	-moz-animation-delay: 12s;
 	-o-animation-delay: 12s;
 	-ms-animation-delay: 12s;
 	animation-delay: 12s;
+}
+.rw-words-1 span:nth-child(4) {
+    -webkit-animation-delay: 18s;
+	-moz-animation-delay: 18s;
+	-o-animation-delay: 18s;
+	-ms-animation-delay: 18s;
+	animation-delay: 18s;
+}
+
+.rw-words-1 span:nth-child(5) {
+    -webkit-animation-delay: 24s;
+	-moz-animation-delay: 24s;
+	-o-animation-delay: 24s;
+	-ms-animation-delay: 24s;
+	animation-delay: 24s;
 }
 
 @-webkit-keyframes rotateWord {
