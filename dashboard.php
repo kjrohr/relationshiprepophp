@@ -402,13 +402,13 @@ else
         <div class="modal-dialog">
         <div class="loginmodal-container">
           <form method="post">
-            <div class="container" style="max-width:530px; margin: 0 auto;">
+            <div class="container" style="max-width:530px; margin: 0 auto; padding-top: 15%;">
                         <form class="form-horizontal" role="form">
-                            <h2 style="color:white; margin-left: 10%;">Need to Create a Case?</h2>
+                            <h2 style="color:white; margin-left: 10%; font-size: 50px;">Create a Case:</h2>
                             <div style="margin-left: 30%;">
                             <div class="form-group">
-                                <div class="col-sm-9">
-                                    <textarea name='content' class="form-control" required="">Please describe to us in detail about your case.</textarea>
+                                <div class="col-sm-9" style="margin-bottom:15px;">
+                                    <textarea name='content' class="form-control" width="400px" height="400px" required>Please use this textbox to describe your situation. Use as much detail as possible, as it will only help our agents get a better understanding of your needs.</textarea>
                                 </div>
                             </div>
                             <div class="form-group">
