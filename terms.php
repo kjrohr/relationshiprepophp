@@ -39,7 +39,7 @@ include 'nav.php';
                       <div class="panel panel-default">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                           <div class="panel-heading">
-                          <span class="glyphicon glyphicon-alert" style="font-size:40px; display: inline;"></span>
+                          <span class="glyphicon glyphicon-alert" style="font-size:40px; display: inline; margin-right: 15px;"></span>
                           <h4 class="panel-title" style="font-size: 40px; display: inline;">
                              Disclaimers
                           </h4>
@@ -68,7 +68,7 @@ include 'nav.php';
                       <div class="panel panel-default">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
                         <div class="panel-heading">
-                          <span class="glyphicon glyphicon-piggy-bank" style="font-size:40px; display: inline;"></span>
+                          <span class="glyphicon glyphicon-piggy-bank" style="font-size:40px; display: inline; margin-right: 15px;"></span>
                           <h4 class="panel-title" style="font-size: 40px; display: inline;">
                              Payments
                           </h4>
