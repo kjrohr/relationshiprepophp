@@ -93,7 +93,7 @@ if(isset($_POST['btn-save']))
 
         <!-- Modal for Sign Up -->
 
-      <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none; background: black;">
               <div class="modal-dialog">
               <div class="loginmodal-container">
                 <form method="post">
@@ -103,37 +103,37 @@ if(isset($_POST['btn-save']))
                                   <div style="margin-left: 30%;">
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                          <input type="text" name="username" placeholder="Username" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="username" placeholder="Username" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="first_name" placeholder="First Name" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                          <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="last_name" placeholder="Last Name" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                          <input type="email" name="email" placeholder="Email Address" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="email" name="email" placeholder="Email Address" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <input type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                      <input type="number" name="age" placeholder="Your Age" class="form-control" required />
+                                      <input style="margin-bottom:20px !important;" type="number" name="age" placeholder="Your Age" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                      <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
+                                      <input style="margin-bottom:20px !important;" type="password" name="pass" placeholder="Your Password" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
