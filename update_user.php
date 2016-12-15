@@ -94,38 +94,38 @@ if(isset($_POST['btn-save']))
                       <h2>Registration Form</h2>
                       <div>
                       <div class="form-group">
-                        <div class="col-sm-9">
+                        <div class="col-sm-9 col-md-offset-1">
                               <input type="text" name="username" placeholder="Username" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
-                          <div class="col-sm-9">
+                          <div class="col-sm-9 col-md-offset-1">
                               <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
-                        <div class="col-sm-9">
+                        <div class="col-sm-9 col-md-offset-1">
                               <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
-                        <div class="col-sm-9">
+                        <div class="col-sm-9 col-md-offset-1">
                               <input type="email" name="email" placeholder="Email Address" class="form-control" required />
                           </div>
                       </div>
                       <div class="form-group">
-                          <div class="col-sm-9">
+                          <div class="col-sm-9 col-md-offset-1">
                               <input type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
                           </div>
                       </div> <!-- /.form-group -->
                       <div class="form-group">
-                        <div class="col-sm-9">
+                        <div class="col-sm-9 col-md-offset-1">
                           <input type="number" name="age" placeholder="Your Age" class="form-control" required />
                           </div>
                       </div> <!-- /.form-group -->
                       <div class="form-group">
-                          <div class="col-sm-9">
-                              <button type="submit" name="btn-save" class="btn btn-primary btn-block">Update</button>
+                          <div class="col-sm-9 col-md-offset-1">
+                              <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#415c6f;">Update</button>
                           </div>
                       </div>
                       </div>
