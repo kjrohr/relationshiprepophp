@@ -94,7 +94,7 @@ if (isset($_POST['apply-btn'])) {
       </footer>
 
 
-      <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none; background: black;">
               <div class="modal-dialog">
               <div class="loginmodal-container">
                 <form method="post">
@@ -104,27 +104,27 @@ if (isset($_POST['apply-btn'])) {
                                   <div style="margin-left: 30%;">
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <input type="text" name="user_name" placeholder="User Name" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="user_name" placeholder="User Name" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                      <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
+                                      <input style="margin-bottom:20px !important;" type="password" name="pass" placeholder="Your Password" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="first_name" placeholder="First Name" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                          <input type="text" name="last_name" placeholder="Last Name" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="last_name" placeholder="Last Name" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                      <select class="form-control" name="gender" style="margin-bottom:10px;">
+                                      <select style="margin-bottom:20px !important;" class="form-control" name="gender" style="margin-bottom:10px;">
                                         <option>Please Select One:</option>
                                         <option value="male">I Am A Male</option>
                                         <option value="female">I Am A Female</option>
@@ -133,42 +133,42 @@ if (isset($_POST['apply-btn'])) {
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                          <input type="tel" name="cell_phone" placeholder="Phone Number" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="tel" name="cell_phone" placeholder="Phone Number" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                          <input type="email" name="email" placeholder="Email Address" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="email" name="email" placeholder="Email Address" class="form-control" required />
                                       </div>
                                   </div>
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <input type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="address" placeholder="Address, City, State, Zip" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                     <div class="col-sm-9">
-                                      <input type="date" name="age" max="2000-12-31" placeholder="Birthdate" class="form-control" required />
+                                      <input style="margin-bottom:20px !important;" type="date" name="age" max="2000-12-31" placeholder="Birthdate" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <input type="text" name="employer" placeholder="Employer's Name" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="employer" placeholder="Employer's Name" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <input type="text" name="company" placeholder="Company Name" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="company" placeholder="Company Name" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <input type="text" name="company_address" placeholder="Address, City, State, Zip" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="company_address" placeholder="Address, City, State, Zip" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
                                       <div class="col-sm-9">
-                                          <input type="text" name="company_phone" placeholder="111.222.3333" class="form-control" required />
+                                          <input style="margin-bottom:20px !important;" type="text" name="company_phone" placeholder="111.222.3333" class="form-control" required />
                                       </div>
                                   </div> <!-- /.form-group -->
                                   <div class="form-group">
