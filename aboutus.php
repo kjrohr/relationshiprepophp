@@ -94,7 +94,7 @@ if(isset($_POST['btn-save']))
       <div class="cta-content">
           <div class="container">
             <h1 style="margin-bottom:0; font-size: 57px;">Meet Our Team</h1>
-            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333; max-width:none;">We are always looking for new agents to join our team!</h2>
+            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333; max-width:none;">Coming Soon!</h2>
           </div>
       </div>
       <div class="overlay" style="background: transparent;"></div>
@@ -103,8 +103,8 @@ if(isset($_POST['btn-save']))
   <section class="cta">
       <div class="cta-content">
           <div class="container">
-            <h1 style="margin-bottom:0; font-size: 57px; color: #A26F6E;">Want to work for Relationship Repo?</h1>
-            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #A26F6E; max-width:none;">We are always looking for new agents to join our team!</h2>
+            <h1 style="margin-bottom:0; font-size: 57px; color: rgba(0,0,0,0.7);">Want to work for Relationship Repo?</h1>
+            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: rgba(0,0,0,0.7); max-width:none;">We are always looking for new agents to join our team!</h2>
               <a href="/agents.php" class="btn btn-outline btn-xl page-scroll">More Information</a>
           </div>
       </div>
