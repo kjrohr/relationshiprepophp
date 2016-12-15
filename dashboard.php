@@ -93,9 +93,9 @@
       </div>
       <!-- /.container-fluid -->
   </nav>
-  <div class="container" style="background:url('img/bird.jpg') no-repeat center center fixed; background-size: cover; margin:0; width:100%">
+  <div class="container" style="background:url('img/lights.JPG') no-repeat center center fixed; background-size: cover; margin:0; width:100%">
     <div class="page-header">
-      <h1 style="margin:25% 0 0; font-size: 57px;">Welcome Back, <?php echo $userRow['first_name'] ?>!</h1>
+      <h1 style="margin:25% 0 0; font-size: 57px; color: #fff">Welcome Back, <?php echo $userRow['first_name'] ?>!</h1>
     </div>
   </div>
 <!-- Case logic -->
