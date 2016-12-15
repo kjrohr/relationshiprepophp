@@ -10,12 +10,8 @@ include 'nav.php';
 </head>
 
   <body id="page-top">
-
-
-
-      <header min-height="10px" height="90%">
+      <section height="90%" style="background: url('img/dress.jpg') no-repeat center center fixed;">
           <div class="container">
-
               <div class="row">
                   <div class="col-sm-10">
                       <div class="header-content">
@@ -30,7 +26,7 @@ include 'nav.php';
                   </div>
               </div>
           </div>
-      </header>
+      </section>
 
       <section style="background: #A26F6E; padding:90px 0;" class="download bg-primary text-center">
           <div class="container">
