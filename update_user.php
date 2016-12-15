@@ -69,7 +69,7 @@ if(isset($_POST['btn-save']))
 
       <!-- /.container-fluid -->
   </nav>
-  <div class='container' style="background:url('img/fortune.jpeg') no-repeat center center fixed; background-size: cover; margin:0; width:100%">
+  <div class='container' style="background:url('img/dress.jpg') no-repeat center center fixed; background-size: cover; margin:0; width:100%">
     <div class="page-header">
       <h1 style="margin:25% 0 0; font-size: 57px;">Update Your Account Information</h1>
     </div>
@@ -87,8 +87,6 @@ if(isset($_POST['btn-save']))
 <div id="body">
  <div id="content">
     <form method="post">
-      <a href="index.php">back to main page</a></td>
-
       <div class="container" style="max-width:530px; margin: 0 auto;">
                   <form class="form-horizontal" role="form">
                       <h2>Registration Form</h2>
@@ -125,7 +123,8 @@ if(isset($_POST['btn-save']))
                       </div> <!-- /.form-group -->
                       <div class="form-group">
                           <div class="col-sm-9 col-md-offset-1">
-                              <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#415c6f;">Update</button>
+                              <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#415c6f;">Update Account</button>
+                              <a href="/dashboard.php" class="btn btn-block btn-outline">Back to Dashboard</a>
                           </div>
                       </div>
                       </div>
