@@ -90,8 +90,8 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-9">
-                                <button style="margin-left:35%; background: #415c6f;" type="submit"  name="btn-login" class="btn btn-outline btn-xl page-scroll">Sign In</button>
-                                <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll">Not a Member?</a>
+                                <button style="margin-left:35%; background: #415c6f;" type="submit"  name="btn-login" class="btn btn-outline btn-xl page-scroll">Sign Me In!</button>
+                                <br /><a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll">Not a Member?</a>
                             </div>
                         </div>
                         </div>
