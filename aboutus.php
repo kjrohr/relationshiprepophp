@@ -42,7 +42,7 @@ if(isset($_POST['btn-save']))
               <div class="col-sm-6">
                   <div class="header-content">
                       <div class="header-content-inner">
-                        <div style="margin:200px 0 10px 0; background: rgba(0,0,0,0.6); padding:25px 25px 25px 35px;">
+                        <div style="margin:200px 0 10px 0; background: rgba(0,0,0,0.6); border-radius:10px; padding:25px 25px 25px 35px;">
                           <h1 style="font-size: 68px; margin-bottom: 10px;">What is Relationship Repo?</h1>
                           <h3 style="margin-top:0; margin-bottom:10px; max-width:95%; font-size: 32px;">
 
@@ -100,15 +100,15 @@ if(isset($_POST['btn-save']))
 
               <div class="container-fluid text-center">
                   <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-5">
                       <img src="/img/team-01.png" width="55%">
                       <h4 style="font-size:40px;">Karl Rohr</h4>
-                      <p style="font-size:25px;">While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks. Choose your own agent or send us a live chat message any time you need help.</p>
+                      <h4 style="font-size:32px;">Back-End Developer</h4>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-5">
                       <img src="/img/team-02.png" width="55%"/>
                       <h4 style="font-size:40px;">Lindsay Hampton</h4>
-                      <p style="font-size:25px;">Realistically, we've all had a time where we've been in a similar situation to yours. We understand what you're going through and we're here to help.</p>
+                      <h4 style="font-size:32px;">Front-End Developer</h4>
                     </div>
                     </div>
                   </div>
