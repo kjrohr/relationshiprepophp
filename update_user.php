@@ -61,7 +61,7 @@ if(isset($_POST['btn-save']))
                   <li>
                       <a href="update_user.php">My Account</a>
                   </li>
-                  <li>
+                  <li style="margin-right: 25px;">
                       <a href="logout.php?logout"><strong>Logout</strong></a>
                   </li>
               </ul>

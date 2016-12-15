@@ -84,7 +84,7 @@
                   }
                    ?>
 
-                  <li>
+                  <li style="margin-right: 25px;">
                       <a href="logout.php?logout"><strong>Logout</strong></a>
                   </li>
               </ul>
@@ -93,7 +93,7 @@
       </div>
       <!-- /.container-fluid -->
   </nav>
-  <div class="container">
+  <div class="container" style="background:url('img/heart.jpg') no-repeat center center fixed; background-size: cover;">
     <div class="page-header">
       <h1 style="margin:25% 0 0; font-size: 57px;">Welcome Back, <?php echo $userRow['first_name'] ?>!</h1>
     </div>
