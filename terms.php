@@ -16,8 +16,8 @@ include 'nav.php';
                   <div class="col-sm-10">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin:120px 0 5px 0; font-size: 75px; max-width:none;">Relationship Repo - Terms and Conditions</h1>
-                              <h2 style="margin-top:5px; margin-bottom:30px; font-size:40px; max-width: none;">Everything you need to know, all in one place.</h2>
+                              <h1 style="margin:120px 0 5px 0; font-size: 75px; max-width:none; color:#fff;">Relationship Repo - Terms and Conditions</h1>
+                              <h2 style="margin-top:5px; margin-bottom:30px; font-size:40px; max-width: none; color:#fff;">Everything you need to know, all in one place.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">User Sign Up</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
                               <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Learn More</a>
@@ -32,10 +32,56 @@ include 'nav.php';
           <div class="container">
               <div class="row">
                   <div class="col-md-10 col-md-offset-1">
-                      <h2 class="section-heading" style="font-size: 50px; margin-bottom:0;">Relationship Repo is a web-based service that comes to your aid when you're
-                         at risk of losing your possessions due to a break-up. We connect you with people who specialize in handling such situations with sensitivity
-                         and professionalism. They will pick up your possessions for you — sparing you, your friends and your family the difficulty of dealing with your ex.</h2>
-                  </div>
+
+
+
+                    <div class="panel-group" id="accordion">
+                      <div class="panel panel-default">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                          <div class="panel-heading">
+                          <h4 class="panel-title">
+                            Collapsible Group 1
+                          </h4>
+                        </div></a>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                          commodo consequat.</div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            Collapsible Group 2
+                          </h4>
+                        </div></a>
+                        <div id="collapse2" class="panel-collapse collapse">
+                          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                          commodo consequat.</div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            Collapsible Group 3
+                          </h4>
+                        </div></a>
+                        <div id="collapse3" class="panel-collapse collapse">
+                          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                          commodo consequat.</div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
               </div>
           </div>
       </section>
