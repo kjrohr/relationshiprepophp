@@ -50,15 +50,15 @@ if(isset($_POST['btn-save']))
 
                             <h1 style="margin:120px 0 5px 0; font-size: 90px; max-width:none;">Get your
 
-                              <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; font-size: 70px; max-width:none;">
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 60px;">Stuff</h1></span>
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 20px;">Happiness</h1></span>
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 60px;">Heart</h1></span>
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 25px;">Optimism</h1></span>
-                                   <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 60px;">Life</h1></span>
+                              <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; max-width:none;">
+                                   <span style="max-width:none;"><h1 style="font-size: 110px; max-width:none; padding-left: 60px;">Stuff</h1></span>
+                                   <span style="max-width:none;"><h1 style="font-size: 110px; max-width:none; padding-left: 20px;">Happiness</h1></span>
+                                   <span style="max-width:none;"><h1 style="font-size: 110px; max-width:none; padding-left: 60px;">Heart</h1></span>
+                                   <span style="max-width:none;"><h1 style="font-size: 110px; max-width:none; padding-left: 25px;">Optimism</h1></span>
+                                   <span style="max-width:none;"><h1 style="font-size: 110px; max-width:none; padding-left: 60px;">Life</h1></span>
                                </div>
 
-                               <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>
+                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
                                 &nbsp;back.</h1>
 
