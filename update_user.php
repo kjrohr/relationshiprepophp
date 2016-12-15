@@ -71,12 +71,12 @@ if(isset($_POST['btn-save']))
   </nav>
   <div class='container' style="background:url('img/shoes.jpg') no-repeat center center fixed; background-size: cover; margin:0; width:100%">
     <div class="page-header">
-      <h1 style="margin:25% 0 0; font-size: 57px;">Update Your Account Information</h1>
+      <h1 style="margin:25% 0 0; font-size: 57px; color: #fff;">Update Your Account Information</h1>
     </div>
   </div>
 
 
-  <section style="background: #AFD0D0; padding:75px 0;" class="download bg-primary text-center">
+  <section style="background: #AFD0D0; padding:35px 0;" class="download bg-primary text-center">
       <div class="container">
           <div class="row">
               <div class="col-md-8 col-md-offset-2">
@@ -89,7 +89,6 @@ if(isset($_POST['btn-save']))
     <form method="post">
       <div class="container" style="max-width:530px; margin: 0 auto;">
                   <form class="form-horizontal" role="form">
-                      <h2>Registration Form</h2>
                       <div>
                       <div class="form-group">
                         <div class="col-sm-9 col-md-offset-1">
@@ -122,9 +121,9 @@ if(isset($_POST['btn-save']))
                           </div>
                       </div> <!-- /.form-group -->
                       <div class="form-group">
-                          <div class="col-sm-9 col-md-offset-1">
+                          <div class="col-sm-9 col-md-offset-1" style="margin-top:15px;">
                               <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#415c6f;">Update Account</button>
-                              <a href="/dashboard.php" class="btn btn-block btn-outline">Back to Dashboard</a>
+                              <a href="/dashboard.php" class="btn btn-block btn-outline" style="margin-top:10px;">Back to Dashboard</a>
                           </div>
                       </div>
                       </div>
