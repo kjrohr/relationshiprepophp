@@ -139,7 +139,7 @@ if(isset($_POST['btn-save']))
                           <form class="form-horizontal" role="form">
                               <h2 style="color:white; margin-left: 10%;">Sign Up With Relationship Repo</h2>
                               <div style="margin-left: 30%;">
-                              <div class="form-group" style="margin-bottom:200px !important;">
+                              <div class="form-group">
                                 <div class="col-sm-9">
                                       <input type="text" name="username" placeholder="Username" class="form-control" required />
                                   </div>
