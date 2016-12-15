@@ -40,42 +40,51 @@ include 'nav.php';
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                           <div class="panel-heading">
                           <h4 class="panel-title" style="font-size: 40px;">
-                            Collapsible Group 1
+                            Disclaimers
                           </h4>
                         </div></a>
                         <div id="collapse1" class="panel-collapse collapse in">
-                          <div class="panel-body" style="color: rgba(0,0,0,0.6);">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                          commodo consequat.</div>
+                          <div class="panel-body" style="color: rgba(0,0,0,0.6);">Relationship Repo is not a law firm and does not offer
+                            legal services in any way. Relationship Repo is not a repossession agency and has no legal rights to claim
+                            property without legal consent. By clicking the Submit button, you are providing your expressed written consent
+                             to have your information held on record and shared or matched with third-party sources and for them, or their
+                              authorized third-party, to call you at the number you have provided including through automated means such
+                              as autodialing, text SMS/MMS (charges may apply), and prerecorded messaging, and / or via email, even if
+                              your telephone number is a cellular phone number or is on a corporate, state, or the National Do Not Call
+                              Registry, and you agree to our Privacy Policy. Consent is required as a condition to utilize Relationship
+                              Repo’s services.<br />
+                            By clicking the Submit button, you are waiving Relationship Repo of all liability regarding any acts outside
+                             of this web service. You acknowledge that Relationship Repo is a third-party connection agency and has no
+                             legal obligation to any cases or contracts created through the website. Any and all acts or contracts created
+                              in reference to a case posted on Relationship Repo become the responsibility of the client. Relationship
+                              Repo denies any and all responsibility for third-party actions outside of this website including but not
+                              limited to property damage, physical altercation, insufficient payment, or breaches of contract between the
+                              client and agent.</div>
                         </div>
                       </div>
                       <div class="panel panel-default">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
                         <div class="panel-heading">
                           <h4 class="panel-title" style="font-size: 40px;">
-                            Collapsible Group 2
+                            Payments
                           </h4>
                         </div></a>
                         <div id="collapse2" class="panel-collapse collapse">
-                          <div class="panel-body" style="color: rgba(0,0,0,0.6);">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                          commodo consequat.</div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                        <div class="panel-heading">
-                          <h4 class="panel-title" style="font-size: 40px;">
-                            Collapsible Group 3
-                          </h4>
-                        </div></a>
-                        <div id="collapse3" class="panel-collapse collapse">
-                          <div class="panel-body" style="color: rgba(0,0,0,0.6);">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                          commodo consequat.</div>
+                          <div class="panel-body" style="color: rgba(0,0,0,0.6);">If you are under the age of eighteen (18), you may utilize
+                            Relationship Repo’s payment feature only with the involvement of your parent or guardian. Total pricing may
+                            include taxes, fees, or other miscellaneous costs, all of which you are responsible for funding. If you purchase
+                             a subscription to a service, we will bill your funding instrument immediately, and then again at the beginning
+                             of each subscription period. If a free trial is offered and you do not cancel within the trial period, you will
+                              be billed at the end of the trial period and subsequently billed at the beginning of each subscription period.
+                               A subscription can be cancelled at any time by requesting a cancellation through your My Account page. We
+                               reserve the right to revoke your payment ability as well as any services you have subscribed to at any point
+                               in time. <br />
+                             Members known as “Agents” on the Relationship Repo website are subjected to a monthly subscription fee. This
+                             fee is subject to change at any time and must be paid at the beginning of the subscription period. Members
+                             known as “Users” on the Relationship Repo website are subjected to a flat rate fee per each case they choose
+                             to create. This fee is subject to change at any time and must be paid prior to the case being posted to
+                             Relationship Repo’s system. Failure to pay any fees will result in the Agent or User account being deleted and
+                             may result in the banning of the user IP address or further legal action being taken.</div>
                         </div>
                       </div>
                     </div>

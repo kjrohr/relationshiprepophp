@@ -14,9 +14,8 @@
   font-weight: normal;
 }
 
-.panel-group a:hover{
+a:hover{
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 
