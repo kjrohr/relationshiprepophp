@@ -405,7 +405,7 @@ else
             <div class="container" style="max-width:530px; margin: 0 auto; padding-top: 15%;">
                         <form class="form-horizontal" role="form">
                             <h2 style="color:white; margin-left: 10%; font-size: 50px;">Create a Case:</h2>
-                            <div style="margin-left: 30%;">
+                            <div>
                             <div class="form-group">
                                 <div class="col-sm-9" style="margin-bottom:15px;">
                                     <textarea name='content' class="form-control" style="width:400px; height:400px;" required>Please use this textbox to describe your situation. Use as much detail as possible, as it will only help our agents get a better understanding of your needs.</textarea>
@@ -413,7 +413,7 @@ else
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-9">
-                                    <div class="checkbox">
+                                    <div class="checkbox" style="margin-left:30%;">
                                         <label>
                                             <input type="checkbox" required>
                                             <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="/terms.php" target="_blank" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
