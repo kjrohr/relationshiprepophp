@@ -40,10 +40,10 @@ include 'nav.php';
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                           <div class="panel-heading">
                           <h4 class="panel-title" style="font-size: 40px;">
-                            Disclaimers
+                            <span class="glyphicon glyphicon-alert" style="font-size:40px;"></span> Disclaimers
                           </h4>
                         </div></a>
-                        <div id="collapse1" class="panel-collapse collapse in">
+                        <div id="collapse1" class="panel-collapse collapse">
                           <div class="panel-body" style="color: rgba(0,0,0,0.6);"><p>
 
                           Relationship Repo is not a law firm and does not offer
@@ -68,7 +68,7 @@ include 'nav.php';
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
                         <div class="panel-heading">
                           <h4 class="panel-title" style="font-size: 40px;">
-                            Payments
+                            <span class="glyphicon glyphicon-piggy-bank" style="font-size:40px;"></span> Payments
                           </h4>
                         </div></a>
                         <div id="collapse2" class="panel-collapse collapse">
