@@ -408,7 +408,7 @@ else
                             <div style="margin-left: 30%;">
                             <div class="form-group">
                                 <div class="col-sm-9" style="margin-bottom:15px;">
-                                    <textarea name='content' class="form-control" width="400px" height="400px" required>Please use this textbox to describe your situation. Use as much detail as possible, as it will only help our agents get a better understanding of your needs.</textarea>
+                                    <textarea name='content' class="form-control" style="width:400px; height:400px;" required>Please use this textbox to describe your situation. Use as much detail as possible, as it will only help our agents get a better understanding of your needs.</textarea>
                                 </div>
                             </div>
                             <div class="form-group">
