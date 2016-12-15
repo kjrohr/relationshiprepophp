@@ -53,7 +53,7 @@
        header("Location: dashboard.php");
      }
      else {
-    $errMSG = "<h3 style='margin:5px 0 15px 3%; color: #B50808; text-align:center; font-size: 23px;'>* The username or password you've entered was invalid.<br />* Please try again!</h3>
+    $errMSG = "<h3 style='margin:5px 0 15px 3%; color: #B50808; font-size: 23px;'>* The username or password you've entered was invalid.<br />* Please try again!</h3>
 <style>
 #email, #pass {
   background: rgba(153,0,0,.4);
