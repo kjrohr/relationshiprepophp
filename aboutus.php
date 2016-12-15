@@ -131,7 +131,7 @@ if(isset($_POST['btn-save']))
   <!-- Modal for Sign Up -->
 
 
-  <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none; background: black;">
           <div class="modal-dialog">
           <div class="loginmodal-container">
             <form method="post">
