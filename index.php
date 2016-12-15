@@ -58,7 +58,7 @@ if(isset($_POST['btn-save']))
                                    <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 25px;">Life</h1></span>
                                </div>
 
-                               <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>
+                               <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>
 
                                 &nbsp;back.</h1>
 
