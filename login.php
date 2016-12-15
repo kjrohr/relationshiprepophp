@@ -53,7 +53,13 @@
        header("Location: dashboard.php");
      }
      else {
-    $errMSG = "<h3 style='color: #415c6f; text-align:center; font-size: 25px;'>The username or password you've entered was invalid.<br />Please try again!</h3><br />";
+    $errMSG = "<h3 style='margin:15px 0; color: #B50808; text-align:center; font-size: 22px;'>The username or password you've entered was invalid.<br />Please try again!</h3>
+<style>
+#email, #pass {
+  background: rgba(153,0,0,.4);
+}
+</style>
+    ";
   }
    }
 
@@ -71,23 +77,24 @@
 
                         <h2 style="margin: 30% 0 30px 0; font-size:50px;">Welcome Back to Relationship Repo! <br /> Please Sign In.</h2>
 
+                        <div style="margin-left: 15%;">
+                        <div class="form-group" style="margin-left:3%;">
+                          <div class="col-sm-9">
+                                <input type="email" id="email" name="email" placeholder="Your Email" class="form-control" required/>
+                            </div>
+                        </div>
+                        <div class="form-group" style="margin-left:3%;">
+                            <div class="col-sm-9">
+                                <input type="password" name="pass" id="pass" placeholder="Your Password" class="form-control" required />
+                            </div>
+                        </div>
+
                         <?php
                          if ( isset($errMSG) ) {
                             echo $errMSG;
                           }
                         ?>
 
-                        <div style="margin-left: 15%;">
-                        <div class="form-group" style="margin-left:3%;">
-                          <div class="col-sm-9">
-                                <input type="email" name="email" placeholder="Your Email" class="form-control" required/>
-                            </div>
-                        </div>
-                        <div class="form-group" style="margin-left:3%;">
-                            <div class="col-sm-9">
-                                <input type="password" name="pass" placeholder="Your Password" class="form-control" required />
-                            </div>
-                        </div>
                         <div class="form-group">
                             <div class="col-sm-9">
                                 <button style="margin: 0 0 10px 35%; background: #415c6f;" type="submit"  name="btn-login" class="btn btn-outline btn-xl page-scroll">Sign Me In!</button>
