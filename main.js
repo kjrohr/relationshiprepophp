@@ -30,7 +30,7 @@ $(document).ready(function(){
   // No thanks?
   $('#no-thanks').on('click', function(){
     //$('#signup-modal').hide();
-    alert('heck');
+    console.log('heck');
   });
 
 });
