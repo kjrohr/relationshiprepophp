@@ -20,12 +20,9 @@ include 'nav.php';
                   <div class="col-sm-10">
                       <div class="header-content">
                           <div class="header-content-inner">
-
-
-
-
-                              <h2 style="margin-top:5px; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - <br />we'll deal with the end so you can start a new beginning.</h2>
-                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
+                              <h1 style="margin:120px 0 5px 0; font-size: 90px; max-width:none;">Relationship Repo - Terms and Conditions</h1>
+                              <h2 style="margin-top:5px; margin-bottom:30px; font-size:40px; max-width: none;">Everything you need to know, all in one place.</h2>
+                              <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">User Sign Up</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
                               <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Learn More</a>
                           </div>
