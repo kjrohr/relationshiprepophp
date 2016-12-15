@@ -93,7 +93,7 @@ if(isset($_POST['btn-save']))
   <section class="cta" style="padding: 90px 0">
       <div class="cta-content">
           <div class="container">
-            <h1 style="margin-bottom:30px; font-size: 57px;">Meet Our Team</h1>
+            <h1 style="margin-bottom:30px; font-size: 70px;">Meet Our Team</h1>
             <h2 style="color: #333; max-width:none;">
 
 
@@ -103,12 +103,12 @@ if(isset($_POST['btn-save']))
                     <div class="col-sm-6">
                       <img src="/img/team-01.png" width="55%">
                       <h4 style="font-size:40px;">Karl Rohr</h4>
-                      <p>While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks. Choose your own agent or send us a live chat message any time you need help.</p>
+                      <p style="font-size:25px;">While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks. Choose your own agent or send us a live chat message any time you need help.</p>
                     </div>
                     <div class="col-sm-6">
                       <img src="/img/team-02.png" width="55%"/>
                       <h4 style="font-size:40px;">Lindsay Hampton</h4>
-                      <p>Realistically, we've all had a time where we've been in a similar situation to yours. We understand what you're going through and we're here to help.</p>
+                      <p style="font-size:25px;">Realistically, we've all had a time where we've been in a similar situation to yours. We understand what you're going through and we're here to help.</p>
                     </div>
                     </div>
                   </div>
