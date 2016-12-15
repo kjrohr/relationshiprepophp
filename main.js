@@ -27,4 +27,8 @@ $(document).ready(function(){
     $('#message').fadeOut(5000);
   }
 
+  $('#no-thanks').on('click', function(){
+    $('#signup-modal').css({"display", "hidden"});
+  });
+
 });
