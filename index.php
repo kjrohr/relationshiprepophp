@@ -47,8 +47,19 @@ if(isset($_POST['btn-save']))
                   <div class="col-sm-10">
                       <div class="header-content">
                           <div class="header-content-inner">
-                              <h1 style="margin:100px 0 5px 0; font-size: 70px;">Your relationship ended, not your life.</h1>
-                              <h2 style="margin-top:0; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - get your stuff back, get your spark back.</h2>
+                             <div class="rw-sentence rw-words rw-words-1">
+                                  <span><h1 style="margin:100px 0 5px 0; font-size: 70px;">For when "Forever Mine" becomes "Nevermind".</h1></span>
+                                  <span><h1 style="margin:100px 0 5px 0; font-size: 70px;">Get Your Stuff Without The Fuss.</h1></span>
+                                  <span><h1 style="margin:100px 0 5px 0; font-size: 70px;">Your ex doesn't even like that band.</h1></span>
+                                  <span><h1 style="margin:100px 0 5px 0; font-size: 70px;">The relationship might have ended, but your life doesn't have to.</h1></span>
+                                  <span><h1 style="margin:100px 0 5px 0; font-size: 70px;">Get your Stuff back, get your life back.</h1></span>
+                              </div>
+
+
+
+
+
+                              <h2 style="margin-top:0; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - we'll deal with the end so you can start a new beginning.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
                               <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Learn More</a>
@@ -58,50 +69,6 @@ if(isset($_POST['btn-save']))
               </div>
           </div>
       </header>
-
-      <section style="background: #A26F6E; padding:90px 0;" class="download bg-primary text-center">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-10 col-md-offset-1" style="margin-bottom:50px;">
-                      <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">What Can Relationship Repo Do For You?</h2>
-                  </div>
-                  <div class="container-fluid text-center">
-                      <div class="row">
-                        <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-user" style="font-size:60px;"></span>
-                          <h4 style="font-size:40px;">Resources</h4>
-                          <p style="font-size:14px;">While working with Relationship Repo, you're working with <strong>real people</strong> all of the time. No bots, no scams, no tricks. Choose your own agent or send us a live chat message any time you need help.</p>
-                        </div>
-                        <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-heart" style="font-size:60px;"></span>
-                          <h4 style="font-size:40px;">Compassion</h4>
-                          <p style="font-size:14px;">Realistically, we've all had a time where we've been in a similar situation to yours. We understand what you're going through and we're here to help.</p>
-                        </div>
-                        <div class="col-sm-4">
-                          <span class="glyphicon glyphicon-thumbs-up" style="font-size:60px;"></span>
-                          <h4 style="font-size:40px;">Satisfaction</h4>
-                          <p style="font-size:14px;">Our systems are set up to allow you to choose which agent you'd like to take on your case. Once you've connected with your agent, you work together to form your own contract that suits your needs.</p>
-                        </div>
-                        </div>
-                  </div>
-                  <div class="col-md-10 col-md-offset-1" style="margin-top:45px;">
-                      <h2 class="section-heading" style="font-size: 47px; margin-bottom:0;">It's our business to take care of yours.</h2>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-
-      <section class="cta">
-          <div class="cta-content">
-              <div class="container">
-                <h1 style="margin-bottom:0; font-size: 57px;">Want to work for Relationship Repo?</h1>
-                <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333; max-width:none;">We are always looking for new agents to join our team!</h2>
-                  <a href="/agents.php" class="btn btn-outline btn-xl page-scroll">More Information</a>
-              </div>
-          </div>
-          <div class="overlay"></div>
-      </section>
 
       <footer>
           <div class="container">
