@@ -47,7 +47,7 @@ if (isset($_POST['apply-btn'])) {
                           <div class="header-content-inner">
                               <h1 style="margin:25% 0 0; font-size: 57px;">Interested in an exciting new career?</h1>
                               <h2 style="margin:0; font-size:30px;">Relationship Repo is always accepting applications for new Agents.</h2>
-                              <h3 style="margin: 0 0 30px 0; color: #333;">* Please be sure to read the <a href="#">terms and conditions</a> prior to filling out an application.</h3>
+                              <h3 style="margin: 0 0 30px 0; color: #333;">* Please be sure to read the <a href="/terms.php">terms and conditions</a> prior to filling out an application.</h3>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Apply Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
 
@@ -176,7 +176,7 @@ if (isset($_POST['apply-btn'])) {
                                           <div class="checkbox">
                                               <label>
                                                   <input type="checkbox" required>
-                                                  <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="#" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
+                                                  <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="/terms.php" target="_blank" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
                                               </label>
                                           </div>
                                       </div>

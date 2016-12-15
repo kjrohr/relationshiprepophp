@@ -417,7 +417,7 @@ else
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox" required>
-                                            <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="#" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
+                                            <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="/terms.php" target="_blank" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
                                         </label>
                                     </div>
                                 </div>
