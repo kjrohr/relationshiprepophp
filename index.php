@@ -51,11 +51,11 @@ if(isset($_POST['btn-save']))
                             <h1 style="margin:120px 0 5px 0; font-size: 90px; max-width:none;">Get your
 
                               <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; max-width:none;">
-                                   <span style="max-width:none;"><h1 style="color: #A26F6E; font-size: 110px; max-width:none; padding-left: 75px;">Stuff</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 15px;">Happiness</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #A26F6E; font-size: 110px; max-width:none; padding-left: 75px;">Heart</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 75px;">Optimism</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #FFF; font-size: 130px; max-width:none; padding-left: 70px;">Life</h1></span>
+                                   <span style="max-width:none;"><h1 style="color: #AF8282; font-size: 110px; max-width:none; padding-left: 70px;">Stuff</h1></span>
+                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 10px;">Happiness</h1></span>
+                                   <span style="max-width:none;"><h1 style="color: #AF8282; font-size: 110px; max-width:none; padding-left: 70px;">Heart</h1></span>
+                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 13px;">Optimism</h1></span>
+                                   <span style="max-width:none;"><h1 style="color: #FFF; font-size: 110px; max-width:none; padding-left: 80px;">Life</h1></span>
                                </div>
 
                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
