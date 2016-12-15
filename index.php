@@ -49,19 +49,19 @@ if(isset($_POST['btn-save']))
                           <div class="header-content-inner">
 
 
-                            <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; font-size: 70px;">
-                                 <span><h1>For when "Forever Mine" becomes "Nevermind"...</h1></span>
-                                 <span><h1>Get Your Stuff Without The Fuss...</h1></span>
-                                 <span><h1>Your ex doesn't even like that band!</h1></span>
-                                 <span><h1>The relationship ended, your life doesn't have to...</h1></span>
-                                 <span><h1>Get your Stuff back, get your life back...</h1></span>
+                            <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; font-size: 70px; max-width:none;">
+                                 <span><h1 style="font-size: 70px;">For when "Forever Mine" becomes "Nevermind"...</h1></span>
+                                 <span><h1 style="font-size: 70px;">Get Your Stuff Without The Fuss...</h1></span>
+                                 <span><h1 style="font-size: 70px;">Your ex doesn't even like that band!</h1></span>
+                                 <span><h1 style="font-size: 70px;">The relationship ended, your life doesn't have to...</h1></span>
+                                 <span><h1 style="font-size: 70px;">Get your Stuff back, get your life back...</h1></span>
                              </div>
 
 
 
 
 
-                              <h2 style="margin-top:0; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - <br />we'll deal with the end so you can start a new beginning.</h2>
+                              <h2 style="margin-top:115px; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - <br />we'll deal with the end so you can start a new beginning.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
                               <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Learn More</a>
