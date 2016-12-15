@@ -56,7 +56,7 @@ if(isset($_POST['btn-save']))
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/index.php">Hello <?php echo $userRow['username']; ?></a>
+                    <a href="/index.php">Dashboard</a>
                 </li>
                   <li>
                       <a href="update_user.php">My Account</a>
