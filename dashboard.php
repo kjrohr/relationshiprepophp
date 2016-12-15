@@ -51,7 +51,7 @@
 
 <style>
 h3 {
-  font-size: 38px;
+  font-size: 32px;
   margin: 0;
 }
 
@@ -276,12 +276,11 @@ elseif ($_SESSION['user_type'] == 'user')
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading" style="font-size: 57px; margin-bottom:0;">Do You Need to Start a Case?</h2>
-                    <h2 class="section-heading" style="font-size: 57px">Sometimes, Things Just Don't Work Out</h2>
-                    <h3>We are here to help. Once you create a case, agents will be able to review it.</h3>
+                    <h2 class="section-heading" style="font-size: 57px; margin-bottom:10px; line-height:.8;">Have you recently left your belongings with someone that you're no longer on speaking terms with?</h2>
+                    <h3>We are here to help. Create a case using as much detail as possible.</h3>
                     <h3>Once an agent has reviewed it they can choose to claim your case.</h3>
-                    <h3>Once your case is claimed the claiming agent will contact you shortly.</h3>
-                    <h4 style="font-size: 25px; margin: 0 0 15px 0">* There is a $10.00 Service Fee for starting a new Case.</h4>
+                    <h3>Once your case has been claimed, your agent will be in contact with you shortly.</h3>
+                    <h4 style="font-size: 20px; margin: 5px 0 15px 0">* There is a $10.00 Service Fee for starting a new Case.</h4>
                     <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Start a Case</a>
                 </div>
             </div>
