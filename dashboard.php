@@ -97,7 +97,7 @@
     <div class="page-header">
       <h1 style="margin:25% 0 0; font-size: 57px;">Welcome Back, <?php echo $userRow['first_name'] ?>!</h1>
     </div>
-
+  </div>
 <!-- Case logic -->
 
 <?php
