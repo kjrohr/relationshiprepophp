@@ -39,12 +39,12 @@ include 'nav.php';
                       <div class="panel panel-default">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                           <div class="panel-heading">
-                          <h4 class="panel-title">
+                          <h4 class="panel-title" style="font-size: 40px;">
                             Collapsible Group 1
                           </h4>
                         </div></a>
                         <div id="collapse1" class="panel-collapse collapse in">
-                          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          <div class="panel-body" style="color: rgba(0,0,0,0.6);">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                           minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                           commodo consequat.</div>
@@ -53,12 +53,12 @@ include 'nav.php';
                       <div class="panel panel-default">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
                         <div class="panel-heading">
-                          <h4 class="panel-title">
+                          <h4 class="panel-title" style="font-size: 40px;">
                             Collapsible Group 2
                           </h4>
                         </div></a>
                         <div id="collapse2" class="panel-collapse collapse">
-                          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          <div class="panel-body" style="color: rgba(0,0,0,0.6);">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                           minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                           commodo consequat.</div>
@@ -67,12 +67,12 @@ include 'nav.php';
                       <div class="panel panel-default">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
                         <div class="panel-heading">
-                          <h4 class="panel-title">
+                          <h4 class="panel-title" style="font-size: 40px;">
                             Collapsible Group 3
                           </h4>
                         </div></a>
                         <div id="collapse3" class="panel-collapse collapse">
-                          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          <div class="panel-body" style="color: rgba(0,0,0,0.6);">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                           minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                           commodo consequat.</div>

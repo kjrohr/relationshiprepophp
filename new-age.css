@@ -14,6 +14,11 @@
   font-weight: normal;
 }
 
+.panel-group a:hover{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 
 .rw-words{
 	display: inline;
