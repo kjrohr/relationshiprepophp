@@ -53,7 +53,7 @@
        header("Location: dashboard.php");
      }
      else {
-    $errMSG = "<h3 style='margin:15px 0; color: #B50808; text-align:center; font-size: 22px;'>The username or password you've entered was invalid.<br />Please try again!</h3>
+    $errMSG = "<h3 style='margin:5px 0 15px 3%; color: #B50808; text-align:center; font-size: 23px;'>* The username or password you've entered was invalid.<br />* Please try again!</h3>
 <style>
 #email, #pass {
   background: rgba(153,0,0,.4);
@@ -83,7 +83,7 @@
                                 <input type="email" id="email" name="email" placeholder="Your Email" class="form-control" required/>
                             </div>
                         </div>
-                        <div class="form-group" style="margin-left:3%;">
+                        <div class="form-group" style="margin: 0 0 0 3%;">
                             <div class="col-sm-9">
                                 <input type="password" name="pass" id="pass" placeholder="Your Password" class="form-control" required />
                             </div>
