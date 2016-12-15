@@ -48,19 +48,15 @@ if(isset($_POST['btn-save']))
                       <div class="header-content">
                           <div class="header-content-inner">
 
-                            <h1 style="margin:120px 0 5px 0; font-size: 90px; max-width:none;">Get your
+                            <h1 style="margin:120px 0 5px 0; font-size: 90px; max-width:none;">Take back your
 
                               <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; max-width:none;">
-                                   <span style="max-width:none;"><h1 style="color: #AF8282; font-size: 110px; max-width:none; padding-left: 70px;">Stuff</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 10px;">Happiness</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #AF8282; font-size: 110px; max-width:none; padding-left: 70px;">Heart</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 13px;">Optimism</h1></span>
-                                   <span style="max-width:none;"><h1 style="color: #FFF; font-size: 110px; max-width:none; padding-left: 80px;">Life</h1></span>
-                               </div>
-
-                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                                back.</h1>
+                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 70px;">Belongings.</h1></span>
+                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 10px;">Happiness.</h1></span>
+                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 70px;">Peace of Mind.</h1></span>
+                                   <span style="max-width:none;"><h1 style="color: #415B6F; font-size: 110px; max-width:none; padding-left: 13px;">Heart.</h1></span>
+                                   <span style="max-width:none;"><h1 style="color: #FFF; font-size: 110px; max-width:none; padding-left: 80px;">Life.</h1></span>
+                               </div></h1>
 
 
 
