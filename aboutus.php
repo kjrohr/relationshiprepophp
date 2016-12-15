@@ -188,7 +188,7 @@ if(isset($_POST['btn-save']))
                                   <div class="col-sm-9">
                                       <button type="submit" name="btn-save" class="btn btn-primary btn-block" style="background:#415c6f;">Register</button><br />
                                       <a href="/login.php" class="btn btn-block btn-outline">Already A Member?</a>
-                                      <a id="no-thanks" class="btn btn-block btn-outline">No Thanks</a>
+                                      <a href="/aboutus.php"id="no-thanks" class="btn btn-block btn-outline">No Thanks</a>
                                   </div>
                               </div>
                               </div>
