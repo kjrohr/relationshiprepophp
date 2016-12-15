@@ -48,9 +48,9 @@ if(isset($_POST['btn-save']))
                       <div class="header-content">
                           <div class="header-content-inner">
 
-                            <h1 style="margin:105px 0 5px 0; font-size: 70px; max-width:none;">Get your
+                            <h1 style="margin:105px 0 5px 0; font-size: 90px; max-width:none;">Get your
 
-                              <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; font-size: 90px; max-width:none;">
+                              <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; font-size: 70px; max-width:none;">
                                    <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 25px;">Stuff</h1></span>
                                    <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 3px;">Happiness</h1></span>
                                    <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 25px;">Heart</h1></span>
