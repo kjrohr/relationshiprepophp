@@ -90,7 +90,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-9">
-                                <button style="margin-left:35%; background: rgba(0,0,0,0); button:hover{ background: rgba(85,50,49,1); }" type="submit"  name="btn-login" class="btn btn-outline btn-xl page-scroll">Sign In</button>
+                                <a style="margin-left:35%;" type="submit"  name="btn-login" class="btn btn-outline btn-xl page-scroll">Sign In</a>
                             </div>
                         </div>
                         </div>
