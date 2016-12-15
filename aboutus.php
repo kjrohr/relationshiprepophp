@@ -90,10 +90,10 @@ if(isset($_POST['btn-save']))
       <div class="overlay" style="background: url('img/giggle.jpg') no-repeat center center fixed;"></div>
   </section>
 
-  <section class="cta" style="padding: 50px 0">
+  <section class="cta" style="padding: 40px 0">
       <div class="cta-content">
           <div class="container">
-            <h1 style="margin-bottom:30px; font-size: 70px;">Meet Our Team</h1>
+            <h1 style="margin-bottom:30px; font-size: 70px;">Meet Our Development Team</h1>
             <h2 style="color: #333; max-width:none;">
 
 
@@ -101,12 +101,12 @@ if(isset($_POST['btn-save']))
               <div class="container-fluid text-center">
                   <div class="row">
                     <div class="col-sm-5 col-md-offset-1">
-                      <img src="/img/team-01.png" width="55%">
+                      <img src="/img/team-01.png" width="65%">
                       <h4 style="font-size:50px; margin-bottom: 0;">Karl Rohr</h4>
                       <h4 style="font-size:32px; margin-top:0; color: #415B6F;">Back-End Developer</h4>
                     </div>
                     <div class="col-sm-5">
-                      <img src="/img/team-02.png" width="55%"/>
+                      <img src="/img/team-02.png" width="65%"/>
                       <h4 style="font-size:50px; margin-bottom: 0;">Lindsay Hampton</h4>
                       <h4 style="font-size:32px; margin-top:0; color: #415B6F;">Front-End Developer</h4>
                     </div>
