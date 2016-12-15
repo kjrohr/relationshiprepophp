@@ -10,7 +10,7 @@ include 'nav.php';
 </head>
 
   <body id="page-top">
-      <section height="90%" style="background: url('img/fortune.jpeg') no-repeat center center fixed;">
+      <section height="90%" style="background: url('img/pool.jpg') no-repeat center center fixed;">
           <div class="container">
               <div class="row">
                   <div class="col-sm-10">
