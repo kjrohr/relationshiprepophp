@@ -53,7 +53,7 @@
        header("Location: dashboard.php");
      }
      else {
-    $errMSG = "<h3 style='color:white; text-align:center; font-size: 25px;'>The username or password you've entered was invalid.<br />Please try again!</h3><br />";
+    $errMSG = "<h3 style='color: #415c6f; text-align:center; font-size: 25px;'>The username or password you've entered was invalid.<br />Please try again!</h3><br />";
   }
    }
 
@@ -90,8 +90,8 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-9">
-                                <button style="margin-left:35%; background: #415c6f;" type="submit"  name="btn-login" class="btn btn-outline btn-xl page-scroll">Sign Me In!</button>
-                                <br /><a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll">Not a Member?</a>
+                                <button style="margin: 0 0 10px 35%; background: #415c6f;" type="submit"  name="btn-login" class="btn btn-outline btn-xl page-scroll">Sign Me In!</button>
+                                <br /><a href="/aboutus.php" style="margin-left: 30%;" class="btn btn-outline btn-xl page-scroll">Not a Member?</a>
                             </div>
                         </div>
                         </div>
