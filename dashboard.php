@@ -404,7 +404,7 @@ else
           <form method="post">
             <div class="container" style="max-width:530px; margin: 0 auto; padding-top: 5%;">
                         <form class="form-horizontal" role="form">
-                            <h2 style="color:white; margin-left: 10%; font-size: 50px;">Create a Case:</h2>
+                            <h2 style="color:white; margin-left: 18%; text-align: left; font-size: 50px;">Create a Case:</h2>
                             <div style="margin-left:15%;">
                             <div class="form-group">
                                 <div class="col-sm-9" style="margin-bottom:15px;">
@@ -413,10 +413,10 @@ else
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-9">
-                                    <div class="checkbox" style="margin-left:30%;">
+                                    <div class="checkbox">
                                         <label>
                                             <input type="checkbox" required>
-                                            <p style="color:white; font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="/terms.php" target="_blank" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
+                                            <p style="color:white; width="400px" font-size:13px;">By checking this box, I hearby accept Relationship Repo's <br /><a href="/terms.php" target="_blank" style="color:#b0d0d1;">Terms and Conditions</a>.</p>
                                         </label>
                                     </div>
                                 </div>
