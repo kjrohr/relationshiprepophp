@@ -48,7 +48,7 @@ if(isset($_POST['btn-save']))
                       <div class="header-content">
                           <div class="header-content-inner">
 
-                            <h1 style="margin:105px 0 5px 0; font-size: 90px; max-width:none;">Get your
+                            <h1 style="margin:120px 0 5px 0; font-size: 90px; max-width:none;">Get your
 
                               <div class="rw-sentence rw-words rw-words-1" style="margin:100px 0 5px 0; font-size: 70px; max-width:none;">
                                    <span style="max-width:none;"><h1 style="font-size: 80px; max-width:none; padding-left: 25px;">Stuff</h1></span>
@@ -67,7 +67,7 @@ if(isset($_POST['btn-save']))
 
 
 
-                              <h2 style="margin-top:115px; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - <br />we'll deal with the end so you can start a new beginning.</h2>
+                              <h2 style="margin-top:115x; margin-bottom:30px; font-size:40px; max-width: none;">Relationship Repo is here for you - <br />we'll deal with the end so you can start a new beginning.</h2>
                               <a href="#signup-modal" data-toggle="modal" class="btn btn-outline btn-xl page-scroll">Sign Up Today</a>
                               <a href="/login.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Account Login</a>
                               <a href="/aboutus.php" class="btn btn-outline btn-xl page-scroll" style="margin-left:25px">Learn More</a>
