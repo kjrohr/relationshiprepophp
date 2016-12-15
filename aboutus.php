@@ -141,10 +141,10 @@ if(isset($_POST['btn-save']))
                               <div style="margin-left: 30%;">
                               <div class="form-group">
                                 <div class="col-sm-9">
-                                      <input type="text" name="username" placeholder="Username" class="form-control" required />
+                                      <input style="margin-bottom:200px !important;" type="text" name="username" placeholder="Username" class="form-control" required />
                                   </div>
                               </div>
-                              <div class="form-group" style="margin-bottom:20px !important;">
+                              <div class="form-group">
                                   <div class="col-sm-9">
                                       <input type="text" name="first_name" placeholder="First Name" class="form-control" required />
                                   </div>
