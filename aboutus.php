@@ -116,13 +116,13 @@ if(isset($_POST['btn-save']))
           <p>&copy; 2016 Relationship Repo. All Rights Reserved.</p>
           <ul class="list-inline">
               <li>
-                  <a href="#">Privacy</a>
+                  <a href="/terms.php">Terms and Conditions</a>
               </li>
               <li>
-                  <a href="#">Terms</a>
+                <a href="/dashboard.php">My Account</a>
               </li>
               <li>
-                  <a href="#">FAQ</a>
+                <a href="/agents.php">Careers</a>
               </li>
           </ul>
       </div>
