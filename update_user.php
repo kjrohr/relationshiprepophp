@@ -76,7 +76,7 @@ if(isset($_POST['btn-save']))
   </div>
 
 
-  <section style="background: #A26F6E; padding:75px 0;" class="download bg-primary text-center">
+  <section style="background: #AFD0D0; padding:75px 0;" class="download bg-primary text-center">
       <div class="container">
           <div class="row">
               <div class="col-md-8 col-md-offset-2">
