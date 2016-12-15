@@ -93,8 +93,8 @@ if(isset($_POST['btn-save']))
   <section class="cta" style="padding: 90px 0">
       <div class="cta-content">
           <div class="container">
-            <h1 style="margin-bottom:0; font-size: 57px;">Meet Our Team</h1>
-            <h2 style="margin-top:0; margin-bottom:30px; font-size:30px; color: #333; max-width:none;">
+            <h1 style="margin-bottom:30px; font-size: 57px;">Meet Our Team</h1>
+            <h2 style="color: #333; max-width:none;">
 
 
 
