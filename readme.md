@@ -38,10 +38,11 @@ Paypal donation on the dashboard.
 
 ``` javascript
 
-162.243.109.69
-162.243.109.69/add_data.php
-162.243.109.69/read_data.php
-162.243.109.69/agent_registration.php
-162.243.109.69/login.php
+45.55.219.176
+45.55.219.176/add_data.php
+45.55.219.176/read_data.php
+45.55.219.176/agent_registration.php
+45.55.219.176/login.php
 
 ```
+
